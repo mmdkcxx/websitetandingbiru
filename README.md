@@ -1,13 +1,13 @@
-# BRI GAMA Business Case Competition 2026
+# Business Case Competition Website
 
-Website ini merupakan halaman *landing page* (statis) untuk event **BRI GAMA Business Case Competition 2026**, yang diselenggarakan oleh KAFEGAMA bekerja sama dengan Bank Rakyat Indonesia.
+Website ini merupakan halaman *landing page* (statis) untuk sebuah event kompetisi kasus bisnis mahasiswa.
 
 ## 📁 Struktur Direktori
 
 Project ini dibangun dengan menggunakan HTML, CSS murni (Vanilla CSS), dan sedikit JavaScript.
 
 ```text
-bri-gama-competition/
+project-folder/
 ├── index.html                  # File utama HTML (Landing Page / Home)
 └── assets/
     ├── css/
