@@ -448,7 +448,7 @@
 ══════════════════════════════════════════ -->
 <section class="faq" id="faq">
   <div class="container">
-    <div class="section-header centered" data-animate>
+    <div class="section-header" data-animate>
       <span class="section-label">FAQs</span>
       <h2 class="section-title">Frequently Asked Questions</h2>
       <p class="section-sub">Temukan jawaban untuk pertanyaan yang sering diajukan seputar kompetisi BRI GAMA 2026.</p>
@@ -481,6 +481,29 @@
           <p>Pendaftaran untuk tahap seleksi administrasi tidak dipungut biaya. Biaya pendaftaran hanya berlaku bagi tim yang lolos ke tahap babak penyisihan.</p>
         </div>
       </div>
+      <div class="faq-item" data-animate data-delay="400">
+        <button class="faq-question">
+          <span>Bagaimana format pengumpulan karya?</span>
+          <div class="faq-icon"></div>
+        </button>
+        <div class="faq-answer">
+          <p>Tim yang lolos seleksi administrasi akan mengerjakan dan mengumpulkan makalah analisis kasus dalam format yang telah ditentukan. Finalis akan mempresentasikan solusi mereka di hadapan dewan juri.</p>
+        </div>
+      </div>
+      <div class="faq-item" data-animate data-delay="500">
+        <button class="faq-question">
+          <span>Apa saja hadiah yang bisa dimenangkan?</span>
+          <div class="faq-icon"></div>
+        </button>
+        <div class="faq-answer">
+          <p>Pemenang mendapatkan hadiah uang tunai, sertifikat penghargaan, serta kesempatan berkarir dan dikenal oleh Bank Rakyat Indonesia. Detail nominal hadiah tersedia di handbook resmi kompetisi.</p>
+        </div>
+      </div>
+    </div>
+    <div class="faq-cta" data-animate>
+      <h3>Still have questions?</h3>
+      <p>Reach out to our team directly for any additional information.</p>
+      <a href="#contact" class="faq-cta-btn">Contact us</a>
     </div>
   </div>
 </section>
@@ -689,4 +712,29 @@
   </div>
 </section>
 
+<script>
+  /* FAQ Accordion */
+  document.querySelectorAll('.faq-question').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var item = this.closest('.faq-item');
+      var isOpen = item.classList.contains('open');
+      // close all
+      document.querySelectorAll('.faq-item').forEach(function(el) {
+        el.classList.remove('open');
+      });
+      // toggle current
+      if (!isOpen) item.classList.add('open');
+    });
+  });
+
+  /* Wall of Fame Tabs */
+  document.querySelectorAll('.fame-tab-new').forEach(function(tab) {
+    tab.addEventListener('click', function() {
+      document.querySelectorAll('.fame-tab-new').forEach(function(t) {
+        t.classList.remove('active');
+      });
+      this.classList.add('active');
+    });
+  });
+</script>
 <?php include 'footer.php'; ?>
