@@ -145,68 +145,57 @@
 
 
   <!-- ══════════════════════════════════════════
-     HERO SECTION
+     HERO SECTION — Slideshow Banner
 ══════════════════════════════════════════ -->
-  <section class="hero" id="home">
-    <div class="container">
-      <div class="hero-content">
-        <!-- Left -->
-        <div class="hero-left">
+  <section class="hero-slideshow" id="home">
+    <!-- Slides -->
+    <div class="hero-slides">
+      <div class="hero-slide active"
+        style="background: linear-gradient(135deg, #053b94 0%, #1a6bcc 50%, #3f94f6 100%);"></div>
+      <div class="hero-slide" style="background: linear-gradient(135deg, #0857C3 0%, #2b80e5 40%, #6cb0fb 100%);"></div>
+      <div class="hero-slide" style="background: linear-gradient(135deg, #003087 0%, #e5a020 50%, #f0b830 100%);"></div>
+    </div>
+
+    <!-- Overlay Content (stays fixed across all slides) -->
+    <div class="hero-slide-overlay">
+      <div class="container">
+        <div class="hero-slide-content">
           <h1 class="hero-title">
-            BRI GAMA Business<br />Case Competition 2026
+            BRI GAMA Business<br>
+            Case Competition<br>
+            2026
           </h1>
           <p class="hero-subtitle">
-            Test your strategy. Compete nationally. Win internationally.
-            The stage is set for the brightest minds in business.
+            Test your strategy. Compete nationally. Win internationally. The
+            stage is set for the brightest minds in business.
           </p>
           <div class="hero-actions">
             <a href="#cta" class="btn btn-primary btn-lg">Register now</a>
-            <a href="#" class="btn btn-outline btn-lg">View handbook</a>
-          </div>
-          <div class="hero-stats">
-            <div class="stat-item">
-              <span class="stat-value">50+</span>
-              <span class="stat-label">Universitas</span>
-            </div>
-            <div class="stat-item">
-              <span class="stat-value">Rp200jt</span>
-              <span class="stat-label">Total Hadiah</span>
-            </div>
-            <div class="stat-item">
-              <span class="stat-value">2</span>
-              <span class="stat-label">Kategori</span>
-            </div>
-            <div class="stat-item">
-              <span class="stat-value">3</span>
-              <span class="stat-label">Maks. Anggota</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Right: Figma stacked image cards -->
-        <div class="hero-right">
-          <!-- Front card (blue border) -->
-          <div class="hero-img-card">
-            <div class="img-placeholder">
-              <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"
-                stroke-linecap="round" stroke-linejoin="round">
-                <rect x="3" y="3" width="18" height="18" rx="2" />
-                <circle cx="8.5" cy="8.5" r="1.5" />
-                <polyline points="21 15 16 10 5 21" />
-              </svg>
-            </div>
-          </div>
-          <!-- Back card (smaller, behind-right) -->
-          <div class="hero-img-card-back">
-            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"
-              stroke-linecap="round" stroke-linejoin="round">
-              <rect x="3" y="3" width="18" height="18" rx="2" />
-              <circle cx="8.5" cy="8.5" r="1.5" />
-              <polyline points="21 15 16 10 5 21" />
-            </svg>
+            <a href="#" class="btn btn-outline-white btn-lg">View handbook</a>
           </div>
         </div>
       </div>
+    </div>
+
+    <!-- Arrow Navigation -->
+    <button class="hero-arrow hero-arrow--prev" aria-label="Previous slide">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+        stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="15 18 9 12 15 6" />
+      </svg>
+    </button>
+    <button class="hero-arrow hero-arrow--next" aria-label="Next slide">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+        stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="9 6 15 12 9 18" />
+      </svg>
+    </button>
+
+    <!-- Dots Navigation -->
+    <div class="hero-dots">
+      <button class="hero-dot active" data-slide="0" aria-label="Slide 1"></button>
+      <button class="hero-dot" data-slide="1" aria-label="Slide 2"></button>
+      <button class="hero-dot" data-slide="2" aria-label="Slide 3"></button>
     </div>
   </section>
 
@@ -412,17 +401,13 @@
 ══════════════════════════════════════════ -->
   <section class="gallery" id="gallery">
     <div class="container">
-      <div class="section-header centered" data-animate>
-        <span class="section-label">Galeri</span>
-        <h2 class="section-title">Kompetisi Tahun Lalu</h2>
-        <p class="section-sub">Lihat momen-momen berkesan dari BRI GAMA Business Case Competition tahun sebelumnya.</p>
-      </div>
+      <h2 class="gallery-heading" data-animate>Galeri Kompetisi Tahun Lalu</h2>
 
-      <div class="gallery-grid" data-animate data-delay="150">
-        <!-- Main large item -->
-        <div class="gallery-item" style="background:linear-gradient(135deg,#003087,#1a6bcc);">
+      <div class="gallery-mosaic" data-animate data-delay="150">
+        <div class="gallery-mosaic-item gallery-mosaic--a"
+          style="background: linear-gradient(135deg, #003087, #1a6bcc);">
           <div class="gallery-placeholder">
-            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
               stroke-linecap="round" stroke-linejoin="round">
               <rect x="3" y="3" width="18" height="18" rx="2" />
               <circle cx="8.5" cy="8.5" r="1.5" />
@@ -430,15 +415,11 @@
             </svg>
             <span>Grand Final 2025</span>
           </div>
-          <div class="gallery-item-overlay">
-            <span class="gallery-caption">🏆 Grand Final — BRI GAMA BCC 2025</span>
-          </div>
         </div>
-
-        <!-- Small items -->
-        <div class="gallery-item" style="background:linear-gradient(135deg,#00409e,#2282e3);">
+        <div class="gallery-mosaic-item gallery-mosaic--b"
+          style="background: linear-gradient(135deg, #00409e, #2282e3);">
           <div class="gallery-placeholder">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
               stroke-linecap="round" stroke-linejoin="round">
               <rect x="3" y="3" width="18" height="18" rx="2" />
               <circle cx="8.5" cy="8.5" r="1.5" />
@@ -446,28 +427,22 @@
             </svg>
             <span>Presentasi Tim</span>
           </div>
-          <div class="gallery-item-overlay">
-            <span class="gallery-caption">📊 Sesi Presentasi Peserta</span>
-          </div>
         </div>
-
-        <div class="gallery-item" style="background:linear-gradient(135deg,#e5a020,#f0b830);">
-          <div class="gallery-placeholder" style="color:rgba(0,48,135,0.7);">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+        <div class="gallery-mosaic-item gallery-mosaic--c"
+          style="background: linear-gradient(135deg, #0051b5, #4da3f5);">
+          <div class="gallery-placeholder">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
               stroke-linecap="round" stroke-linejoin="round">
               <rect x="3" y="3" width="18" height="18" rx="2" />
               <circle cx="8.5" cy="8.5" r="1.5" />
               <polyline points="21 15 16 10 5 21" />
             </svg>
-            <span>Pengumuman Pemenang</span>
-          </div>
-          <div class="gallery-item-overlay">
-            <span class="gallery-caption">🎉 Pengumuman Pemenang 2025</span>
+            <span>Workshop &amp; Mentoring</span>
           </div>
         </div>
-
-        <div class="gallery-item" style="background:linear-gradient(135deg,#0051b5,#4da3f5);">
-          <div class="gallery-placeholder">
+        <div class="gallery-mosaic-item gallery-mosaic--d"
+          style="background: linear-gradient(135deg, #e5a020, #f0b830);">
+          <div class="gallery-placeholder" style="color: rgba(0,48,135,0.7);">
             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
               stroke-linecap="round" stroke-linejoin="round">
               <rect x="3" y="3" width="18" height="18" rx="2" />
@@ -476,12 +451,9 @@
             </svg>
             <span>Networking Session</span>
           </div>
-          <div class="gallery-item-overlay">
-            <span class="gallery-caption">🤝 Sesi Networking Peserta</span>
-          </div>
         </div>
-
-        <div class="gallery-item" style="background:linear-gradient(135deg,#2d3348,#4a5368);">
+        <div class="gallery-mosaic-item gallery-mosaic--e"
+          style="background: linear-gradient(135deg, #053b94, #1a6bcc);">
           <div class="gallery-placeholder">
             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
               stroke-linecap="round" stroke-linejoin="round">
@@ -489,10 +461,19 @@
               <circle cx="8.5" cy="8.5" r="1.5" />
               <polyline points="21 15 16 10 5 21" />
             </svg>
-            <span>Workshop & Mentoring</span>
+            <span>Pengumuman Pemenang</span>
           </div>
-          <div class="gallery-item-overlay">
-            <span class="gallery-caption">📚 Workshop & Sesi Mentoring</span>
+        </div>
+        <div class="gallery-mosaic-item gallery-mosaic--f"
+          style="background: linear-gradient(135deg, #2d3348, #4a5368);">
+          <div class="gallery-placeholder">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="3" width="18" height="18" rx="2" />
+              <circle cx="8.5" cy="8.5" r="1.5" />
+              <polyline points="21 15 16 10 5 21" />
+            </svg>
+            <span>Case Analysis</span>
           </div>
         </div>
       </div>

@@ -43,3 +43,10 @@ Karena project ini adalah *website statis* tanpa setup *framework* tambahan, web
 - Jika ingin mengubah teks, gambar, atau link-link pendaftaran, silakan buka dan edit di `index.html`.
 - Jika ingin mengubah warna (theme), padding, atau struktur grid responsif, silakan modifikasi lewat `assets/css/style.css`.
 - Jika ingin mematikan animasi saat scroll atau mengubah menu mobile *hamburger*, silakan cek di `assets/js/app.js`.
+
+## 📝 Changelog
+
+### 28 Februari 2026
+- **Hero Section**: Mengubah struktur Hero menjadi *slideshow carousel* dengan 3 slide, animasi *crossfade*, navigasi tombol panah (arrow), dan navigasi titik (dots) dengan fungsi *auto-play* dan *pause-on-hover*.
+- **Gallery Section**: Merombak tampilan galeri menjadi tata letak *mosaic/collage* modern yang terdiri dari 6 komponen, serta memperbarui judul menjadi "Galeri Kompetisi Tahun Lalu".
+- **Cleanup**: Membersihkan sisa *margin* dan *HTML elements* yang sudah tidak terpakai pada file `index.html`.

@@ -1,13 +1,21 @@
 <?php include 'header.php'; ?>
 
 <!-- ══════════════════════════════════════════
-     HERO SECTION
+     HERO SECTION — Slideshow Banner
 ══════════════════════════════════════════ -->
-<section class="hero" id="home">
-  <div class="container">
-    <div class="hero-content">
-      <!-- Left -->
-      <div class="hero-left">
+<section class="hero-slideshow" id="home">
+  <!-- Slides -->
+  <div class="hero-slides">
+    <div class="hero-slide active" style="background: linear-gradient(135deg, #053b94 0%, #1a6bcc 50%, #3f94f6 100%);">
+    </div>
+    <div class="hero-slide" style="background: linear-gradient(135deg, #0857C3 0%, #2b80e5 40%, #6cb0fb 100%);"></div>
+    <div class="hero-slide" style="background: linear-gradient(135deg, #003087 0%, #e5a020 50%, #f0b830 100%);"></div>
+  </div>
+
+  <!-- Overlay Content (stays fixed across all slides) -->
+  <div class="hero-slide-overlay">
+    <div class="container">
+      <div class="hero-slide-content">
         <h1 class="hero-title">
           BRI GAMA Business<br>
           Case Competition<br>
@@ -19,34 +27,31 @@
         </p>
         <div class="hero-actions">
           <a href="#cta" class="btn btn-primary btn-lg">Register now</a>
-          <a href="#" class="btn btn-outline btn-lg">View handbook</a>
-        </div>
-      </div>
-
-      <!-- Right: Figma stacked image cards -->
-      <div class="hero-right">
-        <!-- Front card (blue border) -->
-        <div class="hero-img-card">
-          <div class="img-placeholder">
-            <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"
-              stroke-linecap="round" stroke-linejoin="round">
-              <rect x="3" y="3" width="18" height="18" rx="2" />
-              <circle cx="8.5" cy="8.5" r="1.5" />
-              <polyline points="21 15 16 10 5 21" />
-            </svg>
-          </div>
-        </div>
-        <!-- Back card (smaller, behind-right) -->
-        <div class="hero-img-card-back">
-          <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"
-            stroke-linecap="round" stroke-linejoin="round">
-            <rect x="3" y="3" width="18" height="18" rx="2" />
-            <circle cx="8.5" cy="8.5" r="1.5" />
-            <polyline points="21 15 16 10 5 21" />
-          </svg>
+          <a href="#" class="btn btn-outline-white btn-lg">View handbook</a>
         </div>
       </div>
     </div>
+  </div>
+
+  <!-- Arrow Navigation -->
+  <button class="hero-arrow hero-arrow--prev" aria-label="Previous slide">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+      stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="15 18 9 12 15 6" />
+    </svg>
+  </button>
+  <button class="hero-arrow hero-arrow--next" aria-label="Next slide">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+      stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="9 6 15 12 9 18" />
+    </svg>
+  </button>
+
+  <!-- Dots Navigation -->
+  <div class="hero-dots">
+    <button class="hero-dot active" data-slide="0" aria-label="Slide 1"></button>
+    <button class="hero-dot" data-slide="1" aria-label="Slide 2"></button>
+    <button class="hero-dot" data-slide="2" aria-label="Slide 3"></button>
   </div>
 </section>
 
@@ -244,17 +249,13 @@
 ══════════════════════════════════════════ -->
 <section class="gallery" id="gallery">
   <div class="container">
-    <div class="section-header centered" data-animate>
-      <span class="section-label">Galeri</span>
-      <h2 class="section-title">Kompetisi Tahun Lalu</h2>
-      <p class="section-sub">Lihat momen-momen berkesan dari BRI GAMA Business Case Competition tahun sebelumnya.</p>
-    </div>
+    <h2 class="gallery-heading" data-animate>Galeri Kompetisi Tahun Lalu</h2>
 
-    <div class="gallery-grid" data-animate data-delay="150">
-      <!-- Main large item -->
-      <div class="gallery-item" style="background:linear-gradient(135deg,#003087,#1a6bcc);">
+    <div class="gallery-mosaic" data-animate data-delay="150">
+      <!-- Item A: top-left small -->
+      <div class="gallery-mosaic-item gallery-mosaic--a" style="background: linear-gradient(135deg, #003087, #1a6bcc);">
         <div class="gallery-placeholder">
-          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
             stroke-linecap="round" stroke-linejoin="round">
             <rect x="3" y="3" width="18" height="18" rx="2" />
             <circle cx="8.5" cy="8.5" r="1.5" />
@@ -262,15 +263,12 @@
           </svg>
           <span>Grand Final 2025</span>
         </div>
-        <div class="gallery-item-overlay">
-          <span class="gallery-caption">🏆 Grand Final — BRI GAMA BCC 2025</span>
-        </div>
       </div>
 
-      <!-- Small items -->
-      <div class="gallery-item" style="background:linear-gradient(135deg,#00409e,#2282e3);">
+      <!-- Item B: top-right large landscape -->
+      <div class="gallery-mosaic-item gallery-mosaic--b" style="background: linear-gradient(135deg, #00409e, #2282e3);">
         <div class="gallery-placeholder">
-          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
             stroke-linecap="round" stroke-linejoin="round">
             <rect x="3" y="3" width="18" height="18" rx="2" />
             <circle cx="8.5" cy="8.5" r="1.5" />
@@ -278,28 +276,24 @@
           </svg>
           <span>Presentasi Tim</span>
         </div>
-        <div class="gallery-item-overlay">
-          <span class="gallery-caption">📊 Sesi Presentasi Peserta</span>
-        </div>
       </div>
 
-      <div class="gallery-item" style="background:linear-gradient(135deg,#e5a020,#f0b830);">
-        <div class="gallery-placeholder" style="color:rgba(0,48,135,0.7);">
-          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+      <!-- Item C: middle-left tall -->
+      <div class="gallery-mosaic-item gallery-mosaic--c" style="background: linear-gradient(135deg, #0051b5, #4da3f5);">
+        <div class="gallery-placeholder">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
             stroke-linecap="round" stroke-linejoin="round">
             <rect x="3" y="3" width="18" height="18" rx="2" />
             <circle cx="8.5" cy="8.5" r="1.5" />
             <polyline points="21 15 16 10 5 21" />
           </svg>
-          <span>Pengumuman Pemenang</span>
-        </div>
-        <div class="gallery-item-overlay">
-          <span class="gallery-caption">🎉 Pengumuman Pemenang 2025</span>
+          <span>Workshop & Mentoring</span>
         </div>
       </div>
 
-      <div class="gallery-item" style="background:linear-gradient(135deg,#0051b5,#4da3f5);">
-        <div class="gallery-placeholder">
+      <!-- Item D: middle-right -->
+      <div class="gallery-mosaic-item gallery-mosaic--d" style="background: linear-gradient(135deg, #e5a020, #f0b830);">
+        <div class="gallery-placeholder" style="color: rgba(0,48,135,0.7);">
           <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
             stroke-linecap="round" stroke-linejoin="round">
             <rect x="3" y="3" width="18" height="18" rx="2" />
@@ -308,12 +302,10 @@
           </svg>
           <span>Networking Session</span>
         </div>
-        <div class="gallery-item-overlay">
-          <span class="gallery-caption">🤝 Sesi Networking Peserta</span>
-        </div>
       </div>
 
-      <div class="gallery-item" style="background:linear-gradient(135deg,#2d3348,#4a5368);">
+      <!-- Item E: bottom-right top -->
+      <div class="gallery-mosaic-item gallery-mosaic--e" style="background: linear-gradient(135deg, #053b94, #1a6bcc);">
         <div class="gallery-placeholder">
           <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
             stroke-linecap="round" stroke-linejoin="round">
@@ -321,10 +313,20 @@
             <circle cx="8.5" cy="8.5" r="1.5" />
             <polyline points="21 15 16 10 5 21" />
           </svg>
-          <span>Workshop & Mentoring</span>
+          <span>Pengumuman Pemenang</span>
         </div>
-        <div class="gallery-item-overlay">
-          <span class="gallery-caption">📚 Workshop & Sesi Mentoring</span>
+      </div>
+
+      <!-- Item F: bottom-right bottom -->
+      <div class="gallery-mosaic-item gallery-mosaic--f" style="background: linear-gradient(135deg, #2d3348, #4a5368);">
+        <div class="gallery-placeholder">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+            stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="3" width="18" height="18" rx="2" />
+            <circle cx="8.5" cy="8.5" r="1.5" />
+            <polyline points="21 15 16 10 5 21" />
+          </svg>
+          <span>Case Analysis</span>
         </div>
       </div>
     </div>
@@ -460,7 +462,8 @@
           <div class="faq-icon"></div>
         </button>
         <div class="faq-answer">
-          <p>Kompetisi ini terbuka untuk mahasiswa aktif S1 dan S2 dari seluruh perguruan tinggi di Indonesia. Setiap tim terdiri dari maksimal 3 anggota.</p>
+          <p>Kompetisi ini terbuka untuk mahasiswa aktif S1 dan S2 dari seluruh perguruan tinggi di Indonesia. Setiap
+            tim terdiri dari maksimal 3 anggota.</p>
         </div>
       </div>
       <div class="faq-item" data-animate data-delay="200">
@@ -469,7 +472,8 @@
           <div class="faq-icon"></div>
         </button>
         <div class="faq-answer">
-          <p>Ya, seluruh anggota tim harus berasal dari universitas yang sama, namun diperbolehkan berbeda fakultas atau jurusan.</p>
+          <p>Ya, seluruh anggota tim harus berasal dari universitas yang sama, namun diperbolehkan berbeda fakultas atau
+            jurusan.</p>
         </div>
       </div>
       <div class="faq-item" data-animate data-delay="300">
@@ -478,7 +482,8 @@
           <div class="faq-icon"></div>
         </button>
         <div class="faq-answer">
-          <p>Pendaftaran untuk tahap seleksi administrasi tidak dipungut biaya. Biaya pendaftaran hanya berlaku bagi tim yang lolos ke tahap babak penyisihan.</p>
+          <p>Pendaftaran untuk tahap seleksi administrasi tidak dipungut biaya. Biaya pendaftaran hanya berlaku bagi tim
+            yang lolos ke tahap babak penyisihan.</p>
         </div>
       </div>
       <div class="faq-item" data-animate data-delay="400">
@@ -487,7 +492,8 @@
           <div class="faq-icon"></div>
         </button>
         <div class="faq-answer">
-          <p>Tim yang lolos seleksi administrasi akan mengerjakan dan mengumpulkan makalah analisis kasus dalam format yang telah ditentukan. Finalis akan mempresentasikan solusi mereka di hadapan dewan juri.</p>
+          <p>Tim yang lolos seleksi administrasi akan mengerjakan dan mengumpulkan makalah analisis kasus dalam format
+            yang telah ditentukan. Finalis akan mempresentasikan solusi mereka di hadapan dewan juri.</p>
         </div>
       </div>
       <div class="faq-item" data-animate data-delay="500">
@@ -496,7 +502,8 @@
           <div class="faq-icon"></div>
         </button>
         <div class="faq-answer">
-          <p>Pemenang mendapatkan hadiah uang tunai, sertifikat penghargaan, serta kesempatan berkarir dan dikenal oleh Bank Rakyat Indonesia. Detail nominal hadiah tersedia di handbook resmi kompetisi.</p>
+          <p>Pemenang mendapatkan hadiah uang tunai, sertifikat penghargaan, serta kesempatan berkarir dan dikenal oleh
+            Bank Rakyat Indonesia. Detail nominal hadiah tersedia di handbook resmi kompetisi.</p>
         </div>
       </div>
     </div>
@@ -597,7 +604,8 @@
     </div>
     <div class="agenda-grid">
       <div class="agenda-card" data-animate data-delay="100">
-        <div class="agenda-img" style="background:var(--primary-light); opacity:0.1; display:flex; align-items:center; justify-content:center;">
+        <div class="agenda-img"
+          style="background:var(--primary-light); opacity:0.1; display:flex; align-items:center; justify-content:center;">
           <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="1.5">
             <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
             <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
@@ -608,7 +616,8 @@
         <a href="#" class="agenda-link">Read more ➔</a>
       </div>
       <div class="agenda-card" data-animate data-delay="200">
-        <div class="agenda-img" style="background:var(--secondary); opacity:0.1; display:flex; align-items:center; justify-content:center;">
+        <div class="agenda-img"
+          style="background:var(--secondary); opacity:0.1; display:flex; align-items:center; justify-content:center;">
           <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="1.5">
             <circle cx="12" cy="12" r="10" />
             <polyline points="12 6 12 12 16 14" />
@@ -619,9 +628,11 @@
         <a href="#" class="agenda-link">Read more ➔</a>
       </div>
       <div class="agenda-card" data-animate data-delay="300">
-        <div class="agenda-img" style="background:var(--primary-dark); opacity:0.1; display:flex; align-items:center; justify-content:center;">
+        <div class="agenda-img"
+          style="background:var(--primary-dark); opacity:0.1; display:flex; align-items:center; justify-content:center;">
           <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="1.5">
-            <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+            <path
+              d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
           </svg>
         </div>
         <div class="agenda-date">15 Feb 2026</div>
@@ -646,7 +657,8 @@
         </div>
         <div class="contact-method">
           <div class="contact-icon">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
               <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
               <polyline points="22,6 12,13 2,6" />
             </svg>
@@ -658,8 +670,10 @@
         </div>
         <div class="contact-method">
           <div class="contact-icon">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
             </svg>
           </div>
           <div class="contact-detail">
@@ -669,7 +683,9 @@
         </div>
       </div>
       <div class="contact-map" data-animate data-delay="200">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.111!2d110.370!3d-7.771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwNDYnMjcuNiJTIDExMMKwMjInMTIuMCJF!5e0!3m2!1sen!2sid!4v1620000000000!5m2!1sen!2sid" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.111!2d110.370!3d-7.771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwNDYnMjcuNiJTIDExMMKwMjInMTIuMCJF!5e0!3m2!1sen!2sid!4v1620000000000!5m2!1sen!2sid"
+          style="border:0;" allowfullscreen="" loading="lazy"></iframe>
       </div>
     </div>
   </div>
@@ -714,12 +730,12 @@
 
 <script>
   /* FAQ Accordion */
-  document.querySelectorAll('.faq-question').forEach(function(btn) {
-    btn.addEventListener('click', function() {
+  document.querySelectorAll('.faq-question').forEach(function (b tn) {
+    btn.addEventListener('click', function () {
       var item = this.closest('.faq-item');
       var isOpen = item.classList.contains('open');
       // close all
-      document.querySelectorAll('.faq-item').forEach(function(el) {
+      document.querySelectorAll('.faq-item').forEach(function (el) {
         el.classList.remove('open');
       });
       // toggle current
@@ -728,9 +744,9 @@
   });
 
   /* Wall of Fame Tabs */
-  document.querySelectorAll('.fame-tab-new').forEach(function(tab) {
-    tab.addEventListener('click', function() {
-      document.querySelectorAll('.fame-tab-new').forEach(function(t) {
+  document.querySelectorAll('.fame-tab-new').forEach(function (tab) {
+    tab.addEventListener('click', functio n() {
+      document.querySelectorAll('.fame-tab-new').forEach(functi on(t) {
         t.classList.remove('active');
       });
       this.classList.add('active');

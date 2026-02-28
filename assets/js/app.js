@@ -11,6 +11,64 @@ document.addEventListener('DOMContentLoaded', function () {
     navbar.classList.toggle('scrolled', window.scrollY > 20);
   }, { passive: true });
 
+  /* ── Hero Slideshow ── */
+  const heroSlideshow = document.querySelector('.hero-slideshow');
+  if (heroSlideshow) {
+    const slides = heroSlideshow.querySelectorAll('.hero-slide');
+    const dots = heroSlideshow.querySelectorAll('.hero-dot');
+    const prevBtn = heroSlideshow.querySelector('.hero-arrow--prev');
+    const nextBtn = heroSlideshow.querySelector('.hero-arrow--next');
+    let currentSlide = 0;
+    let autoPlayTimer = null;
+
+    function goToSlide(index) {
+      slides[currentSlide].classList.remove('active');
+      dots[currentSlide].classList.remove('active');
+      currentSlide = (index + slides.length) % slides.length;
+      slides[currentSlide].classList.add('active');
+      dots[currentSlide].classList.add('active');
+    }
+
+    function nextSlide() {
+      goToSlide(currentSlide + 1);
+    }
+
+    function prevSlide() {
+      goToSlide(currentSlide - 1);
+    }
+
+    function startAutoPlay() {
+      stopAutoPlay();
+      autoPlayTimer = setInterval(nextSlide, 5000);
+    }
+
+    function stopAutoPlay() {
+      if (autoPlayTimer) {
+        clearInterval(autoPlayTimer);
+        autoPlayTimer = null;
+      }
+    }
+
+    // Arrow buttons
+    if (nextBtn) nextBtn.addEventListener('click', () => { nextSlide(); startAutoPlay(); });
+    if (prevBtn) prevBtn.addEventListener('click', () => { prevSlide(); startAutoPlay(); });
+
+    // Dot buttons
+    dots.forEach(dot => {
+      dot.addEventListener('click', () => {
+        goToSlide(parseInt(dot.dataset.slide, 10));
+        startAutoPlay();
+      });
+    });
+
+    // Pause on hover
+    heroSlideshow.addEventListener('mouseenter', stopAutoPlay);
+    heroSlideshow.addEventListener('mouseleave', startAutoPlay);
+
+    // Start auto-play
+    startAutoPlay();
+  }
+
   /* ── Navbar: Resources Dropdown ── */
   const dropdowns = document.querySelectorAll('.nav-dropdown');
   dropdowns.forEach(dd => {
