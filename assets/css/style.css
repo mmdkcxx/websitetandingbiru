@@ -2156,39 +2156,46 @@ body {
 /* ══════════════════════════════════════════
    WALL OF FAME SECTION
 ══════════════════════════════════════════ */
-.fame-section-new {
+.wof {
   background: var(--white);
-  padding: clamp(48px, 7vw, 80px) 0;
+  padding: clamp(32px, 4vw, 56px) 0;
   overflow: hidden;
 }
 
-.fame-title-new {
-  font-size: clamp(1.8rem, 3.5vw, 2.8rem);
-  font-weight: 800;
+.wof .section-title {
   color: var(--blue-800);
-  margin-bottom: 12px;
 }
 
-.fame-desc-new {
-  font-size: 0.95rem;
-  color: var(--gray-600);
-  max-width: 520px;
-  line-height: 1.7;
+.wof .section-header {
+  margin-bottom: 24px;
+}
+
+.wof .section-sub {
+  font-size: 0.92rem;
+}
+
+/* ── Controls: Year & Category Tabs ── */
+.wof-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
   margin-bottom: 28px;
 }
 
-/* Tabs */
-.fame-tabs-new {
+.wof-year-tabs,
+.wof-cat-tabs {
   display: flex;
-  gap: 10px;
-  margin-bottom: 36px;
+  gap: 8px;
 }
 
-.fame-tab-new {
-  padding: 9px 20px;
+.wof-year-tab,
+.wof-cat-tab {
+  padding: 9px 22px;
   border-radius: 8px;
   font-size: 0.875rem;
   font-weight: 600;
+  font-family: var(--font-family);
   border: 1.5px solid var(--blue-700);
   color: var(--blue-700);
   background: transparent;
@@ -2196,93 +2203,417 @@ body {
   transition: var(--transition);
 }
 
-.fame-tab-new.active,
-.fame-tab-new:hover {
+.wof-year-tab.active,
+.wof-year-tab:hover,
+.wof-cat-tab.active,
+.wof-cat-tab:hover {
   background: var(--blue-800);
   color: var(--white);
   border-color: var(--blue-800);
 }
 
-/* Horizontal scroll row */
-.fame-scroll-new {
+/* ── Podium Layout — Horizontal ── */
+.wof-podium {
   display: flex;
-  gap: 20px;
-  overflow-x: auto;
-  padding-bottom: 16px;
-  scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
+  flex-direction: row;
+  align-items: stretch;
+  gap: 24px;
+  margin-bottom: 28px;
 }
 
-.fame-scroll-new::-webkit-scrollbar {
-  height: 5px;
-}
-
-.fame-scroll-new::-webkit-scrollbar-track {
-  background: var(--gray-100);
-  border-radius: 4px;
-}
-
-.fame-scroll-new::-webkit-scrollbar-thumb {
-  background: var(--blue-300, #6cb0fb);
-  border-radius: 4px;
-}
-
-/* Winner card */
-.winner-card-new {
+/* Right column: 2nd, 3rd, Best Speaker */
+.wof-right-col {
+  flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  flex-shrink: 0;
-  width: 240px;
-  scroll-snap-align: start;
+  gap: 16px;
 }
 
-/* Photo box */
-.winner-img-box-new {
-  width: 240px;
-  height: 270px;
-  background: var(--gray-200);
+/* ── Shared Card Styles ── */
+.wof-card {
+  background: var(--white);
   border: 2px solid var(--blue-700);
+  border-radius: var(--radius-lg);
+  padding: 14px;
+  text-align: center;
+  transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+}
+
+.wof-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-lg);
+}
+
+/* ── Photo Frame ── */
+.wof-card__photo {
+  width: 100%;
+  aspect-ratio: 16/10;
+  background: var(--gray-100);
+  border: 2px solid var(--blue-600);
   border-radius: var(--radius-md);
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  flex-shrink: 0;
+  margin-bottom: 8px;
+  position: relative;
 }
 
-.winner-img-box-new svg {
-  width: 56px;
-  height: 56px;
-  color: #aaa;
-  opacity: 0.55;
+.wof-card__photo svg {
+  width: 48px;
+  height: 48px;
+  color: var(--gray-300);
+  opacity: 0.6;
 }
 
-.winner-img-box-new img {
+.wof-card__photo img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-/* Name / info card below photo */
-.winner-info-box-new {
-  border: 1.5px solid var(--blue-700);
-  border-radius: var(--radius-md);
-  padding: 14px 16px;
-  text-align: center;
+/* ── Rank Badges ── */
+.wof-card__rank {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  font-family: var(--font-family);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
 }
 
-.winner-name-new {
-  font-size: 0.9rem;
+/* Smaller badges for 2nd, 3rd */
+.wof-card--second .wof-card__rank,
+.wof-card--third .wof-card__rank {
+  padding: 3px 8px;
+  font-size: 0.58rem;
+  border-radius: 5px;
+  top: 6px;
+  left: 6px;
+}
+
+.wof-rank--gold {
+  background: linear-gradient(135deg, rgba(240, 184, 48, 0.92), rgba(229, 160, 32, 0.92));
+  color: var(--blue-900);
+  box-shadow: 0 2px 8px rgba(229, 160, 32, 0.3);
+}
+
+.wof-rank--silver {
+  background: linear-gradient(135deg, rgba(192, 199, 208, 0.92), rgba(168, 178, 190, 0.92));
+  color: var(--gray-800);
+  box-shadow: 0 2px 6px rgba(168, 178, 190, 0.25);
+}
+
+.wof-rank--bronze {
+  background: linear-gradient(135deg, rgba(212, 149, 107, 0.92), rgba(192, 122, 80, 0.92));
+  color: var(--white);
+  box-shadow: 0 2px 6px rgba(192, 122, 80, 0.25);
+}
+
+.wof-rank--speaker {
+  background: linear-gradient(135deg, rgba(8, 87, 195, 0.92), rgba(30, 120, 220, 0.92));
+  color: var(--white);
+  box-shadow: 0 2px 6px rgba(8, 87, 195, 0.25);
+}
+
+/* ── Card Info ── */
+.wof-card__team {
+  font-size: 1rem;
   font-weight: 800;
-  color: var(--blue-800);
+  font-family: var(--font-family);
+  color: var(--blue-900);
   text-transform: uppercase;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.03em;
+  margin-bottom: 2px;
+  line-height: 1.3;
+}
+
+.wof-card__univ {
+  font-size: 0.75rem;
+  font-weight: 400;
+  font-family: var(--font-family);
+  color: var(--gray-400);
+  letter-spacing: 0.02em;
+}
+
+/* ── 1st Champion Card ── */
+.wof-card--first {
+  width: 38%;
+  flex-shrink: 0;
+  border-color: var(--gold-400);
+  box-shadow: 0 0 0 1px var(--gold-400),
+    0 8px 32px rgba(229, 160, 32, 0.15);
+  display: flex;
+  flex-direction: column;
+}
+
+.wof-card--first .wof-card__photo {
+  aspect-ratio: auto;
+  flex: 1;
+  border-color: var(--gold-400);
+}
+
+.wof-card--first .wof-card__team {
+  font-size: 1.1rem;
+}
+
+/* ── 2nd & 3rd Row ── */
+.wof-runner-row {
+  display: flex;
+  gap: 16px;
+}
+
+.wof-card--second,
+.wof-card--third {
+  flex: 1;
+}
+
+.wof-card--second .wof-card__photo,
+.wof-card--third .wof-card__photo {
+  aspect-ratio: 16/9;
+}
+
+/* ── Best Speaker Card ── */
+.wof-card--speaker {
+  width: 100%;
+  padding: 12px;
+}
+
+.wof-speaker-inner {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.wof-card__photo--speaker {
+  width: 90px;
+  min-width: 90px;
+  aspect-ratio: 1;
+  margin-bottom: 0;
+  border-radius: var(--radius-md);
+}
+
+.wof-speaker-info {
+  text-align: left;
+  flex: 1;
+}
+
+.wof-speaker-info .wof-card__rank {
+  position: static;
+  margin-bottom: 6px;
+  padding: 3px 8px;
+  font-size: 0.58rem;
+  border-radius: 5px;
+}
+
+.wof-speaker-info .wof-card__team {
+  font-size: 1rem;
   margin-bottom: 4px;
 }
 
-.winner-desc-new {
-  font-size: 0.78rem;
-  color: var(--blue-600);
-  font-weight: 500;
+/* ── CTA Banner ── */
+.wof-cta {
+  text-align: center;
+  padding: 28px 24px;
+  background: linear-gradient(135deg, var(--blue-50), var(--blue-100));
+  border: 2px solid var(--blue-100);
+  border-radius: var(--radius-xl);
+}
+
+.wof-cta__title {
+  font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+  font-weight: 800;
+  font-family: var(--font-family);
+  color: var(--blue-900);
+  margin-bottom: 4px;
+}
+
+.wof-cta__sub {
+  font-size: 0.88rem;
+  font-family: var(--font-family);
+  color: var(--gray-600);
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .wof-podium {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .wof-card--first {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .wof-card--first .wof-card__photo {
+    aspect-ratio: 16/10;
+    flex: none;
+  }
+
+  .wof-right-col {
+    max-width: 400px;
+    width: 100%;
+  }
+
+  .wof-runner-row {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .wof-speaker-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .wof-speaker-info {
+    text-align: center;
+  }
+
+  .wof-controls {
+    gap: 8px;
+  }
+
+  .wof-year-tabs,
+  .wof-cat-tabs {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+/* ══════════════════════════════════════════
+   INSTAGRAM FEED SECTION
+══════════════════════════════════════════ */
+.ig-feed {
+  background: var(--gray-50);
+  padding: clamp(36px, 4vw, 56px) 0;
+}
+
+/* Grid: 3 columns x 2 rows */
+.ig-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 28px;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Each post tile */
+.ig-post {
+  position: relative;
+  aspect-ratio: 1;
+  max-height: 320px;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1.5px solid var(--gray-200);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ig-post:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+/* Image area */
+.ig-post__img {
+  width: 100%;
+  height: 100%;
+  background: var(--gray-100);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ig-post__img svg {
+  width: 32px;
+  height: 32px;
+  color: var(--gray-300);
+  opacity: 0.5;
+}
+
+.ig-post__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Hover overlay */
+.ig-post__overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 51, 119, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.ig-post:hover .ig-post__overlay {
+  opacity: 1;
+}
+
+.ig-stat {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--white);
+  font-size: 0.85rem;
+  font-weight: 600;
+  font-family: var(--font-family);
+}
+
+/* Instagram CTA */
+.ig-cta {
+  text-align: center;
+}
+
+.ig-cta__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 24px;
+  border-radius: 8px;
+  border: 1.5px solid var(--blue-700);
+  color: var(--blue-700);
+  font-size: 0.88rem;
+  font-weight: 600;
+  font-family: var(--font-family);
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.ig-cta__link:hover {
+  background: var(--blue-800);
+  color: var(--white);
+  border-color: var(--blue-800);
+}
+
+/* Responsive: 2 columns on mobile */
+@media (max-width: 640px) {
+  .ig-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
 }

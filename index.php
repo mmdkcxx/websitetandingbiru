@@ -518,127 +518,197 @@
 <!-- ══════════════════════════════════════════
      WALL OF FAME SECTION
 ══════════════════════════════════════════ -->
-<section class="fame-section-new" id="wall-of-fame">
+<section class="wof" id="wall-of-fame">
   <div class="container">
-    <h2 class="fame-title-new" data-animate>Wall of Fame</h2>
-    <p class="fame-desc-new" data-animate data-delay="100">
-      Meet the champions who have competed and conquered at BRI GAMA.
-      Their success began with a single decision to register.
-    </p>
-
-    <div class="fame-tabs-new" data-animate data-delay="200">
-      <button class="fame-tab-new active">Undergraduate Student (S1)</button>
-      <button class="fame-tab-new">Undergraduate Student (S2)</button>
+    <!-- Header -->
+    <div class="section-header centered" data-animate>
+      <span class="section-label">Wall of Fame</span>
+      <h2 class="section-title">Our Champions</h2>
+      <p class="section-sub">Meet the champions who competed and conquered at BRI GAMA. Their success began with a single decision to register.</p>
     </div>
 
-    <div class="fame-scroll-new" data-animate data-delay="300">
-      <!-- Card 1 -->
-      <div class="winner-card-new">
-        <div class="winner-img-box-new">
+    <!-- Tabs row: Year + Category -->
+    <div class="wof-controls" data-animate data-delay="100">
+      <div class="wof-year-tabs">
+        <button class="wof-year-tab active" data-year="2022">2022</button>
+        <button class="wof-year-tab" data-year="2023">2023</button>
+      </div>
+      <div class="wof-cat-tabs">
+        <button class="wof-cat-tab active" data-cat="s1">Undergraduate (S1)</button>
+        <button class="wof-cat-tab" data-cat="s2">Graduate (S2)</button>
+      </div>
+    </div>
+
+    <!-- Champions Podium — Horizontal Layout -->
+    <div class="wof-podium" data-animate data-delay="200">
+
+      <!-- LEFT: 1st Champion (large) -->
+      <div class="wof-card wof-card--first">
+        <div class="wof-card__photo">
+          <div class="wof-card__rank wof-rank--gold">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+              <circle cx="12" cy="9" r="6"/>
+              <path d="M8 14l-2 8 6-3 6 3-2-8" opacity="0.7"/>
+            </svg>
+            1st Champion
+          </div>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
-            <rect x="3" y="3" width="18" height="18" rx="2" />
-            <circle cx="8.5" cy="8.5" r="1.5" />
-            <polyline points="21 15 16 10 5 21" />
+            <rect x="3" y="3" width="18" height="18" rx="2"/>
+            <circle cx="8.5" cy="8.5" r="1.5"/>
+            <polyline points="21 15 16 10 5 21"/>
           </svg>
         </div>
-        <div class="winner-info-box-new">
-          <h3 class="winner-name-new">NAMA PEMENANG</h3>
-          <p class="winner-desc-new">Deskripsi Seng</p>
+        <div class="wof-card__info">
+          <h3 class="wof-card__team">NAMA TIM</h3>
+          <p class="wof-card__univ">Universitas Gadjah Mada</p>
         </div>
       </div>
-      <!-- Card 2 -->
-      <div class="winner-card-new">
-        <div class="winner-img-box-new">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
-            <rect x="3" y="3" width="18" height="18" rx="2" />
-            <circle cx="8.5" cy="8.5" r="1.5" />
-            <polyline points="21 15 16 10 5 21" />
-          </svg>
+
+      <!-- RIGHT: 2nd, 3rd, Best Speaker stacked -->
+      <div class="wof-right-col">
+
+        <!-- 2nd & 3rd side-by-side -->
+        <div class="wof-runner-row">
+          <div class="wof-card wof-card--second">
+            <div class="wof-card__photo">
+              <div class="wof-card__rank wof-rank--silver">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                  <circle cx="12" cy="9" r="6"/>
+                  <path d="M8 14l-2 8 6-3 6 3-2-8" opacity="0.7"/>
+                </svg>
+                2nd
+              </div>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                <rect x="3" y="3" width="18" height="18" rx="2"/>
+                <circle cx="8.5" cy="8.5" r="1.5"/>
+                <polyline points="21 15 16 10 5 21"/>
+              </svg>
+            </div>
+            <div class="wof-card__info">
+              <h3 class="wof-card__team">NAMA TIM</h3>
+              <p class="wof-card__univ">Universitas Indonesia</p>
+            </div>
+          </div>
+
+          <div class="wof-card wof-card--third">
+            <div class="wof-card__photo">
+              <div class="wof-card__rank wof-rank--bronze">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                  <circle cx="12" cy="9" r="6"/>
+                  <path d="M8 14l-2 8 6-3 6 3-2-8" opacity="0.7"/>
+                </svg>
+                3rd
+              </div>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                <rect x="3" y="3" width="18" height="18" rx="2"/>
+                <circle cx="8.5" cy="8.5" r="1.5"/>
+                <polyline points="21 15 16 10 5 21"/>
+              </svg>
+            </div>
+            <div class="wof-card__info">
+              <h3 class="wof-card__team">NAMA TIM</h3>
+              <p class="wof-card__univ">Universitas Diponegoro</p>
+            </div>
+          </div>
         </div>
-        <div class="winner-info-box-new">
-          <h3 class="winner-name-new">NAMA PEMENANG</h3>
-          <p class="winner-desc-new">Deskripsi Seng</p>
+
+        <!-- Best Speaker -->
+        <div class="wof-card wof-card--speaker">
+          <div class="wof-speaker-inner">
+            <div class="wof-card__photo wof-card__photo--speaker">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                <rect x="3" y="3" width="18" height="18" rx="2"/>
+                <circle cx="8.5" cy="8.5" r="1.5"/>
+                <polyline points="21 15 16 10 5 21"/>
+              </svg>
+            </div>
+            <div class="wof-speaker-info">
+              <div class="wof-card__rank wof-rank--speaker">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
+                  <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+                  <line x1="12" y1="19" x2="12" y2="23"/>
+                  <line x1="8" y1="23" x2="16" y2="23"/>
+                </svg>
+                Best Speaker
+              </div>
+              <h3 class="wof-card__team">NAMA PESERTA</h3>
+              <p class="wof-card__univ">Tim — Universitas Gadjah Mada</p>
+            </div>
+          </div>
         </div>
+
       </div>
-      <!-- Card 3 -->
-      <div class="winner-card-new">
-        <div class="winner-img-box-new">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
-            <rect x="3" y="3" width="18" height="18" rx="2" />
-            <circle cx="8.5" cy="8.5" r="1.5" />
-            <polyline points="21 15 16 10 5 21" />
-          </svg>
-        </div>
-        <div class="winner-info-box-new">
-          <h3 class="winner-name-new">NAMA PEMENANG</h3>
-          <p class="winner-desc-new">Deskripsi Seng</p>
-        </div>
-      </div>
-      <!-- Card 4 -->
-      <div class="winner-card-new">
-        <div class="winner-img-box-new">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
-            <rect x="3" y="3" width="18" height="18" rx="2" />
-            <circle cx="8.5" cy="8.5" r="1.5" />
-            <polyline points="21 15 16 10 5 21" />
-          </svg>
-        </div>
-        <div class="winner-info-box-new">
-          <h3 class="winner-name-new">NAMA PEMENANG</h3>
-          <p class="winner-desc-new">Deskripsi Seng</p>
-        </div>
-      </div>
+    </div>
+
+    <!-- CTA Banner -->
+    <div class="wof-cta" data-animate data-delay="300">
+      <h3 class="wof-cta__title">Will You Be The Next?</h3>
+      <p class="wof-cta__sub">Register now and write your name in history.</p>
+      <a href="#cta" class="btn btn-primary">Register Now</a>
     </div>
   </div>
 </section>
 
 <!-- ══════════════════════════════════════════
-     AGENDA SECTION (Newly Integrated)
+     AGENDA / INSTAGRAM FEED SECTION
 ══════════════════════════════════════════ -->
-<section class="agenda" id="agenda">
+<section class="ig-feed" id="agenda">
   <div class="container">
-    <div class="section-header" data-animate>
+    <div class="section-header centered" data-animate>
       <span class="section-label">Agenda</span>
       <h2 class="section-title">Catch Latest Agenda</h2>
-      <p class="section-sub">Berita terbaru, artikel bisnis, dan pengumuman penting seputar kompetisi.</p>
+      <p class="section-sub">Ikuti perkembangan terbaru dan informasi penting seputar kompetisi lewat feed Instagram kami.</p>
     </div>
-    <div class="agenda-grid">
-      <div class="agenda-card" data-animate data-delay="100">
-        <div class="agenda-img"
-          style="background:var(--primary-light); opacity:0.1; display:flex; align-items:center; justify-content:center;">
-          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="1.5">
-            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
-            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
-          </svg>
+
+    <!-- Instagram Grid -->
+    <div class="ig-grid" data-animate data-delay="100">
+
+      <!-- Post 1 -->
+      <a href="#" class="ig-post" target="_blank" rel="noopener">
+        <div class="ig-post__img">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
         </div>
-        <div class="agenda-date">24 Feb 2026</div>
-        <h3 class="agenda-title">Tips and Trick to Win Business Case Competition</h3>
-        <a href="#" class="agenda-link">Read more ➔</a>
-      </div>
-      <div class="agenda-card" data-animate data-delay="200">
-        <div class="agenda-img"
-          style="background:var(--secondary); opacity:0.1; display:flex; align-items:center; justify-content:center;">
-          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="1.5">
-            <circle cx="12" cy="12" r="10" />
-            <polyline points="12 6 12 12 16 14" />
-          </svg>
+        <div class="ig-post__overlay">
+          <span class="ig-stat"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg> 128</span>
+          <span class="ig-stat"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> 12</span>
         </div>
-        <div class="agenda-date">20 Feb 2026</div>
-        <h3 class="agenda-title">Preparing for BRI GAMA 2026: What You Need to Know</h3>
-        <a href="#" class="agenda-link">Read more ➔</a>
-      </div>
-      <div class="agenda-card" data-animate data-delay="300">
-        <div class="agenda-img"
-          style="background:var(--primary-dark); opacity:0.1; display:flex; align-items:center; justify-content:center;">
-          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="1.5">
-            <path
-              d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
-          </svg>
+      </a>
+
+      <!-- Post 2 -->
+      <a href="#" class="ig-post" target="_blank" rel="noopener">
+        <div class="ig-post__img">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
         </div>
-        <div class="agenda-date">15 Feb 2026</div>
-        <h3 class="agenda-title">Meet Last Year's Winners: Their Journey to the Top</h3>
-        <a href="#" class="agenda-link">Read more ➔</a>
-      </div>
+        <div class="ig-post__overlay">
+          <span class="ig-stat"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg> 95</span>
+          <span class="ig-stat"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> 8</span>
+        </div>
+      </a>
+
+      <!-- Post 3 -->
+      <a href="#" class="ig-post" target="_blank" rel="noopener">
+        <div class="ig-post__img">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+        </div>
+        <div class="ig-post__overlay">
+          <span class="ig-stat"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg> 210</span>
+          <span class="ig-stat"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> 24</span>
+        </div>
+      </a>
+
+    </div>
+
+    <!-- Instagram CTA -->
+    <div class="ig-cta" data-animate data-delay="200">
+      <a href="https://www.instagram.com/brigamabcc/" target="_blank" rel="noopener" class="ig-cta__link">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+          <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+        </svg>
+        Follow @brigamabcc di Instagram
+      </a>
     </div>
   </div>
 </section>
@@ -730,7 +800,7 @@
 
 <script>
   /* FAQ Accordion */
-  document.querySelectorAll('.faq-question').forEach(function (b tn) {
+  document.querySelectorAll('.faq-question').forEach(function (btn) {
     btn.addEventListener('click', function () {
       var item = this.closest('.faq-item');
       var isOpen = item.classList.contains('open');
@@ -743,10 +813,20 @@
     });
   });
 
-  /* Wall of Fame Tabs */
-  document.querySelectorAll('.fame-tab-new').forEach(function (tab) {
-    tab.addEventListener('click', functio n() {
-      document.querySelectorAll('.fame-tab-new').forEach(functi on(t) {
+  /* Wall of Fame — Year Tabs */
+  document.querySelectorAll('.wof-year-tab').forEach(function (tab) {
+    tab.addEventListener('click', function () {
+      document.querySelectorAll('.wof-year-tab').forEach(function (t) {
+        t.classList.remove('active');
+      });
+      this.classList.add('active');
+    });
+  });
+
+  /* Wall of Fame — Category Tabs */
+  document.querySelectorAll('.wof-cat-tab').forEach(function (tab) {
+    tab.addEventListener('click', function () {
+      document.querySelectorAll('.wof-cat-tab').forEach(function (t) {
         t.classList.remove('active');
       });
       this.classList.add('active');
