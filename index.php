@@ -187,7 +187,60 @@
     </div>
   </div>
 </section>
+<!-- ══════════════════════════════════════════
+     TIMELINE ACTIVITIES SECTION
+══════════════════════════════════════════ -->
+<section class="timeline-activities" id="timeline-activities">
+  <div class="container container--left-aligned">
+    <div class="section-header" data-animate>
+      <h2 class="section-title section-title--blue">Timeline Activities</h2>
+      <p class="section-sub section-sub--blue">
+        Since its inception, BRI GAMA has evolved into a premier platform for competitive business thinking. Each year brings new challenges, new winners, and new standards of excellence.
+      </p>
+    </div>
 
+    <!-- Horizontal Scroll Wrapper -->
+    <div class="ta-slider-wrapper" data-animate data-delay="100">
+      <div class="ta-slider">
+        <!-- Card 1 -->
+        <div class="ta-card">
+          <div class="ta-card__time">10 AM</div>
+          <h3 class="ta-card__title">Talkshow: Future of Finance</h3>
+          <p class="ta-card__desc">Talkshow tentang future of finance yang akan dibawakan oleh Surya Sucipto</p>
+          <div class="ta-card__deco"></div>
+        </div>
+        <!-- Card 2 -->
+        <div class="ta-card">
+          <div class="ta-card__time">12 PM</div>
+          <h3 class="ta-card__title">Live Promo: Exclusive Offers</h3>
+          <p class="ta-card__desc">Promo eksklusif hanya di BNI Expo 2024</p>
+          <div class="ta-card__deco"></div>
+        </div>
+        <!-- Card 3 -->
+        <div class="ta-card">
+          <div class="ta-card__time">1 PM</div>
+          <h3 class="ta-card__title">Entertainment: Live Music</h3>
+          <p class="ta-card__desc">Live performance yang akan dibawakan oleh Hindia dan isyana Saraspati</p>
+          <div class="ta-card__deco"></div>
+        </div>
+        <!-- Card 4 -->
+        <div class="ta-card">
+          <div class="ta-card__time">3 PM</div>
+          <h3 class="ta-card__title">Door Prize: Win A New Car</h3>
+          <p class="ta-card__desc">Door Prize mobil hanya di BNI Expo 2024</p>
+          <div class="ta-card__deco"></div>
+        </div>
+        <!-- Card 5 (Extra to show scroll) -->
+        <div class="ta-card">
+          <div class="ta-card__time">5 PM</div>
+          <h3 class="ta-card__title">Closing Ceremony</h3>
+          <p class="ta-card__desc">Penutupan acara dan networking session bersama juri dan peserta</p>
+          <div class="ta-card__deco"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 <!-- ══════════════════════════════════════════

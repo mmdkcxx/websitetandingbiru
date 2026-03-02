@@ -1484,6 +1484,108 @@ body {
 }
 
 /* ══════════════════════════════════════════
+   TIMELINE ACTIVITIES SECTION (NEW)
+══════════════════════════════════════════ */
+.timeline-activities {
+  padding: clamp(48px, 6vw, 80px) 0;
+  background: var(--gray-50);
+  overflow: hidden;
+}
+
+.ta-slider-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  /* Add padding-top so hover transform doesn't clip top border */
+  padding-top: 16px;
+  padding-bottom: 24px;
+
+  /* Restyle scrollbar for sleek desktop horizontal scrolling instead of hiding */
+  scrollbar-width: thin;
+  scrollbar-color: var(--blue-400) var(--gray-200);
+}
+
+.ta-slider-wrapper::-webkit-scrollbar {
+  height: 8px;
+}
+
+.ta-slider-wrapper::-webkit-scrollbar-track {
+  background: var(--gray-200);
+  border-radius: 10px;
+}
+
+.ta-slider-wrapper::-webkit-scrollbar-thumb {
+  background: var(--blue-500);
+  border-radius: 10px;
+}
+
+.ta-slider {
+  display: flex;
+  gap: 24px;
+  /* Add padding to the start/end so it aligns with container but allows overscroll on mobile */
+  padding: 0 4px;
+}
+
+.ta-card {
+  flex: 0 0 300px;
+  min-height: 380px;
+  scroll-snap-align: start;
+  background: var(--white);
+  border: 2px solid var(--blue-500);
+  border-radius: 20px;
+  padding: 40px 32px;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.ta-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 16px 32px rgba(8, 87, 195, 0.1);
+}
+
+.ta-card__time {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: var(--blue-700);
+  margin-bottom: 32px;
+  line-height: 1;
+}
+
+.ta-card__title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--blue-700);
+  margin-bottom: 16px;
+  line-height: 1.35;
+  position: relative;
+  z-index: 2;
+}
+
+.ta-card__desc {
+  font-size: 0.95rem;
+  color: var(--blue-500);
+  line-height: 1.6;
+  position: relative;
+  z-index: 2;
+}
+
+/* Quarter Ring Decoration (Bottom Right) */
+.ta-card__deco {
+  position: absolute;
+  bottom: -60px;
+  right: -60px;
+  width: 140px;
+  height: 140px;
+  border: 44px solid var(--blue-500);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* ══════════════════════════════════════════
    CTA SECTION
 ══════════════════════════════════════════ */
 .cta {
