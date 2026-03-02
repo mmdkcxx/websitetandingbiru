@@ -199,45 +199,63 @@
       </p>
     </div>
 
-    <!-- Horizontal Scroll Wrapper -->
-    <div class="ta-slider-wrapper" data-animate data-delay="100">
-      <div class="ta-slider">
-        <!-- Card 1 -->
-        <div class="ta-card">
-          <div class="ta-card__time">10 AM</div>
-          <h3 class="ta-card__title">Talkshow: Future of Finance</h3>
-          <p class="ta-card__desc">Talkshow tentang future of finance yang akan dibawakan oleh Surya Sucipto</p>
-          <div class="ta-card__deco"></div>
-        </div>
-        <!-- Card 2 -->
-        <div class="ta-card">
-          <div class="ta-card__time">12 PM</div>
-          <h3 class="ta-card__title">Live Promo: Exclusive Offers</h3>
-          <p class="ta-card__desc">Promo eksklusif hanya di BNI Expo 2024</p>
-          <div class="ta-card__deco"></div>
-        </div>
-        <!-- Card 3 -->
-        <div class="ta-card">
-          <div class="ta-card__time">1 PM</div>
-          <h3 class="ta-card__title">Entertainment: Live Music</h3>
-          <p class="ta-card__desc">Live performance yang akan dibawakan oleh Hindia dan isyana Saraspati</p>
-          <div class="ta-card__deco"></div>
-        </div>
-        <!-- Card 4 -->
-        <div class="ta-card">
-          <div class="ta-card__time">3 PM</div>
-          <h3 class="ta-card__title">Door Prize: Win A New Car</h3>
-          <p class="ta-card__desc">Door Prize mobil hanya di BNI Expo 2024</p>
-          <div class="ta-card__deco"></div>
-        </div>
-        <!-- Card 5 (Extra to show scroll) -->
-        <div class="ta-card">
-          <div class="ta-card__time">5 PM</div>
-          <h3 class="ta-card__title">Closing Ceremony</h3>
-          <p class="ta-card__desc">Penutupan acara dan networking session bersama juri dan peserta</p>
-          <div class="ta-card__deco"></div>
+    <!-- Horizontal Slider Container with Navigation Controls -->
+    <div class="ta-slider-container" data-animate data-delay="100">
+
+      <!-- Prev Button (Left) -->
+      <button class="ta-nav-btn ta-prev" aria-label="Previous Activity">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="15 18 9 12 15 6"></polyline>
+        </svg>
+      </button>
+
+      <div class="ta-slider-wrapper">
+        <div class="ta-slider">
+          <!-- Card 1 -->
+          <div class="ta-card">
+            <div class="ta-card__time">10 AM</div>
+            <h3 class="ta-card__title">Talkshow: Future of Finance</h3>
+            <p class="ta-card__desc">Talkshow tentang future of finance yang akan dibawakan oleh Surya Sucipto</p>
+            <div class="ta-card__deco"></div>
+          </div>
+          <!-- Card 2 -->
+          <div class="ta-card">
+            <div class="ta-card__time">12 PM</div>
+            <h3 class="ta-card__title">Live Promo: Exclusive Offers</h3>
+            <p class="ta-card__desc">Promo eksklusif hanya di BNI Expo 2024</p>
+            <div class="ta-card__deco"></div>
+          </div>
+          <!-- Card 3 -->
+          <div class="ta-card">
+            <div class="ta-card__time">1 PM</div>
+            <h3 class="ta-card__title">Entertainment: Live Music</h3>
+            <p class="ta-card__desc">Live performance yang akan dibawakan oleh Hindia dan isyana Saraspati</p>
+            <div class="ta-card__deco"></div>
+          </div>
+          <!-- Card 4 -->
+          <div class="ta-card">
+            <div class="ta-card__time">3 PM</div>
+            <h3 class="ta-card__title">Door Prize: Win A New Car</h3>
+            <p class="ta-card__desc">Door Prize mobil hanya di BNI Expo 2024</p>
+            <div class="ta-card__deco"></div>
+          </div>
+          <!-- Card 5 (Extra to show scroll) -->
+          <div class="ta-card">
+            <div class="ta-card__time">5 PM</div>
+            <h3 class="ta-card__title">Closing Ceremony</h3>
+            <p class="ta-card__desc">Penutupan acara dan networking session bersama juri dan peserta</p>
+            <div class="ta-card__deco"></div>
+          </div>
         </div>
       </div>
+
+      <!-- Next Button (Right) -->
+      <button class="ta-nav-btn ta-next" aria-label="Next Activity">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </button>
+
     </div>
   </div>
 </section>

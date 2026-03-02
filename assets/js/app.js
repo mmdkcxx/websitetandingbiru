@@ -207,6 +207,23 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
+  /* ── Timeline Activities Slider Navigation ── */
+  const taSliderWrapper = document.querySelector('.ta-slider-wrapper');
+  const taPrevBtn = document.querySelector('.ta-prev');
+  const taNextBtn = document.querySelector('.ta-next');
+
+  if (taSliderWrapper && taPrevBtn && taNextBtn) {
+    const scrollAmount = 324; // Card width (300) + gap (24)
+
+    taPrevBtn.addEventListener('click', () => {
+      taSliderWrapper.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+    });
+
+    taNextBtn.addEventListener('click', () => {
+      taSliderWrapper.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+    });
+  }
+
   /* ── Wall of Fame Tabs ── */
   const fameTabs = document.querySelectorAll('.fame-tab-new');
   fameTabs.forEach(tab => {
