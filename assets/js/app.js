@@ -215,6 +215,28 @@ document.addEventListener('DOMContentLoaded', function () {
   if (taSliderWrapper && taPrevBtn && taNextBtn) {
     const scrollAmount = 324; // Card width (300) + gap (24)
 
+    // Function to check scroll position and toggle button visibility
+    const handleScroll = () => {
+      // Hide prev button if at the very beginning
+      if (taSliderWrapper.scrollLeft <= 5) {
+        taPrevBtn.style.opacity = '0';
+        taPrevBtn.style.pointerEvents = 'none';
+      } else {
+        taPrevBtn.style.opacity = '1';
+        taPrevBtn.style.pointerEvents = 'auto';
+      }
+
+      // Hide next button if reached the end
+      const maxScrollLeft = taSliderWrapper.scrollWidth - taSliderWrapper.clientWidth;
+      if (taSliderWrapper.scrollLeft >= maxScrollLeft - 5) {
+        taNextBtn.style.opacity = '0';
+        taNextBtn.style.pointerEvents = 'none';
+      } else {
+        taNextBtn.style.opacity = '1';
+        taNextBtn.style.pointerEvents = 'auto';
+      }
+    };
+
     taPrevBtn.addEventListener('click', () => {
       taSliderWrapper.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
     });
@@ -222,6 +244,12 @@ document.addEventListener('DOMContentLoaded', function () {
     taNextBtn.addEventListener('click', () => {
       taSliderWrapper.scrollBy({ left: scrollAmount, behavior: 'smooth' });
     });
+
+    // Attach scroll event listener
+    taSliderWrapper.addEventListener('scroll', handleScroll, { passive: true });
+
+    // Check initial state on load
+    handleScroll();
   }
 
   /* ── Wall of Fame Tabs ── */
