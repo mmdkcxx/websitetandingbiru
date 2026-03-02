@@ -547,15 +547,15 @@
         <div class="wof-card__photo">
           <div class="wof-card__rank wof-rank--gold">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none">
-              <circle cx="12" cy="9" r="6"/>
-              <path d="M8 14l-2 8 6-3 6 3-2-8" opacity="0.7"/>
+              <circle cx="12" cy="9" r="6" />
+              <path d="M8 14l-2 8 6-3 6 3-2-8" opacity="0.7" />
             </svg>
             1st Champion
           </div>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
-            <rect x="3" y="3" width="18" height="18" rx="2"/>
-            <circle cx="8.5" cy="8.5" r="1.5"/>
-            <polyline points="21 15 16 10 5 21"/>
+            <rect x="3" y="3" width="18" height="18" rx="2" />
+            <circle cx="8.5" cy="8.5" r="1.5" />
+            <polyline points="21 15 16 10 5 21" />
           </svg>
         </div>
         <div class="wof-card__info">
@@ -573,15 +573,15 @@
             <div class="wof-card__photo">
               <div class="wof-card__rank wof-rank--silver">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" stroke="none">
-                  <circle cx="12" cy="9" r="6"/>
-                  <path d="M8 14l-2 8 6-3 6 3-2-8" opacity="0.7"/>
+                  <circle cx="12" cy="9" r="6" />
+                  <path d="M8 14l-2 8 6-3 6 3-2-8" opacity="0.7" />
                 </svg>
                 2nd
               </div>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
-                <rect x="3" y="3" width="18" height="18" rx="2"/>
-                <circle cx="8.5" cy="8.5" r="1.5"/>
-                <polyline points="21 15 16 10 5 21"/>
+                <rect x="3" y="3" width="18" height="18" rx="2" />
+                <circle cx="8.5" cy="8.5" r="1.5" />
+                <polyline points="21 15 16 10 5 21" />
               </svg>
             </div>
             <div class="wof-card__info">
@@ -594,15 +594,15 @@
             <div class="wof-card__photo">
               <div class="wof-card__rank wof-rank--bronze">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" stroke="none">
-                  <circle cx="12" cy="9" r="6"/>
-                  <path d="M8 14l-2 8 6-3 6 3-2-8" opacity="0.7"/>
+                  <circle cx="12" cy="9" r="6" />
+                  <path d="M8 14l-2 8 6-3 6 3-2-8" opacity="0.7" />
                 </svg>
                 3rd
               </div>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
-                <rect x="3" y="3" width="18" height="18" rx="2"/>
-                <circle cx="8.5" cy="8.5" r="1.5"/>
-                <polyline points="21 15 16 10 5 21"/>
+                <rect x="3" y="3" width="18" height="18" rx="2" />
+                <circle cx="8.5" cy="8.5" r="1.5" />
+                <polyline points="21 15 16 10 5 21" />
               </svg>
             </div>
             <div class="wof-card__info">
@@ -617,18 +617,18 @@
           <div class="wof-speaker-inner">
             <div class="wof-card__photo wof-card__photo--speaker">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
-                <rect x="3" y="3" width="18" height="18" rx="2"/>
-                <circle cx="8.5" cy="8.5" r="1.5"/>
-                <polyline points="21 15 16 10 5 21"/>
+                <rect x="3" y="3" width="18" height="18" rx="2" />
+                <circle cx="8.5" cy="8.5" r="1.5" />
+                <polyline points="21 15 16 10 5 21" />
               </svg>
             </div>
             <div class="wof-speaker-info">
               <div class="wof-card__rank wof-rank--speaker">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
-                  <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
-                  <line x1="12" y1="19" x2="12" y2="23"/>
-                  <line x1="8" y1="23" x2="16" y2="23"/>
+                  <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" />
+                  <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
+                  <line x1="12" y1="19" x2="12" y2="23" />
+                  <line x1="8" y1="23" x2="16" y2="23" />
                 </svg>
                 Best Speaker
               </div>
@@ -667,33 +667,57 @@
       <!-- Post 1 -->
       <a href="#" class="ig-post" target="_blank" rel="noopener">
         <div class="ig-post__img">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+            <rect x="3" y="3" width="18" height="18" rx="2" />
+            <circle cx="8.5" cy="8.5" r="1.5" />
+            <polyline points="21 15 16 10 5 21" />
+          </svg>
         </div>
         <div class="ig-post__overlay">
-          <span class="ig-stat"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg> 128</span>
-          <span class="ig-stat"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> 12</span>
+          <span class="ig-stat"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+            </svg> 128</span>
+          <span class="ig-stat"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+            </svg> 12</span>
         </div>
       </a>
 
       <!-- Post 2 -->
       <a href="#" class="ig-post" target="_blank" rel="noopener">
         <div class="ig-post__img">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+            <rect x="3" y="3" width="18" height="18" rx="2" />
+            <circle cx="8.5" cy="8.5" r="1.5" />
+            <polyline points="21 15 16 10 5 21" />
+          </svg>
         </div>
         <div class="ig-post__overlay">
-          <span class="ig-stat"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg> 95</span>
-          <span class="ig-stat"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> 8</span>
+          <span class="ig-stat"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+            </svg> 95</span>
+          <span class="ig-stat"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+            </svg> 8</span>
         </div>
       </a>
 
       <!-- Post 3 -->
       <a href="#" class="ig-post" target="_blank" rel="noopener">
         <div class="ig-post__img">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+            <rect x="3" y="3" width="18" height="18" rx="2" />
+            <circle cx="8.5" cy="8.5" r="1.5" />
+            <polyline points="21 15 16 10 5 21" />
+          </svg>
         </div>
         <div class="ig-post__overlay">
-          <span class="ig-stat"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg> 210</span>
-          <span class="ig-stat"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> 24</span>
+          <span class="ig-stat"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+            </svg> 210</span>
+          <span class="ig-stat"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+            </svg> 24</span>
         </div>
       </a>
 
@@ -703,9 +727,9 @@
     <div class="ig-cta" data-animate data-delay="200">
       <a href="https://www.instagram.com/brigamabcc/" target="_blank" rel="noopener" class="ig-cta__link">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
-          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
-          <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+          <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+          <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
         </svg>
         Follow @brigamabcc di Instagram
       </a>
@@ -735,7 +759,7 @@
           </div>
           <div class="contact-detail">
             <h4>Email</h4>
-            <p>brigamabcc@ugm.ac.id</p>
+            <p><a href="mailto:brigamabcc@ugm.ac.id" class="contact-link">brigamabcc@ugm.ac.id</a></p>
           </div>
         </div>
         <div class="contact-method">
@@ -748,7 +772,7 @@
           </div>
           <div class="contact-detail">
             <h4>Phone</h4>
-            <p>+62 274-xxx-xxxx</p>
+            <p><a href="tel:+622740000000" class="contact-link">+62 274-xxx-xxxx</a></p>
           </div>
         </div>
       </div>
@@ -800,12 +824,12 @@
 
 <script>
   /* FAQ Accordion */
-  document.querySelectorAll('.faq-question').forEach(function (btn) {
-    btn.addEventListener('click', function () {
+  document.querySelectorAll('.faq-question').forEach(function(btn) {
+    btn.addEventListener('click', function() {
       var item = this.closest('.faq-item');
       var isOpen = item.classList.contains('open');
       // close all
-      document.querySelectorAll('.faq-item').forEach(function (el) {
+      document.querySelectorAll('.faq-item').forEach(function(el) {
         el.classList.remove('open');
       });
       // toggle current
@@ -814,9 +838,9 @@
   });
 
   /* Wall of Fame — Year Tabs */
-  document.querySelectorAll('.wof-year-tab').forEach(function (tab) {
-    tab.addEventListener('click', function () {
-      document.querySelectorAll('.wof-year-tab').forEach(function (t) {
+  document.querySelectorAll('.wof-year-tab').forEach(function(tab) {
+    tab.addEventListener('click', function() {
+      document.querySelectorAll('.wof-year-tab').forEach(function(t) {
         t.classList.remove('active');
       });
       this.classList.add('active');
@@ -824,9 +848,9 @@
   });
 
   /* Wall of Fame — Category Tabs */
-  document.querySelectorAll('.wof-cat-tab').forEach(function (tab) {
-    tab.addEventListener('click', function () {
-      document.querySelectorAll('.wof-cat-tab').forEach(function (t) {
+  document.querySelectorAll('.wof-cat-tab').forEach(function(tab) {
+    tab.addEventListener('click', function() {
+      document.querySelectorAll('.wof-cat-tab').forEach(function(t) {
         t.classList.remove('active');
       });
       this.classList.add('active');
