@@ -159,7 +159,7 @@
           </a>
         </div>
         <div class="cat-card__illustration">
-          <img src="assets/images/S1.png" alt="S1 Illustration" class="cat-img-pop" />
+          <img src="assets/images/S1.png" alt="S1 Illustration" class="cat-img-pop" loading="lazy" />
         </div>
       </div>
 
@@ -180,7 +180,7 @@
           </a>
         </div>
         <div class="cat-card__illustration">
-          <img src="assets/images/S2.png" alt="S2 Illustration" class="cat-img-pop" />
+          <img src="assets/images/S2.png" alt="S2 Illustration" class="cat-img-pop" loading="lazy" />
         </div>
       </div>
 
