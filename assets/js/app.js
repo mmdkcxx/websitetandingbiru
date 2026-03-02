@@ -146,6 +146,31 @@ document.addEventListener('DOMContentLoaded', function () {
   updateCountdown();
   setInterval(updateCountdown, 1000);
 
+  /* ── FAQ Accordion ── */
+  const faqItems = document.querySelectorAll('.faq-item');
+  faqItems.forEach(item => {
+    const questionBtn = item.querySelector('.faq-question');
+    if (!questionBtn) return;
+
+    questionBtn.addEventListener('click', () => {
+      const isActive = item.classList.contains('active');
+
+      // Close all other items (optional, remove this block if you want multiple open at once)
+      faqItems.forEach(otherItem => {
+        if (otherItem !== item) {
+          otherItem.classList.remove('active');
+        }
+      });
+
+      // Toggle the clicked item
+      if (isActive) {
+        item.classList.remove('active');
+      } else {
+        item.classList.add('active');
+      }
+    });
+  });
+
   /* ── Active Nav Link Highlighting ── */
   const sections = document.querySelectorAll('section[id]');
   const navLinks = document.querySelectorAll('.nav-link[href^="#"]');
@@ -179,20 +204,6 @@ document.addEventListener('DOMContentLoaded', function () {
       overlay.appendChild(clone);
       overlay.addEventListener('click', () => { overlay.remove(); style.remove(); });
       document.body.appendChild(overlay);
-    });
-  });
-
-  /* ── FAQ Accordion ── */
-  const faqItems = document.querySelectorAll('.faq-item');
-  faqItems.forEach(item => {
-    const question = item.querySelector('.faq-question');
-    question.addEventListener('click', () => {
-      const isOpen = item.classList.contains('open');
-      if (!isOpen) {
-        item.classList.add('open');
-      } else {
-        item.classList.remove('open');
-      }
     });
   });
 
