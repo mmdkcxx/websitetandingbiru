@@ -213,37 +213,37 @@
         <div class="ta-slider">
           <!-- Card 1 -->
           <div class="ta-card">
-            <div class="ta-card__time">10 AM</div>
-            <h3 class="ta-card__title">Talkshow: Future of Finance</h3>
-            <p class="ta-card__desc">Talkshow tentang future of finance yang akan dibawakan oleh Surya Sucipto</p>
+            <div class="ta-card__time">08:00 AM</div>
+            <h3 class="ta-card__title">Opening Ceremony & Keynote</h3>
+            <p class="ta-card__desc">Pembukaan resmi kompetisi dan keynote speech eksklusif oleh jajaran eksekutif Bank Rakyat Indonesia.</p>
             <div class="ta-card__deco"></div>
           </div>
           <!-- Card 2 -->
           <div class="ta-card">
-            <div class="ta-card__time">12 PM</div>
-            <h3 class="ta-card__title">Live Promo: Exclusive Offers</h3>
-            <p class="ta-card__desc">Promo eksklusif hanya di BNI Expo 2024</p>
+            <div class="ta-card__time">09:30 AM</div>
+            <h3 class="ta-card__title">Case Study Distribution</h3>
+            <p class="ta-card__desc">Pembagian studi kasus final dan sesi tanya jawab teknis terkait permasalahan nyata perbankan digital bersama dewan juri.</p>
             <div class="ta-card__deco"></div>
           </div>
           <!-- Card 3 -->
           <div class="ta-card">
-            <div class="ta-card__time">1 PM</div>
-            <h3 class="ta-card__title">Entertainment: Live Music</h3>
-            <p class="ta-card__desc">Live performance yang akan dibawakan oleh Hindia dan isyana Saraspati</p>
+            <div class="ta-card__time">01:00 PM</div>
+            <h3 class="ta-card__title">Undergraduate Final Pitch</h3>
+            <p class="ta-card__desc">Pemaparan solusi bisnis dan strategi inovatif dari para mahasiswa S1 cemerlang di hadapan dewan juri ahli.</p>
             <div class="ta-card__deco"></div>
           </div>
           <!-- Card 4 -->
           <div class="ta-card">
-            <div class="ta-card__time">3 PM</div>
-            <h3 class="ta-card__title">Door Prize: Win A New Car</h3>
-            <p class="ta-card__desc">Door Prize mobil hanya di BNI Expo 2024</p>
+            <div class="ta-card__time">03:30 PM</div>
+            <h3 class="ta-card__title">Graduate Final Pitch</h3>
+            <p class="ta-card__desc">Presentasi analisis strategis tingkat lanjut dari finalis S2 untuk memecahkan real-world business case Bank BRI.</p>
             <div class="ta-card__deco"></div>
           </div>
           <!-- Card 5 (Extra to show scroll) -->
           <div class="ta-card">
-            <div class="ta-card__time">5 PM</div>
-            <h3 class="ta-card__title">Closing Ceremony</h3>
-            <p class="ta-card__desc">Penutupan acara dan networking session bersama juri dan peserta</p>
+            <div class="ta-card__time">07:00 PM</div>
+            <h3 class="ta-card__title">Awarding & Gala Dinner</h3>
+            <p class="ta-card__desc">Malam penganugerahan bagi sang juara, penyerahan hadiah grand prize, dan makan malam bersama direksi Bank BRI.</p>
             <div class="ta-card__deco"></div>
           </div>
         </div>
