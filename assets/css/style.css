@@ -189,11 +189,19 @@ body {
   border: 1.5px solid var(--blue-800);
 }
 
-.btn-primary:hover {
+.btn-primary:hover,
+.btn-primary:focus-visible {
   background: var(--blue-900);
   border-color: var(--blue-900);
   transform: translateY(-2px);
   box-shadow: var(--shadow-md);
+  outline: none;
+}
+
+/* Explicit Focus State for Accessibility */
+.btn:focus-visible {
+  outline: 3px solid var(--blue-400);
+  outline-offset: 2px;
 }
 
 .btn-gold {

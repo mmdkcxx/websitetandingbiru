@@ -8,10 +8,24 @@
   <meta name="description"
     content="Kompetisi bisnis bergengsi bagi mahasiswa S1 dan S2 se-Indonesia. Buktikan kemampuan analisis bisnismu dan raih kesempatan berkarir di BRI!" />
   <meta name="author" content="BRI GAMA Business Case Competition" />
-  <!-- Open Graph -->
-  <meta property="og:title" content="BRI GAMA Business Case Competition 2026" />
-  <meta property="og:description" content="Kompetisi kasus bisnis bergengsi untuk mahasiswa terbaik Indonesia." />
+  <meta name="keywords" content="Business Case Competition, Lomba Bisnis Mahasiswa, BRI GAMA, Lomba UGM, Kompetisi S1 S2">
+  <link rel="canonical" href="https://brigamabcc.id/" />
+
+  <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://brigamabcc.id/" />
+  <meta property="og:title" content="BRI GAMA Business Case Competition 2026" />
+  <meta property="og:description" content="Tunjukkan strategimu dalam kompetisi studi kasus bisnis nasional paling bergengsi dari Bank Rakyat Indonesia dan Universitas Gadjah Mada." />
+  <meta property="og:image" content="https://brigamabcc.id/assets/images/og-image.jpg" />
+  <meta property="og:site_name" content="BRI GAMA 2026">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://brigamabcc.id/" />
+  <meta name="twitter:title" content="BRI GAMA Business Case Competition 2026" />
+  <meta name="twitter:description" content="Tunjukkan strategimu dalam kompetisi studi kasus bisnis nasional paling bergengsi dari Bank Rakyat Indonesia dan Universitas Gadjah Mada." />
+  <meta name="twitter:image" content="https://brigamabcc.id/assets/images/og-image.jpg" />
+
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml"
     href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23003087'/><text y='.9em' font-size='72' x='14' fill='white' font-weight='900'>BG</text></svg>" />
