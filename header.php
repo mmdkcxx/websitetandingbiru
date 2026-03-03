@@ -1,21 +1,21 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>BRI GAMA Business Case Competition 2026</title>
   <meta name="description"
-    content="Kompetisi bisnis bergengsi bagi mahasiswa S1 dan S2 se-Indonesia. Buktikan kemampuan analisis bisnismu dan raih kesempatan berkarir di BRI!" />
+    content="A prestigious business case competition for undergraduate and graduate students across Indonesia. Prove your analytical skills and win career opportunities at BRI!" />
   <meta name="author" content="BRI GAMA Business Case Competition" />
-  <meta name="keywords" content="Business Case Competition, Lomba Bisnis Mahasiswa, BRI GAMA, Lomba UGM, Kompetisi S1 S2">
+  <meta name="keywords" content="Business Case Competition, Student Competition, BRI GAMA, UGM Competition, Undergraduate Graduate Competition">
   <link rel="canonical" href="https://brigamabcc.id/" />
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://brigamabcc.id/" />
   <meta property="og:title" content="BRI GAMA Business Case Competition 2026" />
-  <meta property="og:description" content="Tunjukkan strategimu dalam kompetisi studi kasus bisnis nasional paling bergengsi dari Bank Rakyat Indonesia dan Universitas Gadjah Mada." />
+  <meta property="og:description" content="Showcase your strategy in the most prestigious national business case competition from Bank Rakyat Indonesia and Universitas Gadjah Mada." />
   <meta property="og:image" content="https://brigamabcc.id/assets/images/og-image.jpg" />
   <meta property="og:site_name" content="BRI GAMA 2026">
 
@@ -23,7 +23,7 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:url" content="https://brigamabcc.id/" />
   <meta name="twitter:title" content="BRI GAMA Business Case Competition 2026" />
-  <meta name="twitter:description" content="Tunjukkan strategimu dalam kompetisi studi kasus bisnis nasional paling bergengsi dari Bank Rakyat Indonesia dan Universitas Gadjah Mada." />
+  <meta name="twitter:description" content="Showcase your strategy in the most prestigious national business case competition from Bank Rakyat Indonesia and Universitas Gadjah Mada." />
   <meta name="twitter:image" content="https://brigamabcc.id/assets/images/og-image.jpg" />
 
   <!-- Favicon -->
@@ -61,7 +61,7 @@
         <!-- Desktop Navigation -->
         <ul class="navbar-nav">
           <li><a href="#about" class="nav-link">About</a></li>
-          <li><a href="#timeline" class="nav-link">Timeline</a></li>
+          <li><a href="#timeline-activities" class="nav-link">Timeline</a></li>
           <li><a href="#categories" class="nav-link">Categories</a></li>
           <!-- Resources Dropdown -->
           <li class="nav-dropdown">
@@ -73,7 +73,7 @@
               </svg>
             </span>
             <div class="dropdown-menu" role="menu">
-              <a href="#" class="dropdown-item" role="menuitem">
+              <a href="#rules" class="dropdown-item" role="menuitem">
                 <div class="dropdown-item-icon">
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                     stroke-linecap="round" stroke-linejoin="round">
@@ -83,7 +83,7 @@
                 </div>
                 Handbook
               </a>
-              <a href="#rules" class="dropdown-item" role="menuitem">
+              <a href="#rules-cards" class="dropdown-item" role="menuitem">
                 <div class="dropdown-item-icon">
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                     stroke-linecap="round" stroke-linejoin="round">
@@ -104,7 +104,7 @@
                 </div>
                 FAQ
               </a>
-              <a href="#gallery" class="dropdown-item" role="menuitem">
+              <a href="#wall-of-fame" class="dropdown-item" role="menuitem">
                 <div class="dropdown-item-icon">
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                     stroke-linecap="round" stroke-linejoin="round">
@@ -114,7 +114,7 @@
                 </div>
                 Winners
               </a>
-              <a href="#footer" class="dropdown-item" role="menuitem">
+              <a href="#contact" class="dropdown-item" role="menuitem">
                 <div class="dropdown-item-icon">
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                     stroke-linecap="round" stroke-linejoin="round">
@@ -143,14 +143,14 @@
       <!-- Mobile Nav -->
       <div class="mobile-nav" id="mobile-nav">
         <a href="#about" class="mobile-nav-link">About</a>
-        <a href="#timeline" class="mobile-nav-link">Timeline</a>
+        <a href="#timeline-activities" class="mobile-nav-link">Timeline</a>
         <a href="#categories" class="mobile-nav-link">Categories</a>
         <div class="mobile-nav-divider"></div>
-        <a href="#" class="mobile-nav-link">Handbook</a>
-        <a href="#rules" class="mobile-nav-link">Rules</a>
+        <a href="#rules" class="mobile-nav-link">Handbook</a>
+        <a href="#rules-cards" class="mobile-nav-link">Rules</a>
         <a href="#faq" class="mobile-nav-link">FAQ</a>
-        <a href="#gallery" class="mobile-nav-link">Winners</a>
-        <a href="#footer" class="mobile-nav-link">Contact</a>
+        <a href="#wall-of-fame" class="mobile-nav-link">Winners</a>
+        <a href="#contact" class="mobile-nav-link">Contact</a>
         <div class="mobile-nav-divider"></div>
         <div class="mobile-actions">
           <a href="#" class="btn btn-nav-outline" style="flex:1;justify-content:center">Sign in</a>

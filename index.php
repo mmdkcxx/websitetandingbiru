@@ -100,7 +100,7 @@
         </ul>
         <div class="about-actions">
           <a href="#categories" class="btn btn-primary">Learn more</a>
-          <a href="#timeline" class="about-arrow-link">
+          <a href="#timeline-activities" class="about-arrow-link">
             Arrow
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
               stroke-linecap="round" stroke-linejoin="round">
@@ -134,10 +134,9 @@
 <section class="categories" id="categories">
   <div class="container">
     <div class="section-header centered" data-animate>
-      <span class="section-label">Kategori Lomba</span>
-      <h2 class="section-title">Pilih Kategorimu</h2>
-      <p class="section-sub">Tersedia dua kategori kompetisi sesuai jenjang pendidikan, masing-masing dengan topik
-        kasus bisnis yang berbeda.</p>
+      <span class="section-label">Competition Categories</span>
+      <h2 class="section-title">Choose Your Category</h2>
+      <p class="section-sub">Two competition categories are available based on your education level, each with unique and challenging business cases.</p>
     </div>
 
     <div class="categories-grid" data-animate data-delay="100">
@@ -147,10 +146,9 @@
         <div class="cat-card__content">
           <div class="cat-card__badge">S1 — Undergraduate</div>
           <h3 class="cat-card__title">Undergraduate Student (S1)</h3>
-          <p class="cat-card__desc">Tunjukkan kemampuan analisis terbaikmu lewat kompetisi kasus bisnis bergengsi
-            untuk mahasiswa S1 dari seluruh Indonesia.</p>
+          <p class="cat-card__desc">Showcase your best analytical skills through a prestigious business case competition designed for undergraduate students globally.</p>
           <a href="#cta" class="cat-card__btn">
-            Lihat Selengkapnya
+            Learn More
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
               stroke-linecap="round" stroke-linejoin="round">
               <line x1="7" y1="17" x2="17" y2="7" />
@@ -168,10 +166,9 @@
         <div class="cat-card__content">
           <div class="cat-card__badge cat-card__badge--gold">S2 — Graduate</div>
           <h3 class="cat-card__title">Graduate Student (S2)</h3>
-          <p class="cat-card__desc">Buktikan keahlian strategi bisnismu di level pascasarjana dan bersaing meraih
-            penghargaan bergengsi bersama BRI.</p>
+          <p class="cat-card__desc">Prove your business strategy expertise at the postgraduate level and compete to win prestigious awards with Bank Rakyat Indonesia.</p>
           <a href="#cta" class="cat-card__btn cat-card__btn--gold">
-            Lihat Selengkapnya
+            Learn More
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
               stroke-linecap="round" stroke-linejoin="round">
               <line x1="7" y1="17" x2="17" y2="7" />
@@ -212,39 +209,73 @@
       <div class="ta-slider-wrapper">
         <div class="ta-slider">
           <!-- Card 1 -->
-          <div class="ta-card">
-            <div class="ta-card__time">08:00 AM</div>
-            <h3 class="ta-card__title">Opening Ceremony & Keynote</h3>
-            <p class="ta-card__desc">Pembukaan resmi kompetisi dan keynote speech eksklusif oleh jajaran eksekutif Bank Rakyat Indonesia.</p>
-            <div class="ta-card__deco"></div>
-          </div>
+          <!-- <div class="ta-card">
+            <div class="ta-card__time">March 31</div>
+            <h3 class="ta-card__title">Website Launch</h3>
+            <p class="ta-card__desc">Official launch of the BRI GAMA BCC 2026 website as the central information hub, registration portal, and primary communication channel for the competition.</p>
+          </div> -->
           <!-- Card 2 -->
           <div class="ta-card">
-            <div class="ta-card__time">09:30 AM</div>
-            <h3 class="ta-card__title">Case Study Distribution</h3>
-            <p class="ta-card__desc">Pembagian studi kasus final dan sesi tanya jawab teknis terkait permasalahan nyata perbankan digital bersama dewan juri.</p>
-            <div class="ta-card__deco"></div>
+            <div class="ta-card__time">April 1 – June 3</div>
+            <h3 class="ta-card__title">Publication & Participant Registration</h3>
+            <p class="ta-card__desc">National-level outreach and registration period for prospective participants.</p>
+            <ul class="ta-card__list">
+              <li>Official Letter of Invitation distribution to universities</li>
+              <li>Strategic content publication highlighting BRI, Kafegama, and the Business Case Competition</li>
+              <li>Dedicated Participants Q&A (Customer Service Mode)</li>
+              <li>"Road to BRI GAMA BCC 2026" campaign through three Live Instagram sessions</li>
+            </ul>
           </div>
           <!-- Card 3 -->
           <div class="ta-card">
-            <div class="ta-card__time">01:00 PM</div>
-            <h3 class="ta-card__title">Undergraduate Final Pitch</h3>
-            <p class="ta-card__desc">Pemaparan solusi bisnis dan strategi inovatif dari para mahasiswa S1 cemerlang di hadapan dewan juri ahli.</p>
-            <div class="ta-card__deco"></div>
+            <div class="ta-card__time">July 3</div>
+            <h3 class="ta-card__title">Opening Ceremony</h3>
+            <p class="ta-card__desc">The official hybrid launch of BRI GAMA BCC 2026.</p>
+            <ul class="ta-card__list">
+              <li>Opening remarks from BRI executives and strategic partners</li>
+              <li>Keynote session on business transformation and innovation</li>
+              <li>Thematic talk show on Business Case Competition insights</li>
+              <li>Official briefing on competition structure and mechanics</li>
+            </ul>
           </div>
           <!-- Card 4 -->
           <div class="ta-card">
-            <div class="ta-card__time">03:30 PM</div>
-            <h3 class="ta-card__title">Graduate Final Pitch</h3>
-            <p class="ta-card__desc">Presentasi analisis strategis tingkat lanjut dari finalis S2 untuk memecahkan real-world business case Bank BRI.</p>
-            <div class="ta-card__deco"></div>
+            <div class="ta-card__time">July 11 – August 2</div>
+            <h3 class="ta-card__title">Pre-Competition Stage</h3>
+            <p class="ta-card__desc">The preliminary selection phase designed to identify teams with strong analytical capabilities and strategic problem-solving skills.</p>
+            <ul class="ta-card__list">
+              <li>Case release (July 11)</li>
+              <li>Submission period (July 11–17)</li>
+              <li>Judging process (July 20–30)</li>
+              <li>Official qualification announcement (July 31)</li>
+              <li>Podcast session & winners announcement (August 2)</li>
+            </ul>
           </div>
-          <!-- Card 5 (Extra to show scroll) -->
+          <!-- Card 5 -->
           <div class="ta-card">
-            <div class="ta-card__time">07:00 PM</div>
-            <h3 class="ta-card__title">Awarding & Gala Dinner</h3>
-            <p class="ta-card__desc">Malam penganugerahan bagi sang juara, penyerahan hadiah grand prize, dan makan malam bersama direksi Bank BRI.</p>
-            <div class="ta-card__deco"></div>
+            <div class="ta-card__time">August 5 – August 17</div>
+            <h3 class="ta-card__title">BCC 1</h3>
+            <p class="ta-card__desc">An advanced round focused on in-depth strategic analysis and solution development based on real business cases.</p>
+            <ul class="ta-card__list">
+              <li>Insight Seminar with industry practitioners (August 5)</li>
+              <li>Case release (August 8)</li>
+              <li>Submission period (August 8–12)</li>
+              <li>Hybrid judging session (August 15)</li>
+              <li>Official result announcement (August 16/17)</li>
+            </ul>
+          </div>
+          <!-- Card 6 -->
+          <div class="ta-card">
+            <div class="ta-card__time">August 19 – August 30</div>
+            <h3 class="ta-card__title">BCC 2 – Grand Final Stage</h3>
+            <p class="ta-card__desc">The final stage bringing together top teams to present strategic solutions before a distinguished panel of judges.</p>
+            <ul class="ta-card__list">
+              <li>Final Insight Seminar (August 19/20)</li>
+              <li>Final case release (August 24)</li>
+              <li>Submission period (August 24–27)</li>
+              <li>Company Visit / Cultural Session (August 29)</li>
+              <li>Final Judging & Winner Announcement (August 30)</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -280,20 +311,18 @@
     </div>
 
     <!-- Two info cards -->
-    <div class="rules-cards" data-animate data-delay="100">
+    <div class="rules-cards" id="rules-cards" data-animate data-delay="100">
 
       <!-- Competition Rules -->
       <div class="rules-info-card">
         <h3 class="rules-info-card__title">Competition Rules</h3>
         <ul class="rules-info-card__list">
-          <li>Peserta adalah mahasiswa aktif S1 atau S2 dari perguruan tinggi terdaftar di Indonesia</li>
-          <li>Setiap tim terdiri dari maksimal <strong>3 (tiga) anggota</strong> yang berasal dari universitas yang
-            sama</li>
-          <li>Minimal <strong>satu anggota</strong> dalam tim harus berasal dari Fakultas Ekonomika dan Bisnis</li>
-          <li>Setiap peserta hanya diperbolehkan mendaftar dalam <strong>satu tim</strong> dan <strong>satu
-              kategori</strong></li>
-          <li>Semua karya harus merupakan karya orisinal dan belum pernah diikutsertakan dalam kompetisi lain</li>
-          <li>Keputusan dewan juri bersifat <strong>final dan tidak dapat diganggu gugat</strong></li>
+          <li>Participants must be active Undergraduate (S1) or Graduate (S2) students from registered universities in Indonesia.</li>
+          <li>Each team consists of a maximum of <strong>3 (three) members</strong> from the same university.</li>
+          <li>At least <strong>one member</strong> must be from the Faculty of Economics and Business.</li>
+          <li>Each participant can only register in <strong>one team</strong> and <strong>one category</strong>.</li>
+          <li>All submissions must be original work and have never been submitted to other competitions.</li>
+          <li>The jury's decision is <strong>final and incontestable</strong>.</li>
         </ul>
       </div>
 
@@ -301,12 +330,12 @@
       <div class="rules-info-card">
         <h3 class="rules-info-card__title">Registration Term</h3>
         <ul class="rules-info-card__list">
-          <li>Curriculum Vitae (CV) setiap anggota tim</li>
-          <li>Cover Letter / Motivation Letter tim</li>
-          <li>Scan Kartu Tanda Mahasiswa (KTM) aktif</li>
-          <li>Transkrip nilai terakhir (per semester)</li>
-          <li>Pas foto formal terbaru masing-masing anggota</li>
-          <li>Surat rekomendasi dari dosen pembimbing/dekan</li>
+          <li>Curriculum Vitae (CV) of each team member</li>
+          <li>Team Cover Letter / Motivation Letter</li>
+          <li>Scanned active Student ID Card (KTM)</li>
+          <li>Latest academic transcript (per semester)</li>
+          <li>Recent formal photograph of each member</li>
+          <li>Recommendation letter from academic advisor/dean</li>
         </ul>
       </div>
 
@@ -320,7 +349,7 @@
 ══════════════════════════════════════════ -->
 <section class="gallery" id="gallery">
   <div class="container">
-    <h2 class="gallery-heading" data-animate>Galeri Kompetisi Tahun Lalu</h2>
+    <h2 class="gallery-heading" data-animate>Past Competition Gallery</h2>
 
     <div class="gallery-mosaic" data-animate data-delay="150">
       <!-- Item A: top-left small -->
@@ -345,7 +374,7 @@
             <circle cx="8.5" cy="8.5" r="1.5" />
             <polyline points="21 15 16 10 5 21" />
           </svg>
-          <span>Presentasi Tim</span>
+          <span>Team Presentation</span>
         </div>
       </div>
 
@@ -384,7 +413,7 @@
             <circle cx="8.5" cy="8.5" r="1.5" />
             <polyline points="21 15 16 10 5 21" />
           </svg>
-          <span>Pengumuman Pemenang</span>
+          <span>Winner Announcement</span>
         </div>
       </div>
 
@@ -410,60 +439,55 @@
 ══════════════════════════════════════════ -->
 <section class="faq" id="faq">
   <div class="container">
-    <div class="section-header" data-animate>
+    <div class="section-header" data-animate style="text-align:center;">
       <span class="section-label">FAQs</span>
       <h2 class="section-title">Frequently Asked Questions</h2>
-      <p class="section-sub">Temukan jawaban untuk pertanyaan yang sering diajukan seputar kompetisi BRI GAMA 2026.</p>
+      <p class="section-sub" style="margin-left:auto;margin-right:auto;">Find answers to the most common questions about the BRI GAMA 2026 competition.</p>
     </div>
     <div class="faq-list">
       <div class="faq-item" data-animate data-delay="100">
         <button class="faq-question">
-          <span>Siapa saja yang boleh mengikuti kompetisi ini?</span>
+          <span>Who can participate in this competition?</span>
           <div class="faq-icon"></div>
         </button>
         <div class="faq-answer">
-          <p>Kompetisi ini terbuka untuk mahasiswa aktif S1 dan S2 dari seluruh perguruan tinggi di Indonesia. Setiap
-            tim terdiri dari maksimal 3 anggota.</p>
+          <p>This competition is open to active Undergraduate (S1) and Graduate (S2) students from all universities in Indonesia. Each team consists of a maximum of 3 members.</p>
         </div>
       </div>
       <div class="faq-item" data-animate data-delay="200">
         <button class="faq-question">
-          <span>Apakah anggota tim harus dari universitas yang sama?</span>
+          <span>Do team members have to be from the same university?</span>
           <div class="faq-icon"></div>
         </button>
         <div class="faq-answer">
-          <p>Ya, seluruh anggota tim harus berasal dari universitas yang sama, namun diperbolehkan berbeda fakultas atau
-            jurusan.</p>
+          <p>Yes, all team members must be from the same university, but they can be from different faculties or majors.</p>
         </div>
       </div>
       <div class="faq-item" data-animate data-delay="300">
         <button class="faq-question">
-          <span>Apakah ada biaya pendaftaran?</span>
+          <span>Is there a registration fee?</span>
           <div class="faq-icon"></div>
         </button>
         <div class="faq-answer">
-          <p>Pendaftaran untuk tahap seleksi administrasi tidak dipungut biaya. Biaya pendaftaran hanya berlaku bagi tim
-            yang lolos ke tahap babak penyisihan.</p>
+          <p>Registration for the preliminary selection stage is free. The registration fee only applies to teams that pass to the preliminary round.</p>
         </div>
       </div>
       <div class="faq-item" data-animate data-delay="400">
         <button class="faq-question">
-          <span>Bagaimana format pengumpulan karya?</span>
+          <span>What is the submission format?</span>
           <div class="faq-icon"></div>
         </button>
         <div class="faq-answer">
-          <p>Tim yang lolos seleksi administrasi akan mengerjakan dan mengumpulkan makalah analisis kasus dalam format
-            yang telah ditentukan. Finalis akan mempresentasikan solusi mereka di hadapan dewan juri.</p>
+          <p>Teams passing the administrative selection will work on and submit a business case analysis paper in the specified format. Finalists will present their solutions to the jury panel.</p>
         </div>
       </div>
       <div class="faq-item" data-animate data-delay="500">
         <button class="faq-question">
-          <span>Apa saja hadiah yang bisa dimenangkan?</span>
+          <span>What are the prizes?</span>
           <div class="faq-icon"></div>
         </button>
         <div class="faq-answer">
-          <p>Pemenang mendapatkan hadiah uang tunai, sertifikat penghargaan, serta kesempatan berkarir dan dikenal oleh
-            Bank Rakyat Indonesia. Detail nominal hadiah tersedia di handbook resmi kompetisi.</p>
+          <p>Winners will receive cash prizes, award certificates, as well as career opportunities and recognition by Bank Rakyat Indonesia. Detailed prize amounts are available in the official competition handbook.</p>
         </div>
       </div>
     </div>
@@ -499,10 +523,9 @@
       </div>
     </div>
 
-    <!-- Champions Podium — Horizontal Layout -->
-    <div class="wof-podium" data-animate data-delay="200">
-
-      <!-- LEFT: 1st Champion (large) -->
+    <!-- Champions Podium — Filtered by Year + Category -->
+    <!-- ── 2022 · S1 ── -->
+    <div class="wof-podium active" data-year="2022" data-cat="s1" data-animate data-delay="200">
       <div class="wof-card wof-card--first">
         <div class="wof-card__photo">
           <div class="wof-card__rank wof-rank--gold">
@@ -519,15 +542,11 @@
           </svg>
         </div>
         <div class="wof-card__info">
-          <h3 class="wof-card__team">NAMA TIM</h3>
+          <h3 class="wof-card__team">TEAM NAME</h3>
           <p class="wof-card__univ">Universitas Gadjah Mada</p>
         </div>
       </div>
-
-      <!-- RIGHT: 2nd, 3rd, Best Speaker stacked -->
       <div class="wof-right-col">
-
-        <!-- 2nd & 3rd side-by-side -->
         <div class="wof-runner-row">
           <div class="wof-card wof-card--second">
             <div class="wof-card__photo">
@@ -545,11 +564,10 @@
               </svg>
             </div>
             <div class="wof-card__info">
-              <h3 class="wof-card__team">NAMA TIM</h3>
+              <h3 class="wof-card__team">TEAM NAME</h3>
               <p class="wof-card__univ">Universitas Indonesia</p>
             </div>
           </div>
-
           <div class="wof-card wof-card--third">
             <div class="wof-card__photo">
               <div class="wof-card__rank wof-rank--bronze">
@@ -566,13 +584,195 @@
               </svg>
             </div>
             <div class="wof-card__info">
-              <h3 class="wof-card__team">NAMA TIM</h3>
+              <h3 class="wof-card__team">TEAM NAME</h3>
               <p class="wof-card__univ">Universitas Diponegoro</p>
             </div>
           </div>
         </div>
+        <div class="wof-card wof-card--speaker">
+          <div class="wof-speaker-inner">
+            <div class="wof-card__photo wof-card__photo--speaker">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                <rect x="3" y="3" width="18" height="18" rx="2" />
+                <circle cx="8.5" cy="8.5" r="1.5" />
+                <polyline points="21 15 16 10 5 21" />
+              </svg>
+            </div>
+            <div class="wof-speaker-info">
+              <div class="wof-card__rank wof-rank--speaker">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" />
+                  <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
+                  <line x1="12" y1="19" x2="12" y2="23" />
+                  <line x1="8" y1="23" x2="16" y2="23" />
+                </svg>
+                Best Speaker
+              </div>
+              <h3 class="wof-card__team">PARTICIPANT NAME</h3>
+              <p class="wof-card__univ">Team — Universitas Gadjah Mada</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <!-- Best Speaker -->
+    <!-- ── 2022 · S2 ── -->
+    <div class="wof-podium" data-year="2022" data-cat="s2" style="display:none;">
+      <div class="wof-card wof-card--first">
+        <div class="wof-card__photo">
+          <div class="wof-card__rank wof-rank--gold">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+              <circle cx="12" cy="9" r="6" />
+              <path d="M8 14l-2 8 6-3 6 3-2-8" opacity="0.7" />
+            </svg>
+            1st Champion
+          </div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+            <rect x="3" y="3" width="18" height="18" rx="2" />
+            <circle cx="8.5" cy="8.5" r="1.5" />
+            <polyline points="21 15 16 10 5 21" />
+          </svg>
+        </div>
+        <div class="wof-card__info">
+          <h3 class="wof-card__team">TEAM NAME</h3>
+          <p class="wof-card__univ">Universitas Brawijaya</p>
+        </div>
+      </div>
+      <div class="wof-right-col">
+        <div class="wof-runner-row">
+          <div class="wof-card wof-card--second">
+            <div class="wof-card__photo">
+              <div class="wof-card__rank wof-rank--silver">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                  <circle cx="12" cy="9" r="6" />
+                  <path d="M8 14l-2 8 6-3 6 3-2-8" opacity="0.7" />
+                </svg>
+                2nd
+              </div>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                <rect x="3" y="3" width="18" height="18" rx="2" />
+                <circle cx="8.5" cy="8.5" r="1.5" />
+                <polyline points="21 15 16 10 5 21" />
+              </svg>
+            </div>
+            <div class="wof-card__info">
+              <h3 class="wof-card__team">TEAM NAME</h3>
+              <p class="wof-card__univ">Universitas Airlangga</p>
+            </div>
+          </div>
+          <div class="wof-card wof-card--third">
+            <div class="wof-card__photo">
+              <div class="wof-card__rank wof-rank--bronze">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                  <circle cx="12" cy="9" r="6" />
+                  <path d="M8 14l-2 8 6-3 6 3-2-8" opacity="0.7" />
+                </svg>
+                3rd
+              </div>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                <rect x="3" y="3" width="18" height="18" rx="2" />
+                <circle cx="8.5" cy="8.5" r="1.5" />
+                <polyline points="21 15 16 10 5 21" />
+              </svg>
+            </div>
+            <div class="wof-card__info">
+              <h3 class="wof-card__team">TEAM NAME</h3>
+              <p class="wof-card__univ">Universitas Padjadjaran</p>
+            </div>
+          </div>
+        </div>
+        <div class="wof-card wof-card--speaker">
+          <div class="wof-speaker-inner">
+            <div class="wof-card__photo wof-card__photo--speaker">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                <rect x="3" y="3" width="18" height="18" rx="2" />
+                <circle cx="8.5" cy="8.5" r="1.5" />
+                <polyline points="21 15 16 10 5 21" />
+              </svg>
+            </div>
+            <div class="wof-speaker-info">
+              <div class="wof-card__rank wof-rank--speaker">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" />
+                  <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
+                  <line x1="12" y1="19" x2="12" y2="23" />
+                  <line x1="8" y1="23" x2="16" y2="23" />
+                </svg>
+                Best Speaker
+              </div>
+              <h3 class="wof-card__team">PARTICIPANT NAME</h3>
+              <p class="wof-card__univ">Team — Universitas Brawijaya</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── 2023 · S1 ── -->
+    <div class="wof-podium" data-year="2023" data-cat="s1" style="display:none;">
+      <div class="wof-card wof-card--first">
+        <div class="wof-card__photo">
+          <div class="wof-card__rank wof-rank--gold">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+              <circle cx="12" cy="9" r="6" />
+              <path d="M8 14l-2 8 6-3 6 3-2-8" opacity="0.7" />
+            </svg>
+            1st Champion
+          </div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+            <rect x="3" y="3" width="18" height="18" rx="2" />
+            <circle cx="8.5" cy="8.5" r="1.5" />
+            <polyline points="21 15 16 10 5 21" />
+          </svg>
+        </div>
+        <div class="wof-card__info">
+          <h3 class="wof-card__team">TEAM NAME</h3>
+          <p class="wof-card__univ">Universitas Indonesia</p>
+        </div>
+      </div>
+      <div class="wof-right-col">
+        <div class="wof-runner-row">
+          <div class="wof-card wof-card--second">
+            <div class="wof-card__photo">
+              <div class="wof-card__rank wof-rank--silver">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                  <circle cx="12" cy="9" r="6" />
+                  <path d="M8 14l-2 8 6-3 6 3-2-8" opacity="0.7" />
+                </svg>
+                2nd
+              </div>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                <rect x="3" y="3" width="18" height="18" rx="2" />
+                <circle cx="8.5" cy="8.5" r="1.5" />
+                <polyline points="21 15 16 10 5 21" />
+              </svg>
+            </div>
+            <div class="wof-card__info">
+              <h3 class="wof-card__team">TEAM NAME</h3>
+              <p class="wof-card__univ">Universitas Gadjah Mada</p>
+            </div>
+          </div>
+          <div class="wof-card wof-card--third">
+            <div class="wof-card__photo">
+              <div class="wof-card__rank wof-rank--bronze">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                  <circle cx="12" cy="9" r="6" />
+                  <path d="M8 14l-2 8 6-3 6 3-2-8" opacity="0.7" />
+                </svg>
+                3rd
+              </div>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                <rect x="3" y="3" width="18" height="18" rx="2" />
+                <circle cx="8.5" cy="8.5" r="1.5" />
+                <polyline points="21 15 16 10 5 21" />
+              </svg>
+            </div>
+            <div class="wof-card__info">
+              <h3 class="wof-card__team">TEAM NAME</h3>
+              <p class="wof-card__univ">Institut Teknologi Bandung</p>
+            </div>
+          </div>
+        </div>
         <div class="wof-card wof-card--speaker">
           <div class="wof-speaker-inner">
             <div class="wof-card__photo wof-card__photo--speaker">
@@ -593,11 +793,102 @@
                 Best Speaker
               </div>
               <h3 class="wof-card__team">NAMA PESERTA</h3>
-              <p class="wof-card__univ">Tim — Universitas Gadjah Mada</p>
+              <p class="wof-card__univ">Tim — Universitas Indonesia</p>
             </div>
           </div>
         </div>
+      </div>
+    </div>
 
+    <!-- ── 2023 · S2 ── -->
+    <div class="wof-podium" data-year="2023" data-cat="s2" style="display:none;">
+      <div class="wof-card wof-card--first">
+        <div class="wof-card__photo">
+          <div class="wof-card__rank wof-rank--gold">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+              <circle cx="12" cy="9" r="6" />
+              <path d="M8 14l-2 8 6-3 6 3-2-8" opacity="0.7" />
+            </svg>
+            1st Champion
+          </div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+            <rect x="3" y="3" width="18" height="18" rx="2" />
+            <circle cx="8.5" cy="8.5" r="1.5" />
+            <polyline points="21 15 16 10 5 21" />
+          </svg>
+        </div>
+        <div class="wof-card__info">
+          <h3 class="wof-card__team">NAMA TIM</h3>
+          <p class="wof-card__univ">Universitas Diponegoro</p>
+        </div>
+      </div>
+      <div class="wof-right-col">
+        <div class="wof-runner-row">
+          <div class="wof-card wof-card--second">
+            <div class="wof-card__photo">
+              <div class="wof-card__rank wof-rank--silver">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                  <circle cx="12" cy="9" r="6" />
+                  <path d="M8 14l-2 8 6-3 6 3-2-8" opacity="0.7" />
+                </svg>
+                2nd
+              </div>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                <rect x="3" y="3" width="18" height="18" rx="2" />
+                <circle cx="8.5" cy="8.5" r="1.5" />
+                <polyline points="21 15 16 10 5 21" />
+              </svg>
+            </div>
+            <div class="wof-card__info">
+              <h3 class="wof-card__team">NAMA TIM</h3>
+              <p class="wof-card__univ">Universitas Gadjah Mada</p>
+            </div>
+          </div>
+          <div class="wof-card wof-card--third">
+            <div class="wof-card__photo">
+              <div class="wof-card__rank wof-rank--bronze">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                  <circle cx="12" cy="9" r="6" />
+                  <path d="M8 14l-2 8 6-3 6 3-2-8" opacity="0.7" />
+                </svg>
+                3rd
+              </div>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                <rect x="3" y="3" width="18" height="18" rx="2" />
+                <circle cx="8.5" cy="8.5" r="1.5" />
+                <polyline points="21 15 16 10 5 21" />
+              </svg>
+            </div>
+            <div class="wof-card__info">
+              <h3 class="wof-card__team">NAMA TIM</h3>
+              <p class="wof-card__univ">Universitas Airlangga</p>
+            </div>
+          </div>
+        </div>
+        <div class="wof-card wof-card--speaker">
+          <div class="wof-speaker-inner">
+            <div class="wof-card__photo wof-card__photo--speaker">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                <rect x="3" y="3" width="18" height="18" rx="2" />
+                <circle cx="8.5" cy="8.5" r="1.5" />
+                <polyline points="21 15 16 10 5 21" />
+              </svg>
+            </div>
+            <div class="wof-speaker-info">
+              <div class="wof-card__rank wof-rank--speaker">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" />
+                  <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
+                  <line x1="12" y1="19" x2="12" y2="23" />
+                  <line x1="8" y1="23" x2="16" y2="23" />
+                </svg>
+                Best Speaker
+              </div>
+              <h3 class="wof-card__team">NAMA PESERTA</h3>
+              <p class="wof-card__univ">Tim — Universitas Diponegoro</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -618,7 +909,7 @@
     <div class="section-header centered" data-animate>
       <span class="section-label">Agenda</span>
       <h2 class="section-title">Catch Latest Agenda</h2>
-      <p class="section-sub">Ikuti perkembangan terbaru dan informasi penting seputar kompetisi lewat feed Instagram kami.</p>
+      <p class="section-sub">Follow our Instagram feed for the latest updates and important information about the competition.</p>
     </div>
 
     <!-- Instagram Grid -->
@@ -691,7 +982,7 @@
           <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
           <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
         </svg>
-        Follow @brigamabcc di Instagram
+        Follow @gamabcc di Instagram
       </a>
     </div>
   </div>
@@ -817,11 +1108,10 @@
 <section class="cta" id="cta">
   <div class="container">
     <div class="cta-content" data-animate>
-      <div class="cta-label">Siap Berkompetisi?</div>
-      <h2 class="cta-title">Dapatkan Handbooknya &amp; Daftar Sekarang</h2>
+      <div class="cta-label">Ready to Compete?</div>
+      <h2 class="cta-title">Get the Handbook &amp; Register Now</h2>
       <p class="cta-sub">
-        Download handbook lengkap berisi panduan teknis, format penulisan, dan kriteria penilaian.
-        Pastikan tim Anda siap sebelum pendaftaran ditutup!
+        Download the complete handbook containing technical guidelines, writing formats, and evaluation criteria. Ensure your team is ready before registration closes!
       </p>
       <div class="cta-actions">
         <a href="#" class="btn btn-gold btn-lg">

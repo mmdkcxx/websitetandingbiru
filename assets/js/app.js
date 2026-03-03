@@ -213,7 +213,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const taNextBtn = document.querySelector('.ta-next');
 
   if (taSliderWrapper && taPrevBtn && taNextBtn) {
-    const scrollAmount = 324; // Card width (300) + gap (24)
+    const scrollAmount = 424; // Card width (400) + gap (24)
 
     // Function to check scroll position and toggle button visibility
     const handleScroll = () => {
@@ -307,5 +307,45 @@ document.addEventListener('DOMContentLoaded', function () {
       contactForm.reset();
     });
   }
+
+  /* ── Wall of Fame Tab Filtering ── */
+  const yearTabs = document.querySelectorAll('.wof-year-tab');
+  const catTabs = document.querySelectorAll('.wof-cat-tab');
+  const podiums = document.querySelectorAll('.wof-podium');
+
+  function filterWoF() {
+    const activeYear = document.querySelector('.wof-year-tab.active')?.dataset.year || '2022';
+    const activeCat = document.querySelector('.wof-cat-tab.active')?.dataset.cat || 's1';
+
+    podiums.forEach(p => {
+      if (p.dataset.year === activeYear && p.dataset.cat === activeCat) {
+        p.style.display = '';
+        p.classList.add('active');
+        // Trigger fade+slide animation
+        p.classList.remove('wof-entering');
+        void p.offsetWidth; // Force reflow to restart animation
+        p.classList.add('wof-entering');
+      } else {
+        p.style.display = 'none';
+        p.classList.remove('active', 'wof-entering');
+      }
+    });
+  }
+
+  yearTabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      yearTabs.forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      filterWoF();
+    });
+  });
+
+  catTabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      catTabs.forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      filterWoF();
+    });
+  });
 
 });

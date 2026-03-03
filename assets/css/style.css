@@ -1567,7 +1567,8 @@ body {
 }
 
 .ta-card {
-  flex: 0 0 300px;
+  flex: 0 0 400px;
+  /* Lebarkan dari 300px ke 400px */
   min-height: 380px;
   scroll-snap-align: start;
   background: var(--white);
@@ -1587,11 +1588,11 @@ body {
 }
 
 .ta-card__time {
-  font-size: 2.2rem;
+  font-size: 1.5rem;
   font-weight: 800;
   color: var(--blue-700);
-  margin-bottom: 32px;
-  line-height: 1;
+  margin-bottom: 24px;
+  line-height: 1.2;
 }
 
 .ta-card__title {
@@ -1612,16 +1613,52 @@ body {
   z-index: 2;
 }
 
-/* Quarter Ring Decoration (Bottom Right) */
-.ta-card__deco {
-  position: absolute;
-  bottom: -60px;
-  right: -60px;
-  width: 140px;
-  height: 140px;
-  border: 44px solid var(--blue-500);
-  border-radius: 50%;
-  z-index: 1;
+/* ── Card Bullet List ── */
+.ta-card__list {
+  margin-top: 16px;
+  padding-left: 20px;
+  color: var(--blue-500);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  position: relative;
+  z-index: 2;
+  list-style-type: disc;
+  /* Memastikan peluru (bullet) muncul */
+}
+
+.ta-card__list li {
+  margin-bottom: 8px;
+  margin-left: 8px;
+  /* Memberi sedikit jarak agar peluru tidak mepet */
+}
+
+.ta-card__list li:last-child {
+  margin-bottom: 0;
+}
+
+/* ── Timeline Mobile Responsiveness ── */
+@media (max-width: 768px) {
+  .ta-card {
+    /* Set explicit widths to prevent overflow on mobile while allowing next card to peek */
+    flex: 0 0 90vw;
+    width: 90vw;
+    max-width: 230px;
+    padding: 32px 24px;
+    min-height: auto;
+  }
+
+  .ta-card__time {
+    font-size: 1.3rem;
+  }
+
+  .ta-card__title {
+    font-size: 1.25rem;
+  }
+
+  .ta-card__desc,
+  .ta-card__list {
+    font-size: 0.9rem;
+  }
 }
 
 /* ══════════════════════════════════════════
@@ -2767,10 +2804,14 @@ body {
 .wof-cat-tabs {
   display: flex;
   gap: 8px;
+  justify-content: center;
+  width: 100%;
+  max-width: 365px;
 }
 
 .wof-year-tab,
 .wof-cat-tab {
+  flex: 1;
   padding: 9px 22px;
   border-radius: 8px;
   font-size: 0.875rem;
@@ -2781,6 +2822,7 @@ body {
   background: transparent;
   cursor: pointer;
   transition: var(--transition);
+  text-align: center;
 }
 
 .wof-year-tab.active,
@@ -2790,6 +2832,23 @@ body {
   background: var(--blue-800);
   color: var(--white);
   border-color: var(--blue-800);
+}
+
+/* ── Podium Transition Animation ── */
+@keyframes wofFadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.wof-podium.wof-entering {
+  animation: wofFadeSlideIn 0.4s ease-out forwards;
 }
 
 /* ── Podium Layout — Horizontal ── */

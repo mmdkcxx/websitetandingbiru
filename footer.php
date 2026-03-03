@@ -14,8 +14,7 @@
             </div>
           </div>
           <p class="footer-desc">
-            Kompetisi kasus bisnis bergengsi yang diselenggarakan oleh BRI bekerja sama dengan Universitas Gadjah Mada
-            untuk mencetak generasi pebisnis Indonesia berikutnya.
+            A prestigious business case competition organized by BRI in collaboration with Universitas Gadjah Mada to shape the next generation of Indonesian business leaders.
           </p>
           <div class="footer-socials">
             <!-- Instagram -->
@@ -57,13 +56,13 @@
 
         <!-- Navigation -->
         <div>
-          <h4 class="footer-col-title">Navigasi</h4>
+          <h4 class="footer-col-title">Navigation</h4>
           <div class="footer-links">
-            <a href="#about">Tentang</a>
+            <a href="#about">About</a>
             <a href="#timeline">Timeline</a>
-            <a href="#categories">Kategori</a>
-            <a href="#rules">Peraturan</a>
-            <a href="#gallery">Galeri</a>
+            <a href="#categories">Categories</a>
+            <a href="#rules">Rules</a>
+            <a href="#gallery">Gallery</a>
           </div>
         </div>
 
@@ -74,14 +73,14 @@
             <a href="#">Handbook</a>
             <a href="#">Rules & Regulation</a>
             <a href="#">FAQ</a>
-            <a href="#">Data Pemenang</a>
-            <a href="#">Berita & Artikel</a>
+            <a href="#">Winners Data</a>
+            <a href="#">News & Articles</a>
           </div>
         </div>
 
         <!-- Contact -->
         <div>
-          <h4 class="footer-col-title">Kontak</h4>
+          <h4 class="footer-col-title">Contact</h4>
           <div class="footer-contact-item">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
               stroke-linecap="round" stroke-linejoin="round">
@@ -113,8 +112,8 @@
       <div class="footer-bottom">
         <p>© 2026 BRI GAMA Business Case Competition. All rights reserved.</p>
         <div class="footer-bottom-links">
-          <a href="#">Kebijakan Privasi</a>
-          <a href="#">Syarat & Ketentuan</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
           <a href="#">Sitemap</a>
         </div>
       </div>
