@@ -280,4 +280,32 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
+  /* ── Contact Form → Gmail Mailto ── */
+  const contactForm = document.getElementById('contactForm');
+  if (contactForm) {
+    contactForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+
+      const name = document.getElementById('contactName').value.trim();
+      const email = document.getElementById('contactEmail').value.trim();
+      const subject = document.getElementById('contactSubject').value.trim();
+      const message = document.getElementById('contactMessage').value.trim();
+
+      // Compose the body with sender info
+      const body = `Hi BRI GAMA BCC Team,\n\n${message}\n\n---\nFrom: ${name}\nEmail: ${email}`;
+
+      // Build Gmail compose URL
+      const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1`
+        + `&to=${encodeURIComponent('brigamabcc@ugm.ac.id')}`
+        + `&su=${encodeURIComponent(subject)}`
+        + `&body=${encodeURIComponent(body)}`;
+
+      // Open Gmail in a new tab
+      window.open(gmailUrl, '_blank');
+
+      // Reset form
+      contactForm.reset();
+    });
+  }
+
 });
