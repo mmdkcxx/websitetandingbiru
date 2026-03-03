@@ -645,11 +645,11 @@ body {
 }
 
 .hero-arrow--prev {
-  left: clamp(16px, 3vw, 40px);
+  left: 8px;
 }
 
 .hero-arrow--next {
-  right: clamp(16px, 3vw, 40px);
+  right: 8px;
 }
 
 /* ── Dot Navigation ── */
