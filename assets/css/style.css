@@ -1705,8 +1705,8 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.15em;
-  color: var(--gold-400);
-  border: 1px solid rgba(240, 184, 48, 0.3);
+  color: var(--blue-100);
+  border: 1px solid rgba(214, 232, 253, 0.4);
   padding: 4px 14px;
   border-radius: 100px;
   margin-bottom: 20px;
@@ -1763,7 +1763,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  color: var(--gold-400);
+  color: var(--blue-100);
 }
 
 .contact-split__method h4 {
@@ -1785,7 +1785,7 @@ body {
 }
 
 .contact-split__method a:hover {
-  color: var(--gold-400);
+  color: var(--blue-100);
 }
 
 /* Social Media */
@@ -1823,9 +1823,9 @@ body {
 }
 
 .contact-split__social-icons a:hover {
-  background: var(--gold-400);
-  border-color: var(--gold-400);
-  color: var(--blue-900);
+  background: var(--blue-600);
+  border-color: var(--blue-600);
+  color: var(--white);
   transform: translateY(-2px);
 }
 
@@ -1919,10 +1919,10 @@ body {
 }
 
 .contact-form__submit:hover {
-  background: linear-gradient(135deg, var(--gold-400) 0%, #e0a020 100%);
-  color: var(--blue-900);
+  background: linear-gradient(135deg, var(--blue-600) 0%, var(--blue-700) 100%);
+  color: var(--white);
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(229, 160, 32, 0.3);
+  box-shadow: 0 8px 24px rgba(8, 87, 195, 0.2);
 }
 
 /* Responsive */
@@ -1973,7 +1973,7 @@ body {
 .cta-label {
   display: inline-block;
   background: rgba(255, 255, 255, 0.12);
-  color: var(--gold-400);
+  color: var(--white);
   font-size: 0.78rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -1981,7 +1981,7 @@ body {
   padding: 5px 16px;
   border-radius: 100px;
   margin-bottom: 24px;
-  border: 1px solid rgba(240, 184, 48, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .cta-title {
@@ -2010,9 +2010,9 @@ body {
    FOOTER
 ══════════════════════════════════════════ */
 .footer {
-  background: var(--gray-900);
+  background: var(--blue-800);
   padding: 64px 0 32px;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .footer-grid {
@@ -2945,21 +2945,21 @@ body {
 }
 
 .wof-rank--gold {
-  background: linear-gradient(135deg, rgba(240, 184, 48, 0.92), rgba(229, 160, 32, 0.92));
-  color: var(--blue-900);
-  box-shadow: 0 2px 8px rgba(229, 160, 32, 0.3);
+  background: linear-gradient(135deg, var(--blue-800) 0%, var(--blue-900) 100%);
+  color: var(--white);
+  box-shadow: 0 2px 8px rgba(8, 87, 195, 0.3);
 }
 
 .wof-rank--silver {
-  background: linear-gradient(135deg, rgba(192, 199, 208, 0.92), rgba(168, 178, 190, 0.92));
-  color: var(--gray-800);
-  box-shadow: 0 2px 6px rgba(168, 178, 190, 0.25);
+  background: linear-gradient(135deg, var(--blue-600) 0%, var(--blue-700) 100%);
+  color: var(--white);
+  box-shadow: 0 2px 6px rgba(43, 128, 229, 0.3);
 }
 
 .wof-rank--bronze {
-  background: linear-gradient(135deg, rgba(212, 149, 107, 0.92), rgba(192, 122, 80, 0.92));
+  background: linear-gradient(135deg, var(--blue-400) 0%, var(--blue-500) 100%);
   color: var(--white);
-  box-shadow: 0 2px 6px rgba(192, 122, 80, 0.25);
+  box-shadow: 0 2px 6px rgba(108, 176, 251, 0.3);
 }
 
 .wof-rank--speaker {
@@ -2992,9 +2992,9 @@ body {
 .wof-card--first {
   width: 38%;
   flex-shrink: 0;
-  border-color: var(--gold-400);
-  box-shadow: 0 0 0 1px var(--gold-400),
-    0 8px 32px rgba(229, 160, 32, 0.15);
+  border-color: var(--blue-800);
+  box-shadow: 0 0 0 1px var(--blue-800),
+    0 8px 32px rgba(8, 87, 195, 0.15);
   display: flex;
   flex-direction: column;
 }
@@ -3002,7 +3002,7 @@ body {
 .wof-card--first .wof-card__photo {
   aspect-ratio: auto;
   flex: 1;
-  border-color: var(--gold-400);
+  border-color: var(--blue-800);
 }
 
 .wof-card--first .wof-card__team {
@@ -3404,10 +3404,10 @@ body {
 }
 
 #backToTopBtn:hover {
-  background: var(--gold-400);
-  color: var(--blue-900);
+  background: var(--blue-800);
+  color: var(--white);
   transform: translateY(-4px) scale(1.05);
-  box-shadow: 0 6px 16px rgba(229, 160, 32, 0.4);
+  box-shadow: 0 6px 16px rgba(8, 87, 195, 0.3);
 }
 
 @media (max-width: 768px) {

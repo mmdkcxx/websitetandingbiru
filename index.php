@@ -164,10 +164,10 @@
       <!-- Category S2 -->
       <div class="cat-card cat-card--s2">
         <div class="cat-card__content">
-          <div class="cat-card__badge cat-card__badge--gold">S2 — Graduate</div>
+          <div class="cat-card__badge">S2 — Graduate</div>
           <h3 class="cat-card__title">Graduate Student (S2)</h3>
           <p class="cat-card__desc">Prove your business strategy expertise at the postgraduate level and compete to win prestigious awards with Bank Rakyat Indonesia.</p>
-          <a href="#cta" class="cat-card__btn cat-card__btn--gold">
+          <a href="#cta" class="cat-card__btn">
             Learn More
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
               stroke-linecap="round" stroke-linejoin="round">
@@ -190,8 +190,8 @@
 <section class="timeline-activities" id="timeline-activities">
   <div class="container container--left-aligned">
     <div class="section-header" data-animate>
-      <h2 class="section-title section-title--blue">Timeline Activities</h2>
-      <p class="section-sub section-sub--blue">
+      <h2 class="section-title" style="color: var(--blue-800);">Timeline Activities</h2>
+      <p class="section-sub" style="color: var(--blue-700);">
         Since its inception, BRI GAMA has evolved into a premier platform for competitive business thinking. Each year brings new challenges, new winners, and new standards of excellence.
       </p>
     </div>
@@ -392,8 +392,8 @@
       </div>
 
       <!-- Item D: middle-right -->
-      <div class="gallery-mosaic-item gallery-mosaic--d" style="background: linear-gradient(135deg, #e5a020, #f0b830);">
-        <div class="gallery-placeholder" style="color: rgba(0,48,135,0.7);">
+      <div class="gallery-mosaic-item gallery-mosaic--d" style="background: linear-gradient(135deg, #0857c3, #71c5e8);">
+        <div class="gallery-placeholder" style="color: white;">
           <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
             stroke-linecap="round" stroke-linejoin="round">
             <rect x="3" y="3" width="18" height="18" rx="2" />
@@ -908,8 +908,8 @@
   <div class="container">
     <div class="section-header centered" data-animate>
       <span class="section-label">Agenda</span>
-      <h2 class="section-title">Catch Latest Agenda</h2>
-      <p class="section-sub">Follow our Instagram feed for the latest updates and important information about the competition.</p>
+      <h2 class="section-title" style="color: var(--blue-800);">Catch Latest Agenda</h2>
+      <p class="section-sub" style="color: var(--blue-700);">Follow our Instagram feed for the latest updates and important information about the competition.</p>
     </div>
 
     <!-- Instagram Grid -->
@@ -1114,7 +1114,7 @@
         Download the complete handbook containing technical guidelines, writing formats, and evaluation criteria. Ensure your team is ready before registration closes!
       </p>
       <div class="cta-actions">
-        <a href="#" class="btn btn-gold btn-lg">
+        <a href="#" class="btn btn-nav-primary btn-lg">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
             stroke-linecap="round" stroke-linejoin="round">
             <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
