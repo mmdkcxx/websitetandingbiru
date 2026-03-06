@@ -136,7 +136,8 @@
     <div class="section-header centered" data-animate>
       <span class="section-label">Competition Categories</span>
       <h2 class="section-title">Choose Your Category</h2>
-      <p class="section-sub">Two competition categories are available based on your education level, each with unique and challenging business cases.</p>
+      <p class="section-sub">Two competition categories are available based on your education level, each with unique
+        and challenging business cases.</p>
     </div>
 
     <div class="categories-grid" data-animate data-delay="100">
@@ -146,7 +147,8 @@
         <div class="cat-card__content">
           <div class="cat-card__badge">S1 — Undergraduate</div>
           <h3 class="cat-card__title">Undergraduate Student (S1)</h3>
-          <p class="cat-card__desc">Showcase your best analytical skills through a prestigious business case competition designed for undergraduate students globally.</p>
+          <p class="cat-card__desc">Showcase your best analytical skills through a prestigious business case competition
+            designed for undergraduate students globally.</p>
           <a href="#cta" class="cat-card__btn">
             Learn More
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
@@ -166,7 +168,8 @@
         <div class="cat-card__content">
           <div class="cat-card__badge">S2 — Graduate</div>
           <h3 class="cat-card__title">Graduate Student (S2)</h3>
-          <p class="cat-card__desc">Prove your business strategy expertise at the postgraduate level and compete to win prestigious awards with Bank Rakyat Indonesia.</p>
+          <p class="cat-card__desc">Prove your business strategy expertise at the postgraduate level and compete to win
+            prestigious awards with Bank Rakyat Indonesia.</p>
           <a href="#cta" class="cat-card__btn">
             Learn More
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
@@ -192,7 +195,8 @@
     <div class="section-header" data-animate>
       <h2 class="section-title" style="color: var(--blue-800);">Timeline Activities</h2>
       <p class="section-sub" style="color: var(--blue-700);">
-        Since its inception, BRI GAMA has evolved into a premier platform for competitive business thinking. Each year brings new challenges, new winners, and new standards of excellence.
+        Since its inception, BRI GAMA has evolved into a premier platform for competitive business thinking. Each year
+        brings new challenges, new winners, and new standards of excellence.
       </p>
     </div>
 
@@ -201,7 +205,8 @@
 
       <!-- Prev Button (Left) -->
       <button class="ta-nav-btn ta-prev" aria-label="Previous Activity">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+          stroke-linecap="round" stroke-linejoin="round">
           <polyline points="15 18 9 12 15 6"></polyline>
         </svg>
       </button>
@@ -242,7 +247,8 @@
           <div class="ta-card">
             <div class="ta-card__time">July 11 – August 2</div>
             <h3 class="ta-card__title">Pre-Competition Stage</h3>
-            <p class="ta-card__desc">The preliminary selection phase designed to identify teams with strong analytical capabilities and strategic problem-solving skills.</p>
+            <p class="ta-card__desc">The preliminary selection phase designed to identify teams with strong analytical
+              capabilities and strategic problem-solving skills.</p>
             <ul class="ta-card__list">
               <li>Case release (July 11)</li>
               <li>Submission period (July 11–17)</li>
@@ -255,7 +261,8 @@
           <div class="ta-card">
             <div class="ta-card__time">August 5 – August 17</div>
             <h3 class="ta-card__title">BCC 1</h3>
-            <p class="ta-card__desc">An advanced round focused on in-depth strategic analysis and solution development based on real business cases.</p>
+            <p class="ta-card__desc">An advanced round focused on in-depth strategic analysis and solution development
+              based on real business cases.</p>
             <ul class="ta-card__list">
               <li>Insight Seminar with industry practitioners (August 5)</li>
               <li>Case release (August 8)</li>
@@ -268,7 +275,8 @@
           <div class="ta-card">
             <div class="ta-card__time">August 19 – August 30</div>
             <h3 class="ta-card__title">BCC 2 – Grand Final Stage</h3>
-            <p class="ta-card__desc">The final stage bringing together top teams to present strategic solutions before a distinguished panel of judges.</p>
+            <p class="ta-card__desc">The final stage bringing together top teams to present strategic solutions before a
+              distinguished panel of judges.</p>
             <ul class="ta-card__list">
               <li>Final Insight Seminar (August 19/20)</li>
               <li>Final case release (August 24)</li>
@@ -282,7 +290,8 @@
 
       <!-- Next Button (Right) -->
       <button class="ta-nav-btn ta-next" aria-label="Next Activity">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+          stroke-linecap="round" stroke-linejoin="round">
           <polyline points="9 18 15 12 9 6"></polyline>
         </svg>
       </button>
@@ -317,7 +326,8 @@
       <div class="rules-info-card">
         <h3 class="rules-info-card__title">Competition Rules</h3>
         <ul class="rules-info-card__list">
-          <li>Participants must be active Undergraduate (S1) or Graduate (S2) students from registered universities in Indonesia.</li>
+          <li>Participants must be active Undergraduate (S1) or Graduate (S2) students from registered universities in
+            Indonesia.</li>
           <li>Each team consists of a maximum of <strong>3 (three) members</strong> from the same university.</li>
           <li>At least <strong>one member</strong> must be from the Faculty of Economics and Business.</li>
           <li>Each participant can only register in <strong>one team</strong> and <strong>one category</strong>.</li>
@@ -442,7 +452,8 @@
     <div class="section-header" data-animate style="text-align:center;">
       <span class="section-label">FAQs</span>
       <h2 class="section-title">Frequently Asked Questions</h2>
-      <p class="section-sub" style="margin-left:auto;margin-right:auto;">Find answers to the most common questions about the BRI GAMA 2026 competition.</p>
+      <p class="section-sub" style="margin-left:auto;margin-right:auto;">Find answers to the most common questions about
+        the BRI GAMA 2026 competition.</p>
     </div>
     <div class="faq-list">
       <div class="faq-item" data-animate data-delay="100">
@@ -451,7 +462,8 @@
           <div class="faq-icon"></div>
         </button>
         <div class="faq-answer">
-          <p>This competition is open to active Undergraduate (S1) and Graduate (S2) students from all universities in Indonesia. Each team consists of a maximum of 3 members.</p>
+          <p>This competition is open to active Undergraduate (S1) and Graduate (S2) students from all universities in
+            Indonesia. Each team consists of a maximum of 3 members.</p>
         </div>
       </div>
       <div class="faq-item" data-animate data-delay="200">
@@ -460,7 +472,8 @@
           <div class="faq-icon"></div>
         </button>
         <div class="faq-answer">
-          <p>Yes, all team members must be from the same university, but they can be from different faculties or majors.</p>
+          <p>Yes, all team members must be from the same university, but they can be from different faculties or majors.
+          </p>
         </div>
       </div>
       <div class="faq-item" data-animate data-delay="300">
@@ -469,7 +482,8 @@
           <div class="faq-icon"></div>
         </button>
         <div class="faq-answer">
-          <p>Registration for the preliminary selection stage is free. The registration fee only applies to teams that pass to the preliminary round.</p>
+          <p>Registration for the preliminary selection stage is free. The registration fee only applies to teams that
+            pass to the preliminary round.</p>
         </div>
       </div>
       <div class="faq-item" data-animate data-delay="400">
@@ -478,7 +492,8 @@
           <div class="faq-icon"></div>
         </button>
         <div class="faq-answer">
-          <p>Teams passing the administrative selection will work on and submit a business case analysis paper in the specified format. Finalists will present their solutions to the jury panel.</p>
+          <p>Teams passing the administrative selection will work on and submit a business case analysis paper in the
+            specified format. Finalists will present their solutions to the jury panel.</p>
         </div>
       </div>
       <div class="faq-item" data-animate data-delay="500">
@@ -487,7 +502,8 @@
           <div class="faq-icon"></div>
         </button>
         <div class="faq-answer">
-          <p>Winners will receive cash prizes, award certificates, as well as career opportunities and recognition by Bank Rakyat Indonesia. Detailed prize amounts are available in the official competition handbook.</p>
+          <p>Winners will receive cash prizes, award certificates, as well as career opportunities and recognition by
+            Bank Rakyat Indonesia. Detailed prize amounts are available in the official competition handbook.</p>
         </div>
       </div>
     </div>
@@ -508,7 +524,8 @@
     <div class="section-header centered" data-animate>
       <span class="section-label">Wall of Fame</span>
       <h2 class="section-title">Our Champions</h2>
-      <p class="section-sub">Meet the champions who competed and conquered at BRI GAMA. Their success began with a single decision to register.</p>
+      <p class="section-sub">Meet the champions who competed and conquered at BRI GAMA. Their success began with a
+        single decision to register.</p>
     </div>
 
     <!-- Tabs row: Year + Category -->
@@ -600,7 +617,8 @@
             </div>
             <div class="wof-speaker-info">
               <div class="wof-card__rank wof-rank--speaker">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
                   <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" />
                   <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
                   <line x1="12" y1="19" x2="12" y2="23" />
@@ -692,7 +710,8 @@
             </div>
             <div class="wof-speaker-info">
               <div class="wof-card__rank wof-rank--speaker">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
                   <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" />
                   <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
                   <line x1="12" y1="19" x2="12" y2="23" />
@@ -784,7 +803,8 @@
             </div>
             <div class="wof-speaker-info">
               <div class="wof-card__rank wof-rank--speaker">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
                   <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" />
                   <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
                   <line x1="12" y1="19" x2="12" y2="23" />
@@ -876,7 +896,8 @@
             </div>
             <div class="wof-speaker-info">
               <div class="wof-card__rank wof-rank--speaker">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
                   <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" />
                   <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
                   <line x1="12" y1="19" x2="12" y2="23" />
@@ -909,24 +930,22 @@
     <div class="section-header centered" data-animate>
       <span class="section-label">Agenda</span>
       <h2 class="section-title" style="color: var(--blue-800);">Catch Latest Agenda</h2>
-      <p class="section-sub" style="color: var(--blue-700);">Follow our Instagram feed for the latest updates and important information about the competition.</p>
+      <p class="section-sub" style="color: var(--blue-700);">Follow our Instagram feed for the latest updates and
+        important information about the competition.</p>
     </div>
 
     <!-- Instagram Grid -->
     <div class="ig-grid" data-animate data-delay="100">
 
       <!-- Post 1 -->
-      <a href="#" class="ig-post" target="_blank" rel="noopener">
-        <div class="ig-post__img">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
-            <rect x="3" y="3" width="18" height="18" rx="2" />
-            <circle cx="8.5" cy="8.5" r="1.5" />
-            <polyline points="21 15 16 10 5 21" />
-          </svg>
+      <a href="https://www.instagram.com/p/DC01cFdPFKv/?utm_source=ig_web_button_share_sheet&amp;igsh=MzRlODBiNWFlZA=="
+        class="ig-post" target="_blank" rel="noopener">
+        <div class="ig-post__img" style="background: url('https://picsum.photos/400/400?random=1') center/cover;">
         </div>
         <div class="ig-post__overlay">
           <span class="ig-stat"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+              <path
+                d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
             </svg> 128</span>
           <span class="ig-stat"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
               <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
@@ -935,17 +954,14 @@
       </a>
 
       <!-- Post 2 -->
-      <a href="#" class="ig-post" target="_blank" rel="noopener">
-        <div class="ig-post__img">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
-            <rect x="3" y="3" width="18" height="18" rx="2" />
-            <circle cx="8.5" cy="8.5" r="1.5" />
-            <polyline points="21 15 16 10 5 21" />
-          </svg>
+      <a href="https://www.instagram.com/p/DC01sfNPT6Q/?utm_source=ig_web_button_share_sheet&amp;igsh=MzRlODBiNWFlZA=="
+        class="ig-post" target="_blank" rel="noopener">
+        <div class="ig-post__img" style="background: url('https://picsum.photos/400/400?random=2') center/cover;">
         </div>
         <div class="ig-post__overlay">
           <span class="ig-stat"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+              <path
+                d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
             </svg> 95</span>
           <span class="ig-stat"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
               <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
@@ -954,17 +970,14 @@
       </a>
 
       <!-- Post 3 -->
-      <a href="#" class="ig-post" target="_blank" rel="noopener">
-        <div class="ig-post__img">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
-            <rect x="3" y="3" width="18" height="18" rx="2" />
-            <circle cx="8.5" cy="8.5" r="1.5" />
-            <polyline points="21 15 16 10 5 21" />
-          </svg>
+      <a href="https://www.instagram.com/p/DC01Y5_vEmh/?utm_source=ig_web_button_share_sheet&amp;igsh=MzRlODBiNWFlZA=="
+        class="ig-post" target="_blank" rel="noopener">
+        <div class="ig-post__img" style="background: url('https://picsum.photos/400/400?random=3') center/cover;">
         </div>
         <div class="ig-post__overlay">
           <span class="ig-stat"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+              <path
+                d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
             </svg> 210</span>
           <span class="ig-stat"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
               <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
@@ -977,7 +990,8 @@
     <!-- Instagram CTA -->
     <div class="ig-cta" data-animate data-delay="200">
       <a href="https://www.instagram.com/brigamabcc/" target="_blank" rel="noopener" class="ig-cta__link">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
           <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
           <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
           <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
@@ -998,12 +1012,14 @@
     <div class="contact-split__info" data-animate>
       <span class="contact-split__label">Contact Us</span>
       <h2 class="contact-split__title">Let's Connect</h2>
-      <p class="contact-split__sub">Have questions about registration, rules, or partnerships? We'd love to hear from you.</p>
+      <p class="contact-split__sub">Have questions about registration, rules, or partnerships? We'd love to hear from
+        you.</p>
 
       <div class="contact-split__methods">
         <div class="contact-split__method">
           <div class="contact-split__icon">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
               <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
               <polyline points="22,6 12,13 2,6" />
             </svg>
@@ -1016,8 +1032,10 @@
 
         <div class="contact-split__method">
           <div class="contact-split__icon">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
             </svg>
           </div>
           <div>
@@ -1028,7 +1046,8 @@
 
         <div class="contact-split__method">
           <div class="contact-split__icon">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
               <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
               <circle cx="12" cy="10" r="3" />
             </svg>
@@ -1045,14 +1064,16 @@
         <span>Follow us</span>
         <div class="contact-split__social-icons">
           <a href="https://www.instagram.com/brigamabcc/" target="_blank" rel="noopener" aria-label="Instagram">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
               <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
               <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
               <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
             </svg>
           </a>
           <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
               <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
               <rect x="2" y="9" width="4" height="12" />
               <circle cx="4" cy="4" r="2" />
@@ -1060,7 +1081,8 @@
           </a>
           <a href="#" target="_blank" rel="noopener" aria-label="Twitter / X">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+              <path
+                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
             </svg>
           </a>
         </div>
@@ -1087,10 +1109,12 @@
         </div>
         <div class="contact-form__group">
           <label for="contactMessage">Message</label>
-          <textarea id="contactMessage" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+          <textarea id="contactMessage" name="message" rows="5" placeholder="Write your message here..."
+            required></textarea>
         </div>
         <button type="submit" class="contact-form__submit">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+            stroke-linecap="round" stroke-linejoin="round">
             <line x1="22" y1="2" x2="11" y2="13" />
             <polygon points="22 2 15 22 11 13 2 9 22 2" />
           </svg>
@@ -1111,7 +1135,8 @@
       <div class="cta-label">Ready to Compete?</div>
       <h2 class="cta-title">Get the Handbook &amp; Register Now</h2>
       <p class="cta-sub">
-        Download the complete handbook containing technical guidelines, writing formats, and evaluation criteria. Ensure your team is ready before registration closes!
+        Download the complete handbook containing technical guidelines, writing formats, and evaluation criteria. Ensure
+        your team is ready before registration closes!
       </p>
       <div class="cta-actions">
         <a href="#" class="btn btn-nav-primary btn-lg">
@@ -1140,12 +1165,12 @@
 
 <script>
   /* FAQ Accordion */
-  document.querySelectorAll('.faq-question').forEach(function(btn) {
-    btn.addEventListener('click', function() {
+  document.querySelectorAll('.faq-question').forEach(function (btn) {
+    btn.addEventListener('click', function () {
       var item = this.closest('.faq-item');
       var isOpen = item.classList.contains('open');
       // close all
-      document.querySelectorAll('.faq-item').forEach(function(el) {
+      document.querySelectorAll('.faq-item').forEach(function (el) {
         el.classList.remove('open');
       });
       // toggle current
@@ -1154,9 +1179,9 @@
   });
 
   /* Wall of Fame — Year Tabs */
-  document.querySelectorAll('.wof-year-tab').forEach(function(tab) {
-    tab.addEventListener('click', function() {
-      document.querySelectorAll('.wof-year-tab').forEach(function(t) {
+  document.querySelectorAll('.wof-year-tab').forEach(function (tab) {
+    tab.addEventListener('click', function () {
+      document.querySelectorAll('.wof-year-tab').forEach(function (t) {
         t.classList.remove('active');
       });
       this.classList.add('active');
@@ -1164,9 +1189,9 @@
   });
 
   /* Wall of Fame — Category Tabs */
-  document.querySelectorAll('.wof-cat-tab').forEach(function(tab) {
-    tab.addEventListener('click', function() {
-      document.querySelectorAll('.wof-cat-tab').forEach(function(t) {
+  document.querySelectorAll('.wof-cat-tab').forEach(function (tab) {
+    tab.addEventListener('click', function () {
+      document.querySelectorAll('.wof-cat-tab').forEach(function (t) {
         t.classList.remove('active');
       });
       this.classList.add('active');
