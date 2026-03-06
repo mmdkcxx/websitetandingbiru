@@ -3642,12 +3642,13 @@ body {
 
   .wof-podium {
     flex-direction: column;
-    align-items: stretch;
+    align-items: center;
     gap: 16px;
   }
 
   .wof-card--first {
     width: 100%;
+    max-width: 400px;
   }
 
   .wof-card--first .wof-card__photo {
@@ -3657,6 +3658,7 @@ body {
 
   .wof-right-col {
     width: 100%;
+    max-width: 400px;
   }
 
   .wof-runner-row {
