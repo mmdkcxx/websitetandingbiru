@@ -3707,8 +3707,32 @@ body {
 
   /* ── Instagram Feed ── */
   .ig-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 8px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 12px;
+    padding-bottom: 16px;
+    /* Space for scrollbar */
+    /* Hide scrollbar completely to rely purely on swipe */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    margin-right: -20px;
+    /* Counteract container padding */
+    padding-right: 20px;
+    /* Add padding at end of scroll */
+  }
+
+  .ig-grid::-webkit-scrollbar {
+    display: none;
+  }
+
+  .ig-post {
+    flex: 0 0 160px;
+    /* Fixed width for slider items */
+    scroll-snap-align: start;
+    height: 160px;
+    /* Maintain square aspect ratio */
   }
 
   /* ── Footer ── */
