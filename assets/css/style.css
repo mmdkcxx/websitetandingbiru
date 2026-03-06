@@ -3481,7 +3481,9 @@ body {
   }
 
   .hero-arrow {
-    display: none;
+    display: none !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
   }
 
   /* ── About Section ── */
