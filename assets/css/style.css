@@ -1639,25 +1639,29 @@ body {
 /* ── Timeline Mobile Responsiveness ── */
 @media (max-width: 768px) {
   .ta-card {
-    /* Set explicit widths to prevent overflow on mobile while allowing next card to peek */
-    flex: 0 0 90vw;
-    width: 90vw;
-    max-width: 230px;
-    padding: 32px 24px;
+    flex: 0 0 280px;
+    width: 280px;
+    max-width: 85vw;
+    padding: 28px 22px;
     min-height: auto;
   }
 
   .ta-card__time {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    margin-bottom: 16px;
   }
 
   .ta-card__title {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
   }
 
   .ta-card__desc,
   .ta-card__list {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
+  }
+
+  .ta-card__list {
+    padding-left: 16px;
   }
 }
 
@@ -3414,5 +3418,352 @@ body {
   #backToTopBtn {
     bottom: 20px;
     right: 20px;
+  }
+}
+
+/* ══════════════════════════════════════════
+   MOBILE OPTIMIZATION (iPhone X & similar)
+   Reset zoom and fix spacing on small devices
+══════════════════════════════════════════ */
+@media (max-width: 768px) {
+
+  /* Reset the 1.25x zoom for mobile — critical fix */
+  body {
+    zoom: 1;
+  }
+
+  .navbar {
+    zoom: 1;
+  }
+
+  /* ── Container padding ── */
+  .container {
+    padding: 0 20px;
+  }
+
+  /* ── Hero Section ── */
+  .hero-slideshow {
+    min-height: 100vh;
+  }
+
+  .hero-slide-overlay {
+    min-height: 100vh;
+    padding: 40px 0;
+    background: linear-gradient(to right,
+        rgba(0, 0, 0, 0.6) 0%,
+        rgba(0, 0, 0, 0.45) 50%,
+        rgba(0, 0, 0, 0.25) 100%);
+  }
+
+  .hero-slide-content {
+    max-width: 100%;
+  }
+
+  .hero-slideshow .hero-title {
+    font-size: 1.75rem;
+    margin-bottom: 16px;
+  }
+
+  .hero-slideshow .hero-subtitle {
+    font-size: 0.9rem;
+    margin-bottom: 24px;
+  }
+
+  .hero-slideshow .hero-actions {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero-slideshow .hero-actions .btn {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .hero-arrow {
+    width: 36px;
+    height: 36px;
+    opacity: 1;
+  }
+
+  .hero-arrow--prev {
+    left: 6px;
+  }
+
+  .hero-arrow--next {
+    right: 6px;
+  }
+
+  /* ── About Section ── */
+  .about {
+    padding: 48px 0;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .about-title {
+    font-size: 1.75rem;
+  }
+
+  .about-img-card {
+    max-height: 280px;
+    aspect-ratio: 16/9;
+  }
+
+  /* ── Categories Section ── */
+  .categories {
+    padding: 48px 0;
+  }
+
+  .categories-grid {
+    grid-template-columns: 1fr;
+    max-width: 100%;
+    gap: 24px;
+  }
+
+  .cat-card {
+    min-height: auto;
+    box-shadow: -6px 6px 0 #0857C3;
+    margin-left: 6px;
+    margin-bottom: 6px;
+  }
+
+  .cat-card__content {
+    padding: 20px;
+    gap: 8px;
+  }
+
+  .cat-card__illustration {
+    display: none;
+  }
+
+  /* ── Timeline Activities ── */
+  .timeline-activities {
+    padding: 48px 0;
+  }
+
+  .timeline-activities .section-title {
+    font-size: 1.6rem;
+  }
+
+  .timeline-activities .section-sub {
+    font-size: 0.9rem;
+  }
+
+  /* ── Rules Section ── */
+  .rules {
+    padding: 48px 0;
+  }
+
+  .rules-banner {
+    padding: 28px 20px;
+    border-radius: 14px;
+  }
+
+  .rules-banner__title {
+    font-size: 1.3rem;
+  }
+
+  .rules-banner__actions {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .rules-banner__btn {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .rules-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .rules-info-card {
+    padding: 24px 20px;
+  }
+
+  .rules-info-card__title {
+    font-size: 1.2rem;
+  }
+
+  /* ── Gallery ── */
+  .gallery {
+    padding: 48px 0;
+  }
+
+  .gallery-heading {
+    font-size: 1.5rem;
+    margin-bottom: 24px;
+  }
+
+  .gallery-mosaic {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-areas:
+      "a b"
+      "c d"
+      "e f";
+    gap: 10px;
+  }
+
+  /* ── FAQ ── */
+  .faq {
+    padding: 48px 0;
+  }
+
+  .faq .section-title {
+    font-size: 1.4rem;
+  }
+
+  .faq-question {
+    padding: 16px 18px;
+  }
+
+  .faq-question span {
+    font-size: 0.88rem;
+  }
+
+  .faq-answer {
+    padding: 0 18px;
+  }
+
+  /* ── Wall of Fame ── */
+  .wof {
+    padding: 48px 0;
+  }
+
+  .wof .section-title {
+    font-size: 1.5rem;
+  }
+
+  .wof-podium {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
+  }
+
+  .wof-card--first {
+    width: 100%;
+  }
+
+  .wof-card--first .wof-card__photo {
+    aspect-ratio: 16/10;
+    flex: none;
+  }
+
+  .wof-right-col {
+    width: 100%;
+  }
+
+  .wof-runner-row {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .wof-card__team {
+    font-size: 0.9rem;
+  }
+
+  /* ── CTA Section ── */
+  .cta {
+    padding: 48px 0;
+  }
+
+  .cta-title {
+    font-size: 1.6rem;
+  }
+
+  .cta-sub {
+    font-size: 0.9rem;
+  }
+
+  .cta-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .cta-actions .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* ── Contact Section ── */
+  .contact-split__inner {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .contact-map {
+    height: 280px;
+  }
+
+  /* ── Instagram Feed ── */
+  .ig-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+
+  /* ── Footer ── */
+  .footer {
+    padding: 48px 0 24px;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .footer-brand {
+    max-width: 100%;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 12px;
+  }
+
+  /* ── Section titles global ── */
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .section-sub {
+    font-size: 0.9rem;
+  }
+
+  .section-header {
+    margin-bottom: 32px;
+  }
+}
+
+/* ── Extra small devices (below 375px) ── */
+@media (max-width: 375px) {
+  .container {
+    padding: 0 16px;
+  }
+
+  .hero-slideshow .hero-title {
+    font-size: 1.5rem;
+  }
+
+  .gallery-mosaic {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 140px);
+    grid-template-areas:
+      "a"
+      "b"
+      "c"
+      "d"
+      "e"
+      "f";
   }
 }
