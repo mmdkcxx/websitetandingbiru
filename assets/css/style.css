@@ -3481,17 +3481,7 @@ body {
   }
 
   .hero-arrow {
-    width: 36px;
-    height: 36px;
-    opacity: 1;
-  }
-
-  .hero-arrow--prev {
-    left: 6px;
-  }
-
-  .hero-arrow--next {
-    right: 6px;
+    display: none;
   }
 
   /* ── About Section ── */
