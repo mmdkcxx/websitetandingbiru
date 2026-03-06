@@ -8,14 +8,16 @@
   <meta name="description"
     content="A prestigious business case competition for undergraduate and graduate students across Indonesia. Prove your analytical skills and win career opportunities at BRI!" />
   <meta name="author" content="BRI GAMA Business Case Competition" />
-  <meta name="keywords" content="Business Case Competition, Student Competition, BRI GAMA, UGM Competition, Undergraduate Graduate Competition">
+  <meta name="keywords"
+    content="Business Case Competition, Student Competition, BRI GAMA, UGM Competition, Undergraduate Graduate Competition">
   <link rel="canonical" href="https://brigamabcc.id/" />
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://brigamabcc.id/" />
   <meta property="og:title" content="BRI GAMA Business Case Competition 2026" />
-  <meta property="og:description" content="Showcase your strategy in the most prestigious national business case competition from Bank Rakyat Indonesia and Universitas Gadjah Mada." />
+  <meta property="og:description"
+    content="Showcase your strategy in the most prestigious national business case competition from Bank Rakyat Indonesia and Universitas Gadjah Mada." />
   <meta property="og:image" content="https://brigamabcc.id/assets/images/og-image.jpg" />
   <meta property="og:site_name" content="BRI GAMA 2026">
 
@@ -23,7 +25,8 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:url" content="https://brigamabcc.id/" />
   <meta name="twitter:title" content="BRI GAMA Business Case Competition 2026" />
-  <meta name="twitter:description" content="Showcase your strategy in the most prestigious national business case competition from Bank Rakyat Indonesia and Universitas Gadjah Mada." />
+  <meta name="twitter:description"
+    content="Showcase your strategy in the most prestigious national business case competition from Bank Rakyat Indonesia and Universitas Gadjah Mada." />
   <meta name="twitter:image" content="https://brigamabcc.id/assets/images/og-image.jpg" />
 
   <!-- Favicon -->
@@ -32,13 +35,12 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet" />
-  <!-- Preload Assets for Performance -->
-  <link rel="preload" href="assets/css/style.css" as="style" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" <!-- Preload
+    Assets for Performance -->
+  <link rel="preload" href="assets/css/style.css?v=1.1" as="style" />
 
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/style.css?v=1.1" />
 </head>
 
 <body>
