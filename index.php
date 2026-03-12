@@ -191,24 +191,34 @@
 ══════════════════════════════════════════ -->
 <section class="timeline-activities" id="timeline-activities">
   <div class="container container--left-aligned">
-    <div class="section-header" data-animate>
-      <h2 class="section-title" style="color: var(--blue-800);">Timeline Activities</h2>
-      <p class="section-sub" style="color: var(--blue-700);">
-        Since its inception, BRI GAMA has evolved into a premier platform for competitive business thinking. Each year
-        brings new challenges, new winners, and new standards of excellence.
-      </p>
+    <div class="ta-header-wrapper" data-animate>
+      <div class="section-header" style="margin-bottom: 0;">
+        <h2 class="section-title" style="color: var(--blue-800);">Timeline Activities</h2>
+        <p class="section-sub" style="color: var(--blue-700);">
+          Since its inception, BRI GAMA has evolved into a premier platform for competitive business thinking. Each year
+          brings new challenges, new winners, and new standards of excellence.
+        </p>
+      </div>
+      <div class="ta-nav-controls">
+        <button class="ta-nav-btn ta-prev" aria-label="Previous Activity">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+            stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="15 18 9 12 15 6"></polyline>
+          </svg>
+        </button>
+        <button class="ta-nav-btn ta-next" aria-label="Next Activity">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+            stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </button>
+      </div>
     </div>
 
     <!-- Horizontal Slider Container with Navigation Controls -->
     <div class="ta-slider-container" data-animate data-delay="100">
 
-      <!-- Prev Button (Left) -->
-      <button class="ta-nav-btn ta-prev" aria-label="Previous Activity">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-          stroke-linecap="round" stroke-linejoin="round">
-          <polyline points="15 18 9 12 15 6"></polyline>
-        </svg>
-      </button>
+
 
       <div class="ta-slider-wrapper">
         <div class="ta-slider">
@@ -287,13 +297,7 @@
         </div>
       </div>
 
-      <!-- Next Button (Right) -->
-      <button class="ta-nav-btn ta-next" aria-label="Next Activity">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-          stroke-linecap="round" stroke-linejoin="round">
-          <polyline points="9 18 15 12 9 6"></polyline>
-        </svg>
-      </button>
+
 
     </div>
   </div>
