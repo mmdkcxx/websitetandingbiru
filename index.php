@@ -534,8 +534,9 @@
     <!-- Tabs row: Year + Category -->
     <div class="wof-controls" data-animate data-delay="100">
       <div class="wof-year-tabs">
-        <button class="wof-year-tab active" data-year="2022">2022</button>
+        <button class="wof-year-tab active" data-year="2024">2024</button>
         <button class="wof-year-tab" data-year="2023">2023</button>
+        <button class="wof-year-tab" data-year="2022">2022</button>
       </div>
       <div class="wof-cat-tabs">
         <button class="wof-cat-tab active" data-cat="s1">Undergraduate (S1)</button>
@@ -545,7 +546,7 @@
 
     <!-- Champions Podium — Filtered by Year + Category -->
     <!-- ── 2022 · S1 ── -->
-    <div class="wof-podium active" data-year="2022" data-cat="s1" data-animate data-delay="200">
+    <div class="wof-podium" data-year="2022" data-cat="s1" style="display:none;">
       <div class="wof-card wof-card--first">
         <div class="wof-card__photo">
           <div class="wof-card__rank wof-rank--gold">
@@ -555,15 +556,12 @@
             </svg>
             1st Champion
           </div>
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
-            <rect x="3" y="3" width="18" height="18" rx="2" />
-            <circle cx="8.5" cy="8.5" r="1.5" />
-            <polyline points="21 15 16 10 5 21" />
-          </svg>
+          <img src="assets/images/WallofChampion/2022/S1/2022_S1_W1.png" alt="1st Champion 2022 S1"
+            style="width: 100%; height: 100%; object-fit: cover;">
         </div>
         <div class="wof-card__info">
-          <h3 class="wof-card__team">TEAM NAME</h3>
-          <p class="wof-card__univ">Universitas Gadjah Mada</p>
+          <h3 class="wof-card__team">CCG (Chemistree Consulting Group)</h3>
+          <p class="wof-card__univ">1st Champion | Universitas Gadjah Mada</p>
         </div>
       </div>
       <div class="wof-right-col">
@@ -577,15 +575,12 @@
                 </svg>
                 2nd
               </div>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
-                <rect x="3" y="3" width="18" height="18" rx="2" />
-                <circle cx="8.5" cy="8.5" r="1.5" />
-                <polyline points="21 15 16 10 5 21" />
-              </svg>
+              <img src="assets/images/WallofChampion/2022/S1/2022_S1_W2.png" alt="2nd Champion 2022 S1"
+                style="width: 100%; height: 100%; object-fit: cover;">
             </div>
             <div class="wof-card__info">
-              <h3 class="wof-card__team">TEAM NAME</h3>
-              <p class="wof-card__univ">Universitas Indonesia</p>
+              <h3 class="wof-card__team">Slagen</h3>
+              <p class="wof-card__univ">2nd Champion | Universitas Indonesia</p>
             </div>
           </div>
           <div class="wof-card wof-card--third">
@@ -597,26 +592,20 @@
                 </svg>
                 3rd
               </div>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
-                <rect x="3" y="3" width="18" height="18" rx="2" />
-                <circle cx="8.5" cy="8.5" r="1.5" />
-                <polyline points="21 15 16 10 5 21" />
-              </svg>
+              <img src="assets/images/WallofChampion/2022/S1/2022_S1_W3.png" alt="3rd Champion 2022 S1"
+                style="width: 100%; height: 100%; object-fit: cover;">
             </div>
             <div class="wof-card__info">
-              <h3 class="wof-card__team">TEAM NAME</h3>
-              <p class="wof-card__univ">Universitas Diponegoro</p>
+              <h3 class="wof-card__team">Macario</h3>
+              <p class="wof-card__univ">3rd Champion | Institut Teknologi Sepuluh Nopember</p>
             </div>
           </div>
         </div>
         <div class="wof-card wof-card--speaker">
           <div class="wof-speaker-inner">
             <div class="wof-card__photo wof-card__photo--speaker">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
-                <rect x="3" y="3" width="18" height="18" rx="2" />
-                <circle cx="8.5" cy="8.5" r="1.5" />
-                <polyline points="21 15 16 10 5 21" />
-              </svg>
+              <img src="assets/images/WallofChampion/2022/S1/2022_S1_Best_Speaker.png" alt="Best Speaker 2022 S1"
+                style="width: 100%; height: 100%; object-fit: cover;">
             </div>
             <div class="wof-speaker-info">
               <div class="wof-card__rank wof-rank--speaker">
@@ -629,8 +618,8 @@
                 </svg>
                 Best Speaker
               </div>
-              <h3 class="wof-card__team">PARTICIPANT NAME</h3>
-              <p class="wof-card__univ">Team — Universitas Gadjah Mada</p>
+              <h3 class="wof-card__team">Garry Neville</h3>
+              <p class="wof-card__univ">Best Speaker | CCG | Universitas Gadjah Mada</p>
             </div>
           </div>
         </div>
@@ -648,15 +637,11 @@
             </svg>
             1st Champion
           </div>
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
-            <rect x="3" y="3" width="18" height="18" rx="2" />
-            <circle cx="8.5" cy="8.5" r="1.5" />
-            <polyline points="21 15 16 10 5 21" />
-          </svg>
+          <img src="assets/images/WallofChampion/2022/S2/2022_S2_W1.png" alt="1st Champion 2022 S2" style="width: 100%; height: 100%; object-fit: cover;">
         </div>
         <div class="wof-card__info">
-          <h3 class="wof-card__team">TEAM NAME</h3>
-          <p class="wof-card__univ">Universitas Brawijaya</p>
+          <h3 class="wof-card__team">I-Leaders</h3>
+          <p class="wof-card__univ">1st Champion | Universitas Gadjah Mada</p>
         </div>
       </div>
       <div class="wof-right-col">
@@ -670,15 +655,11 @@
                 </svg>
                 2nd
               </div>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
-                <rect x="3" y="3" width="18" height="18" rx="2" />
-                <circle cx="8.5" cy="8.5" r="1.5" />
-                <polyline points="21 15 16 10 5 21" />
-              </svg>
+              <img src="assets/images/WallofChampion/2022/S2/2022_S2_W2.png" alt="2nd Champion 2022 S2" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
             <div class="wof-card__info">
-              <h3 class="wof-card__team">TEAM NAME</h3>
-              <p class="wof-card__univ">Universitas Airlangga</p>
+              <h3 class="wof-card__team">Livicha</h3>
+              <p class="wof-card__univ">2nd Champion | Universitas Indonesia</p>
             </div>
           </div>
           <div class="wof-card wof-card--third">
@@ -690,26 +671,18 @@
                 </svg>
                 3rd
               </div>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
-                <rect x="3" y="3" width="18" height="18" rx="2" />
-                <circle cx="8.5" cy="8.5" r="1.5" />
-                <polyline points="21 15 16 10 5 21" />
-              </svg>
+              <img src="assets/images/WallofChampion/2022/S2/2022_S2_W3.png" alt="3rd Champion 2022 S2" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
             <div class="wof-card__info">
-              <h3 class="wof-card__team">TEAM NAME</h3>
-              <p class="wof-card__univ">Universitas Padjadjaran</p>
+              <h3 class="wof-card__team">Three M</h3>
+              <p class="wof-card__univ">3rd Champion | Universitas Indonesia</p>
             </div>
           </div>
         </div>
         <div class="wof-card wof-card--speaker">
           <div class="wof-speaker-inner">
             <div class="wof-card__photo wof-card__photo--speaker">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
-                <rect x="3" y="3" width="18" height="18" rx="2" />
-                <circle cx="8.5" cy="8.5" r="1.5" />
-                <polyline points="21 15 16 10 5 21" />
-              </svg>
+              <img src="assets/images/WallofChampion/2022/S2/2022_S2_Best_Speaker.png" alt="Best Speaker 2022 S2" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
             <div class="wof-speaker-info">
               <div class="wof-card__rank wof-rank--speaker">
@@ -722,8 +695,8 @@
                 </svg>
                 Best Speaker
               </div>
-              <h3 class="wof-card__team">PARTICIPANT NAME</h3>
-              <p class="wof-card__univ">Team — Universitas Brawijaya</p>
+              <h3 class="wof-card__team">Maya Lynn</h3>
+              <p class="wof-card__univ">Best Speaker | I-LEADERS | Universitas Gadjah Mada</p>
             </div>
           </div>
         </div>
@@ -741,15 +714,11 @@
             </svg>
             1st Champion
           </div>
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
-            <rect x="3" y="3" width="18" height="18" rx="2" />
-            <circle cx="8.5" cy="8.5" r="1.5" />
-            <polyline points="21 15 16 10 5 21" />
-          </svg>
+          <img src="assets/images/WallofChampion/2023/S1/2023_S1_W1.png" alt="1st Champion 2023 S1" style="width: 100%; height: 100%; object-fit: cover; border-radius: 0;">
         </div>
         <div class="wof-card__info">
-          <h3 class="wof-card__team">TEAM NAME</h3>
-          <p class="wof-card__univ">Universitas Indonesia</p>
+          <h3 class="wof-card__team">Letsgo</h3>
+          <p class="wof-card__univ">1st Champion | Institut Teknologi Bandung</p>
         </div>
       </div>
       <div class="wof-right-col">
@@ -763,15 +732,11 @@
                 </svg>
                 2nd
               </div>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
-                <rect x="3" y="3" width="18" height="18" rx="2" />
-                <circle cx="8.5" cy="8.5" r="1.5" />
-                <polyline points="21 15 16 10 5 21" />
-              </svg>
+              <img src="assets/images/WallofChampion/2023/S1/2023_S1_W2.png" alt="2nd Champion 2023 S1" style="width: 100%; height: 100%; object-fit: cover; border-radius: 0;">
             </div>
             <div class="wof-card__info">
-              <h3 class="wof-card__team">TEAM NAME</h3>
-              <p class="wof-card__univ">Universitas Gadjah Mada</p>
+              <h3 class="wof-card__team">Mandalika Team</h3>
+              <p class="wof-card__univ">2nd Champion | Universitas Gadjah Mada</p>
             </div>
           </div>
           <div class="wof-card wof-card--third">
@@ -783,26 +748,18 @@
                 </svg>
                 3rd
               </div>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
-                <rect x="3" y="3" width="18" height="18" rx="2" />
-                <circle cx="8.5" cy="8.5" r="1.5" />
-                <polyline points="21 15 16 10 5 21" />
-              </svg>
+              <img src="assets/images/WallofChampion/2023/S1/2023_S1_W3.png" alt="3rd Champion 2023 S1" style="width: 100%; height: 100%; object-fit: cover; border-radius: 0;">
             </div>
             <div class="wof-card__info">
-              <h3 class="wof-card__team">TEAM NAME</h3>
-              <p class="wof-card__univ">Institut Teknologi Bandung</p>
+              <h3 class="wof-card__team">Jong Indonesia</h3>
+              <p class="wof-card__univ">3rd Champion | Universitas Indonesia</p>
             </div>
           </div>
         </div>
         <div class="wof-card wof-card--speaker">
           <div class="wof-speaker-inner">
             <div class="wof-card__photo wof-card__photo--speaker">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
-                <rect x="3" y="3" width="18" height="18" rx="2" />
-                <circle cx="8.5" cy="8.5" r="1.5" />
-                <polyline points="21 15 16 10 5 21" />
-              </svg>
+              <img src="assets/images/WallofChampion/2023/S1/2023_S1_Best_Speaker.png" alt="Best Speaker 2023 S1" style="width: 100%; height: 100%; object-fit: cover; border-radius: 0;">
             </div>
             <div class="wof-speaker-info">
               <div class="wof-card__rank wof-rank--speaker">
@@ -815,8 +772,8 @@
                 </svg>
                 Best Speaker
               </div>
-              <h3 class="wof-card__team">NAMA PESERTA</h3>
-              <p class="wof-card__univ">Tim — Universitas Indonesia</p>
+              <h3 class="wof-card__team">Michael Yoe</h3>
+              <p class="wof-card__univ">Best Speaker | LETSGO | Institut Teknologi Bandung</p>
             </div>
           </div>
         </div>
@@ -834,15 +791,11 @@
             </svg>
             1st Champion
           </div>
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
-            <rect x="3" y="3" width="18" height="18" rx="2" />
-            <circle cx="8.5" cy="8.5" r="1.5" />
-            <polyline points="21 15 16 10 5 21" />
-          </svg>
+          <img src="assets/images/WallofChampion/2023/S2/2023_S2_W1.png" alt="1st Champion 2023 S2" style="width: 100%; height: 100%; object-fit: cover;">
         </div>
         <div class="wof-card__info">
-          <h3 class="wof-card__team">NAMA TIM</h3>
-          <p class="wof-card__univ">Universitas Diponegoro</p>
+          <h3 class="wof-card__team">Buzzer Beater</h3>
+          <p class="wof-card__univ">1st Champion | Universitas Indonesia</p>
         </div>
       </div>
       <div class="wof-right-col">
@@ -856,15 +809,11 @@
                 </svg>
                 2nd
               </div>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
-                <rect x="3" y="3" width="18" height="18" rx="2" />
-                <circle cx="8.5" cy="8.5" r="1.5" />
-                <polyline points="21 15 16 10 5 21" />
-              </svg>
+              <img src="assets/images/WallofChampion/2023/S2/2023_S2_W2.png" alt="2nd Champion 2023 S2" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
             <div class="wof-card__info">
-              <h3 class="wof-card__team">NAMA TIM</h3>
-              <p class="wof-card__univ">Universitas Gadjah Mada</p>
+              <h3 class="wof-card__team">Prime Team</h3>
+              <p class="wof-card__univ">2nd Champion | Universitas Gadjah Mada</p>
             </div>
           </div>
           <div class="wof-card wof-card--third">
@@ -876,26 +825,18 @@
                 </svg>
                 3rd
               </div>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
-                <rect x="3" y="3" width="18" height="18" rx="2" />
-                <circle cx="8.5" cy="8.5" r="1.5" />
-                <polyline points="21 15 16 10 5 21" />
-              </svg>
+              <img src="assets/images/WallofChampion/2023/S2/2023_S2_W3.png" alt="3rd Champion 2023 S2" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
             <div class="wof-card__info">
-              <h3 class="wof-card__team">NAMA TIM</h3>
-              <p class="wof-card__univ">Universitas Airlangga</p>
+              <h3 class="wof-card__team">Selat Sunda</h3>
+              <p class="wof-card__univ">3rd Champion | Universitas Gadjah Mada</p>
             </div>
           </div>
         </div>
         <div class="wof-card wof-card--speaker">
           <div class="wof-speaker-inner">
             <div class="wof-card__photo wof-card__photo--speaker">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
-                <rect x="3" y="3" width="18" height="18" rx="2" />
-                <circle cx="8.5" cy="8.5" r="1.5" />
-                <polyline points="21 15 16 10 5 21" />
-              </svg>
+              <img src="assets/images/WallofChampion/2023/S2/2023_S2_Best_Speaker.png" alt="Best Speaker 2023 S2" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
             <div class="wof-speaker-info">
               <div class="wof-card__rank wof-rank--speaker">
@@ -908,8 +849,162 @@
                 </svg>
                 Best Speaker
               </div>
-              <h3 class="wof-card__team">NAMA PESERTA</h3>
-              <p class="wof-card__univ">Tim — Universitas Diponegoro</p>
+              <h3 class="wof-card__team">Prasasta Adi Putra</h3>
+              <p class="wof-card__univ">Best Speaker | Buzzer Beater |   Universitas Indonesia</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── 2024 · S1 ── -->
+    <div class="wof-podium active" data-year="2024" data-cat="s1" data-animate data-delay="200">
+      <div class="wof-card wof-card--first">
+        <div class="wof-card__photo">
+          <div class="wof-card__rank wof-rank--gold">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+              <circle cx="12" cy="9" r="6" />
+              <path d="M8 14l-2 8 6-3 6 3-2-8" opacity="0.7" />
+            </svg>
+            1st Champion
+          </div>
+          <img src="assets/images/WallofChampion/2024/S1/2024-S1-W1.jpg" alt="1st Champion 2024 S1" style="width: 100%; height: 100%; object-fit: cover; border-radius: 0;">
+        </div>
+        <div class="wof-card__info">
+          <h3 class="wof-card__team">Nyubi Nyoba</h3>
+          <p class="wof-card__univ">1st Champion | Telkom University</p>
+        </div>
+      </div>
+      <div class="wof-right-col">
+        <div class="wof-runner-row">
+          <div class="wof-card wof-card--second">
+            <div class="wof-card__photo">
+              <div class="wof-card__rank wof-rank--silver">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                  <circle cx="12" cy="9" r="6" />
+                  <path d="M8 14l-2 8 6-3 6 3-2-8" opacity="0.7" />
+                </svg>
+                2nd
+              </div>
+              <img src="assets/images/WallofChampion/2024/S1/2024-S1-W2.jpg" alt="2nd Champion 2024 S1" style="width: 100%; height: 100%; object-fit: cover; border-radius: 0;">
+            </div>
+            <div class="wof-card__info">
+              <h3 class="wof-card__team">Bisa - Bisa</h3>
+              <p class="wof-card__univ">2nd Champion | Universitas Gadjah Mada</p>
+            </div>
+          </div>
+          <div class="wof-card wof-card--third">
+            <div class="wof-card__photo">
+              <div class="wof-card__rank wof-rank--bronze">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                  <circle cx="12" cy="9" r="6" />
+                  <path d="M8 14l-2 8 6-3 6 3-2-8" opacity="0.7" />
+                </svg>
+                3rd
+              </div>
+              <img src="assets/images/WallofChampion/2024/S1/2024-S1-W3.jpg" alt="3rd Champion 2024 S1" style="width: 100%; height: 100%; object-fit: cover; border-radius: 0;">
+            </div>
+            <div class="wof-card__info">
+              <h3 class="wof-card__team">EcoTechpreneurs</h3>
+              <p class="wof-card__univ">3rd Champion | Universitas Atma Jaya Yogyakarta</p>
+            </div>
+          </div>
+        </div>
+        <div class="wof-card wof-card--speaker">
+          <div class="wof-speaker-inner">
+            <div class="wof-card__photo wof-card__photo--speaker">
+              <img src="assets/images/WallofChampion/2024/S1/2024-S1-BS.jpg" alt="Best Speaker 2024 S1" style="width: 100%; height: 100%; object-fit: cover; border-radius: 0;">
+            </div>
+            <div class="wof-speaker-info">
+              <div class="wof-card__rank wof-rank--speaker">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" />
+                  <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
+                  <line x1="12" y1="19" x2="12" y2="23" />
+                  <line x1="8" y1="23" x2="16" y2="23" />
+                </svg>
+                Best Speaker
+              </div>
+              <h3 class="wof-card__team">VIDHA HIRANYA ASTU BABOE</h3>
+              <p class="wof-card__univ">Best Speaker | EcoTechpreneurs | Universitas Atma Jaya Yogyakarta</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── 2024 · S2 ── -->
+    <div class="wof-podium" data-year="2024" data-cat="s2" style="display:none;">
+      <div class="wof-card wof-card--first">
+        <div class="wof-card__photo">
+          <div class="wof-card__rank wof-rank--gold">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+              <circle cx="12" cy="9" r="6" />
+              <path d="M8 14l-2 8 6-3 6 3-2-8" opacity="0.7" />
+            </svg>
+            1st Champion
+          </div>
+          <img src="assets/images/WallofChampion/2024/S2/2024-S2-W1.jpg" alt="1st Champion 2024 S2" style="width: 100%; height: 100%; object-fit: cover; border-radius: 0;">
+        </div>
+        <div class="wof-card__info">
+          <h3 class="wof-card__team">3mpower</h3>
+          <p class="wof-card__univ">1st Champion | Institut Teknologi Bandung</p>
+        </div>
+      </div>
+      <div class="wof-right-col">
+        <div class="wof-runner-row">
+          <div class="wof-card wof-card--second">
+            <div class="wof-card__photo">
+              <div class="wof-card__rank wof-rank--silver">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                  <circle cx="12" cy="9" r="6" />
+                  <path d="M8 14l-2 8 6-3 6 3-2-8" opacity="0.7" />
+                </svg>
+                2nd
+              </div>
+              <img src="assets/images/WallofChampion/2024/S2/2024-S2-W2.jpg" alt="2nd Champion 2024 S2" style="width: 100%; height: 100%; object-fit: cover; border-radius: 0;">
+            </div>
+            <div class="wof-card__info">
+              <h3 class="wof-card__team">Aquator</h3>
+              <p class="wof-card__univ">2nd Champion | Osnabruck University of Applied Sciences</p>
+            </div>
+          </div>
+          <div class="wof-card wof-card--third">
+            <div class="wof-card__photo">
+              <div class="wof-card__rank wof-rank--bronze">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                  <circle cx="12" cy="9" r="6" />
+                  <path d="M8 14l-2 8 6-3 6 3-2-8" opacity="0.7" />
+                </svg>
+                3rd
+              </div>
+              <img src="assets/images/WallofChampion/2024/S2/2024-S2-W3.jpg" alt="3rd Champion 2024 S2" style="width: 100%; height: 100%; object-fit: cover; border-radius: 0;">
+            </div>
+            <div class="wof-card__info">
+              <h3 class="wof-card__team">Visionaries</h3>
+              <p class="wof-card__univ">3rd Champion | Universitas Indonesia</p>
+            </div>
+          </div>
+        </div>
+        <div class="wof-card wof-card--speaker">
+          <div class="wof-speaker-inner">
+            <div class="wof-card__photo wof-card__photo--speaker">
+              <img src="assets/images/WallofChampion/2024/S2/2024-S2-BS.jpg" alt="Best Speaker 2024 S2" style="width: 100%; height: 100%; object-fit: cover; border-radius: 0;">
+            </div>
+            <div class="wof-speaker-info">
+              <div class="wof-card__rank wof-rank--speaker">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" />
+                  <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
+                  <line x1="12" y1="19" x2="12" y2="23" />
+                  <line x1="8" y1="23" x2="16" y2="23" />
+                </svg>
+                Best Speaker
+              </div>
+              <h3 class="wof-card__team">Dian Sinthayani</h3>
+              <p class="wof-card__univ">Best Speaker | Food Forward | Monash Univeristy</p>
             </div>
           </div>
         </div>

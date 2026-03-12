@@ -7,7 +7,7 @@
       <!-- Brand -->
       <div class="footer-brand">
         <a href="#" class="footer-logo">
-          <img src="assets/images/logo.png" alt="BRIGAMA Competition Logo" class="logo-image">
+          <img src="assets/images/logo_white.png" alt="BRIGAMA Competition Logo" class="logo-image">
         </a>
         <p class="footer-desc">
           A prestigious business case competition organized by BRI in collaboration with Universitas Gadjah Mada to

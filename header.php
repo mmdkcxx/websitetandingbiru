@@ -30,8 +30,7 @@
   <meta name="twitter:image" content="https://brigamabcc.id/assets/images/og-image.jpg" />
 
   <!-- Favicon -->
-  <link rel="icon" type="image/svg+xml"
-    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23003087'/><text y='.9em' font-size='72' x='14' fill='white' font-weight='900'>BG</text></svg>" />
+  <link rel="icon" type="image/png" href="assets/images/logocut.png" />
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
