@@ -144,7 +144,7 @@
       <!-- Category S1 -->
       <div class="cat-card cat-card--s1">
         <div class="cat-card__content">
-          <div class="cat-card__badge">S1 — Undergraduate</div>
+
           <h3 class="cat-card__title">Undergraduate Student (S1)</h3>
           <p class="cat-card__desc">Showcase your best analytical skills through a prestigious business case competition
             designed for undergraduate students globally.</p>
@@ -165,7 +165,7 @@
       <!-- Category S2 -->
       <div class="cat-card cat-card--s2">
         <div class="cat-card__content">
-          <div class="cat-card__badge">S2 — Graduate</div>
+
           <h3 class="cat-card__title">Graduate Student (S2)</h3>
           <p class="cat-card__desc">Prove your business strategy expertise at the postgraduate level and compete to win
             prestigious awards with Bank Rakyat Indonesia.</p>
