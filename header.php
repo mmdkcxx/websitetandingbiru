@@ -133,7 +133,7 @@
 
         <!-- Desktop Actions -->
         <div class="navbar-actions">
-          <a href="#" class="btn btn-nav-outline">Sign in</a>
+          <a href="#" class="btn btn-nav-outline">Sign In</a>
           <a href="#cta" class="btn btn-nav-primary">Register</a>
         </div>
 
@@ -156,7 +156,7 @@
         <a href="#contact" class="mobile-nav-link">Contact</a>
         <div class="mobile-nav-divider"></div>
         <div class="mobile-actions">
-          <a href="#" class="btn btn-nav-outline" style="flex:1;justify-content:center">Sign in</a>
+          <a href="#" class="btn btn-nav-outline" style="flex:1;justify-content:center">Sign In</a>
           <a href="#cta" class="btn btn-nav-primary" style="flex:1;justify-content:center">Register</a>
         </div>
       </div>

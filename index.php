@@ -25,8 +25,8 @@
           stage is set for the brightest minds in business.
         </p>
         <div class="hero-actions">
-          <a href="#cta" class="btn btn-primary btn-lg">Register now</a>
-          <a href="#" class="btn btn-outline-white btn-lg">View handbook</a>
+          <a href="#cta" class="btn btn-primary btn-lg">Register Now</a>
+          <a href="#" class="btn btn-outline-white btn-lg">View Handbook</a>
         </div>
       </div>
     </div>
@@ -63,7 +63,7 @@
     <div class="about-grid">
       <!-- Left: Text -->
       <div class="about-text" data-animate>
-        <h2 class="about-title">About BRIGAMABCC</h2>
+        <h2 class="about-title">About BRIGAMA International Business Case Competition </h2>
         <p class="about-tagline">A competition built for excellence</p>
         <p class="about-desc">
           BRI GAMA brings together the sharpest business minds from across
@@ -98,9 +98,9 @@
           </li>
         </ul>
         <div class="about-actions">
-          <a href="#categories" class="btn btn-primary">Learn more</a>
+          <a href="#categories" class="btn btn-primary">Learn More</a>
           <a href="#timeline-activities" class="about-arrow-link">
-            Arrow
+            Timeline Activities
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
               stroke-linecap="round" stroke-linejoin="round">
               <polyline points="9 18 15 12 9 6" />
@@ -309,11 +309,11 @@
     <!-- Blue handbook banner -->
     <div class="rules-banner" data-animate>
       <div class="rules-banner__text">
-        <h2 class="rules-banner__title">Get the full handbook</h2>
+        <h2 class="rules-banner__title">Get The Full Handbook</h2>
         <p class="rules-banner__sub">Complete rules, judging criteria, and submission guidelines in one document.</p>
         <div class="rules-banner__actions">
           <a href="#" class="rules-banner__btn rules-banner__btn--outline">Download</a>
-          <a href="#cta" class="rules-banner__btn rules-banner__btn--outline">Register now</a>
+          <a href="#cta" class="rules-banner__btn rules-banner__btn--outline">Register Now</a>
         </div>
       </div>
     </div>
@@ -507,9 +507,9 @@
       </div>
     </div>
     <div class="faq-cta" data-animate>
-      <h3>Still have questions?</h3>
+      <h3>Still Have Questions?</h3>
       <p>Reach out to our team directly for any additional information.</p>
-      <a href="#contact" class="faq-cta-btn">Contact us</a>
+      <a href="#contact" class="faq-cta-btn">Contact Us</a>
     </div>
   </div>
 </section>
