@@ -16,9 +16,8 @@
   <div class="hero-slide-overlay">
     <div class="container">
       <div class="hero-slide-content">
-        <h1 class="hero-title">
-          BRIGAMA International<br>
-          Business Case Competition 2026
+        <h1 class="hero-title-wrapper">
+          <img src="assets/images/logo_white.png" alt="BRIGAMA International Business Case Competition 2026" class="hero-logo-img">
         </h1>
         <p class="hero-subtitle">
           Test your strategy. Compete nationally. Win internationally. The
