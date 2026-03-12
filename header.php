@@ -56,8 +56,8 @@
         <a href="#" class="navbar-logo">
           <div class="logo-mark">BG</div>
           <div class="logo-text">
-            <span>BRIGAMA International</span>
-            <span>Business Case Competition 2026</span>
+            <span>BRIGAMA</span>
+            <span>International Business Case Competition 2026</span>
           </div>
         </a>
 
