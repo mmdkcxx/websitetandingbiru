@@ -9,8 +9,8 @@
           <div class="footer-logo">
             <div class="logo-mark">BG</div>
             <div class="logo-text">
-              <span>BRI GAMA</span>
-              <span>Business Case Competition</span>
+              <span>BRIGAMA International</span>
+              <span>Business Case Competition 2026</span>
             </div>
           </div>
           <p class="footer-desc">
@@ -110,7 +110,7 @@
 
       <!-- Bottom Bar -->
       <div class="footer-bottom">
-        <p>© 2026 BRI GAMA Business Case Competition. All rights reserved.</p>
+        <p>© 2026 BRIGAMA International Business Case Competition. All rights reserved.</p>
         <div class="footer-bottom-links">
           <a href="#">Privacy Policy</a>
           <a href="#">Terms & Conditions</a>

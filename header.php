@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BRI GAMA Business Case Competition 2026</title>
+  <title>BRIGAMA International Business Case Competition 2026</title>
   <meta name="description"
     content="A prestigious business case competition for undergraduate and graduate students across Indonesia. Prove your analytical skills and win career opportunities at BRI!" />
   <meta name="author" content="BRI GAMA Business Case Competition" />
@@ -15,7 +15,7 @@
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://brigamabcc.id/" />
-  <meta property="og:title" content="BRI GAMA Business Case Competition 2026" />
+  <meta property="og:title" content="BRIGAMA International Business Case Competition 2026" />
   <meta property="og:description"
     content="Showcase your strategy in the most prestigious national business case competition from Bank Rakyat Indonesia and Universitas Gadjah Mada." />
   <meta property="og:image" content="https://brigamabcc.id/assets/images/og-image.jpg" />
@@ -24,7 +24,7 @@
   <!-- Twitter / X -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:url" content="https://brigamabcc.id/" />
-  <meta name="twitter:title" content="BRI GAMA Business Case Competition 2026" />
+  <meta name="twitter:title" content="BRIGAMA International Business Case Competition 2026" />
   <meta name="twitter:description"
     content="Showcase your strategy in the most prestigious national business case competition from Bank Rakyat Indonesia and Universitas Gadjah Mada." />
   <meta name="twitter:image" content="https://brigamabcc.id/assets/images/og-image.jpg" />
@@ -56,8 +56,8 @@
         <a href="#" class="navbar-logo">
           <div class="logo-mark">BG</div>
           <div class="logo-text">
-            <span>BRI GAMA</span>
-            <span>Business Case Competition</span>
+            <span>BRIGAMA International</span>
+            <span>Business Case Competition 2026</span>
           </div>
         </a>
 
