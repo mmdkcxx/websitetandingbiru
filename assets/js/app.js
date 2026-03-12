@@ -1,5 +1,5 @@
 /* =====================================================
-   BRI GAMA Business Case Competition 2026
+   BRIGAMA International Business Case Competition 2026
    Main JavaScript — Interactivity & Animations
    ===================================================== */
 

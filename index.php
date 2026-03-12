@@ -17,9 +17,8 @@
     <div class="container">
       <div class="hero-slide-content">
         <h1 class="hero-title">
-          BRI GAMA Business<br>
-          Case Competition<br>
-          2026
+          BRIGAMA International<br>
+          Business Case Competition 2026
         </h1>
         <p class="hero-subtitle">
           Test your strategy. Compete nationally. Win internationally. The
