@@ -2021,10 +2021,17 @@ body {
 }
 
 .footer-logo {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-bottom: 16px;
+  display: block;
+  /* Change from flex so image can dictate width */
+  margin-bottom: 24px;
+}
+
+.footer-logo .logo-image {
+  height: auto;
+  width: 100%;
+  max-width: 220px;
+  /* Limit max width to keep it sensible, but large enough to align */
+  object-fit: contain;
 }
 
 
