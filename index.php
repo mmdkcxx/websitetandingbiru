@@ -940,8 +940,7 @@
       <!-- Post 1 -->
       <a href="https://www.instagram.com/p/DC01cFdPFKv/?utm_source=ig_web_button_share_sheet&amp;igsh=MzRlODBiNWFlZA=="
         class="ig-post" target="_blank" rel="noopener">
-        <div class="ig-post__img"
-          style="background: url('https://instagram.fcgk28-1.fna.fbcdn.net/v/t51.82787-15/622425216_18052530470448232_2635080540951126506_n.webp?_nc_cat=100&ig_cache_key=MzUwOTY2NTAzNjA5ODA5NzgzOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTgwMC5zZHIuQzMifQ%3D%3D&_nc_ohc=9th7w1jdjngQ7kNvwFLtO-V&_nc_oc=Adk76OMTQlRgl-GZnX3pTaCoEyo85fdkDCDwwyvWQlEq_pt1C3WNB8A2eBfaggiYT-k&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fcgk28-1.fna&_nc_gid=tnCxteX8XN47RuFZzpPm4A&_nc_ss=8&oh=00_AfxwQvhWHvETSiWeQcvcuhk8d1yG-IFxxvgJoCTEHsV17A&oe=69B054A2') center/cover;">
+        <div class="ig-post__img" style="background: url('assets/images/ig/1stchampion.webp') center/cover;">
         </div>
         <div class="ig-post__overlay">
           <span class="ig-stat"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
@@ -957,8 +956,7 @@
       <!-- Post 2 -->
       <a href="https://www.instagram.com/p/DC01sfNPT6Q/?utm_source=ig_web_button_share_sheet&amp;igsh=MzRlODBiNWFlZA=="
         class="ig-post" target="_blank" rel="noopener">
-        <div class="ig-post__img"
-          style="background: url('https://instagram.fcgk28-1.fna.fbcdn.net/v/t51.82787-15/621443349_17935942053011566_4952099584138908306_n.webp?_nc_cat=107&ig_cache_key=MzUwOTY2NjE2MzI1ODYzNzk2OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTgwMC5zZHIuQzMifQ%3D%3D&_nc_ohc=CMGquKJjb3YQ7kNvwGba8IK&_nc_oc=Adknst6oiO5U0IVq7fj4mOTJAxEgRmPwreo0u4u72g3LkdmflEpAKiJwksehTAYc7Cs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fcgk28-1.fna&_nc_gid=tnCxteX8XN47RuFZzpPm4A&_nc_ss=8&oh=00_AfwioEhKtI6TDkJv6et-jz4lRmGTU5t9P-oYYKXddt5_sw&oe=69B06679') center/cover;">
+        <div class="ig-post__img" style="background: url('assets/images/ig/2ndchampion.webp') center/cover;">
         </div>
         <div class="ig-post__overlay">
           <span class="ig-stat"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
@@ -972,10 +970,9 @@
       </a>
 
       <!-- Post 3 -->
-      <a href="https://www.instagram.com/p/DC01Y5_vEmh/?utm_source=ig_web_button_share_sheet&amp;igsh=MzRlODBiNWFlZA=="
+      <a href="https://www.instagram.com/p/DC01Y5_vEmh/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
         class="ig-post" target="_blank" rel="noopener">
-        <div class="ig-post__img"
-          style="background: url('https://instagram.fcgk28-1.fna.fbcdn.net/v/t51.82787-15/621443349_17935942053011566_4952099584138908306_n.webp?_nc_cat=107&ig_cache_key=MzUwOTY2NjE2MzI1ODYzNzk2OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTgwMC5zZHIuQzMifQ%3D%3D&_nc_ohc=CMGquKJjb3YQ7kNvwGba8IK&_nc_oc=Adknst6oiO5U0IVq7fj4mOTJAxEgRmPwreo0u4u72g3LkdmflEpAKiJwksehTAYc7Cs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fcgk28-1.fna&_nc_gid=tnCxteX8XN47RuFZzpPm4A&_nc_ss=8&oh=00_AfwioEhKtI6TDkJv6et-jz4lRmGTU5t9P-oYYKXddt5_sw&oe=69B06679') center/cover;">
+        <div class="ig-post__img" style="background: url('assets/images/ig/3rdchampion.webp') center/cover;">
         </div>
         <div class="ig-post__overlay">
           <span class="ig-stat"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
