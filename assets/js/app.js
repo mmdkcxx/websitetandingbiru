@@ -146,30 +146,7 @@ document.addEventListener('DOMContentLoaded', function () {
   updateCountdown();
   setInterval(updateCountdown, 1000);
 
-  /* ── FAQ Accordion ── */
-  const faqItems = document.querySelectorAll('.faq-item');
-  faqItems.forEach(item => {
-    const questionBtn = item.querySelector('.faq-question');
-    if (!questionBtn) return;
-
-    questionBtn.addEventListener('click', () => {
-      const isActive = item.classList.contains('active');
-
-      // Close all other items (optional, remove this block if you want multiple open at once)
-      faqItems.forEach(otherItem => {
-        if (otherItem !== item) {
-          otherItem.classList.remove('active');
-        }
-      });
-
-      // Toggle the clicked item
-      if (isActive) {
-        item.classList.remove('active');
-      } else {
-        item.classList.add('active');
-      }
-    });
-  });
+  /* FAQ Accordion logic moved to improved handler at bottom */
 
   /* ── Active Nav Link Highlighting ── */
   const sections = document.querySelectorAll('section[id]');
@@ -252,14 +229,7 @@ document.addEventListener('DOMContentLoaded', function () {
     handleScroll();
   }
 
-  /* ── Wall of Fame Tabs ── */
-  const fameTabs = document.querySelectorAll('.fame-tab-new');
-  fameTabs.forEach(tab => {
-    tab.addEventListener('click', () => {
-      fameTabs.forEach(t => t.classList.remove('active'));
-      tab.classList.add('active');
-    });
-  });
+  /* Wall of Fame Tab logic consolidated at bottom */
 
   /* ── Back to Top Button ── */
   const backToTopBtn = document.getElementById('backToTopBtn');
@@ -314,14 +284,11 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  /* ── Wall of Fame Tab Filtering ── */
-  const yearTabs = document.querySelectorAll('.wof-year-tab');
-  const catTabs = document.querySelectorAll('.wof-cat-tab');
-  const podiums = document.querySelectorAll('.wof-podium');
-
+  /* ── Wall of Fame Tab & Filter System (Consolidated) ── */
   function filterWoF() {
-    const activeYear = document.querySelector('.wof-year-tab.active')?.dataset.year || '2022';
+    const activeYear = document.querySelector('.wof-year-tab.active')?.dataset.year || '2024';
     const activeCat = document.querySelector('.wof-cat-tab.active')?.dataset.cat || 's1';
+    const podiums = document.querySelectorAll('.wof-podium');
 
     podiums.forEach(p => {
       if (p.dataset.year === activeYear && p.dataset.cat === activeCat) {
@@ -329,7 +296,7 @@ document.addEventListener('DOMContentLoaded', function () {
         p.classList.add('active');
         // Trigger fade+slide animation
         p.classList.remove('wof-entering');
-        void p.offsetWidth; // Force reflow to restart animation
+        void p.offsetWidth; // Force reflow
         p.classList.add('wof-entering');
       } else {
         p.style.display = 'none';
@@ -338,55 +305,18 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  yearTabs.forEach(tab => {
-    tab.addEventListener('click', () => {
-      yearTabs.forEach(t => t.classList.remove('active'));
-      tab.classList.add('active');
+  // Handle all tab clicks in one go
+  document.querySelectorAll('.wof-year-tab, .wof-cat-tab').forEach(tab => {
+    tab.addEventListener('click', function() {
+      // Toggle active class within the same group
+      const siblingType = this.classList.contains('wof-year-tab') ? '.wof-year-tab' : '.wof-cat-tab';
+      document.querySelectorAll(siblingType).forEach(t => t.classList.remove('active'));
+      this.classList.add('active');
       filterWoF();
     });
   });
 
-  catTabs.forEach(tab => {
-    tab.addEventListener('click', () => {
-      catTabs.forEach(t => t.classList.remove('active'));
-      tab.classList.add('active');
-      filterWoF();
-    });
-  });
-
-  /* ── FAQ Accordion (Improved) ── */
-  document.querySelectorAll('.faq-question').forEach(function (btn) {
-    btn.addEventListener('click', function () {
-      const item = this.closest('.faq-item');
-      if (!item) return;
-      const isOpen = item.classList.contains('open');
-      // close all
-      document.querySelectorAll('.faq-item').forEach(function (el) {
-        el.classList.remove('open');
-      });
-      // toggle current
-      if (!isOpen) item.classList.add('open');
-    });
-  });
-
-  /* ── Wall of Fame — Year & Category Tabs ── */
-  const wofYearTabs = document.querySelectorAll('.wof-year-tab');
-  const wofCatTabs = document.querySelectorAll('.wof-cat-tab');
-
-  wofYearTabs.forEach(function (tab) {
-    tab.addEventListener('click', function () {
-      wofYearTabs.forEach(function (t) { t.classList.remove('active'); });
-      this.classList.add('active');
-      if (typeof filterWoF === 'function') filterWoF();
-    });
-  });
-
-  wofCatTabs.forEach(function (tab) {
-    tab.addEventListener('click', function () {
-      wofCatTabs.forEach(function (t) { t.classList.remove('active'); });
-      this.classList.add('active');
-      if (typeof filterWoF === 'function') filterWoF();
-    });
-  });
+  // Initial load
+  filterWoF();
 
 });

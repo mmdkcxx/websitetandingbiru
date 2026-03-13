@@ -451,10 +451,10 @@
 ══════════════════════════════════════════ -->
 <section class="faq" id="faq">
   <div class="container">
-    <div class="section-header" data-animate style="text-align:center;">
+    <div class="section-header text-center" data-animate>
       <span class="section-label">FAQs</span>
       <h2 class="section-title">Frequently Asked Questions</h2>
-      <p class="section-sub" style="margin-left:auto;margin-right:auto;">Find answers to the most common questions about
+      <p class="section-sub m-auto">Find answers to the most common questions about
         the BRI GAMA 2026 competition.</p>
     </div>
     <div class="faq-list">
@@ -545,7 +545,7 @@
 
     <!-- Champions Podium — Filtered by Year + Category -->
     <!-- ── 2022 · S1 ── -->
-    <div class="wof-podium" data-year="2022" data-cat="s1" style="display:none;">
+    <div class="wof-podium" data-year="2022" data-cat="s1">
       <div class="wof-card wof-card--first">
         <div class="wof-card__photo">
           <div class="wof-card__rank wof-rank--gold">
@@ -626,7 +626,7 @@
     </div>
 
     <!-- ── 2022 · S2 ── -->
-    <div class="wof-podium" data-year="2022" data-cat="s2" style="display:none;">
+    <div class="wof-podium" data-year="2022" data-cat="s2">
       <div class="wof-card wof-card--first">
         <div class="wof-card__photo">
           <div class="wof-card__rank wof-rank--gold">
@@ -703,7 +703,7 @@
     </div>
 
     <!-- ── 2023 · S1 ── -->
-    <div class="wof-podium" data-year="2023" data-cat="s1" style="display:none;">
+    <div class="wof-podium" data-year="2023" data-cat="s1">
       <div class="wof-card wof-card--first">
         <div class="wof-card__photo">
           <div class="wof-card__rank wof-rank--gold">
@@ -780,7 +780,7 @@
     </div>
 
     <!-- ── 2023 · S2 ── -->
-    <div class="wof-podium" data-year="2023" data-cat="s2" style="display:none;">
+    <div class="wof-podium" data-year="2023" data-cat="s2">
       <div class="wof-card wof-card--first">
         <div class="wof-card__photo">
           <div class="wof-card__rank wof-rank--gold">
@@ -934,7 +934,7 @@
     </div>
 
     <!-- ── 2024 · S2 ── -->
-    <div class="wof-podium" data-year="2024" data-cat="s2" style="display:none;">
+    <div class="wof-podium" data-year="2024" data-cat="s2">
       <div class="wof-card wof-card--first">
         <div class="wof-card__photo">
           <div class="wof-card__rank wof-rank--gold">

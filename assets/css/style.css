@@ -232,6 +232,10 @@ body {
   font-size: 1rem;
 }
 
+/* ── Utility Classes ── */
+.text-center { text-align: center !important; }
+.m-auto { margin-left: auto !important; margin-right: auto !important; }
+
 /* ── Section Shared ── */
 .section-label {
   display: inline-block;
@@ -701,11 +705,7 @@ body {
   animation: heroContentIn 0.8s cubic-bezier(0.4, 0, 0.2, 1) both;
 }
 
-/* Remove old hero styles */
-.hero-badge,
-.hero-wave {
-  display: none;
-}
+/* Old hero styles removed */
 
 /* ══════════════════════════════════════════
    ABOUT SECTION
@@ -832,7 +832,7 @@ body {
 ══════════════════════════════════════════ */
 .categories {
   padding: clamp(60px, 8vw, 100px) 0;
-  background: linear-gradient(135deg, #0857C3 0%, #307FE2 50%, #71C5E8 100%);
+  background: linear-gradient(135deg, var(--blue-800) 0%, var(--blue-700) 50%, var(--blue-500) 100%);
   position: relative;
   overflow: hidden;
 }
@@ -1081,7 +1081,7 @@ body {
 .rules-banner {
   background: 
     linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 15%, transparent 15.5%),
-    linear-gradient(135deg, rgba(8, 87, 195, 0.95) 0%, rgba(8, 87, 195, 0.8) 100%);
+    linear-gradient(135deg, var(--blue-800, #0857C3) 0%, var(--blue-700, #307FE2) 100%);
   backdrop-filter: blur(25px) saturate(200%);
   -webkit-backdrop-filter: blur(25px) saturate(200%);
   
@@ -1438,7 +1438,7 @@ body {
   width: 14px;
   height: 14px;
   background: var(--white);
-  border: 3px solid #307FE2;
+  border: 3px solid var(--blue-700);
   margin-top: 4px;
   z-index: 1;
   transition: var(--transition);
@@ -1541,155 +1541,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-/* ══════════════════════════════════════════
-   FAQ SECTION (Newly Integrated)
-══════════════════════════════════════════ */
-.faq {
-  padding: clamp(48px, 6vw, 80px) 0;
-  background: var(--white);
-}
-
-.faq-list {
-  max-width: 800px;
-  margin: 0 auto 40px;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-.faq-item {
-  background: var(--gray-50);
-  border: 1px solid var(--gray-200);
-  border-radius: var(--radius-md);
-  overflow: hidden;
-  transition: all var(--transition);
-}
-
-.faq-item.active {
-  background: var(--white);
-  border-color: var(--blue-400);
-  box-shadow: 0 4px 20px rgba(0, 48, 135, 0.06);
-}
-
-.faq-question {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 24px;
-  background: transparent;
-  text-align: left;
-  font-size: 1.05rem;
-  font-weight: 700;
-  color: var(--gray-900);
-  transition: color var(--transition);
-  outline: none;
-}
-
-.faq-item.active .faq-question {
-  color: var(--blue-800);
-}
-
-.faq-icon {
-  width: 24px;
-  height: 24px;
-  position: relative;
-  flex-shrink: 0;
-  margin-left: 16px;
-}
-
-.faq-icon::before,
-.faq-icon::after {
-  content: '';
-  position: absolute;
-  background: var(--gray-500);
-  transition: all 0.3s ease;
-  border-radius: 2px;
-}
-
-.faq-icon::before {
-  top: 11px;
-  left: 4px;
-  width: 16px;
-  height: 2px;
-}
-
-.faq-icon::after {
-  top: 4px;
-  left: 11px;
-  width: 2px;
-  height: 16px;
-}
-
-.faq-item.active .faq-icon::before,
-.faq-item.active .faq-icon::after {
-  background: var(--blue-800);
-}
-
-.faq-item.active .faq-icon::after {
-  transform: rotate(90deg);
-  opacity: 0;
-}
-
-.faq-answer {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s cubic-bezier(0.4, 0, 0.2, 1), padding 0.3s ease-in-out;
-  padding: 0 24px;
-}
-
-.faq-item.active .faq-answer {
-  max-height: 500px;
-  padding: 0 24px 24px;
-}
-
-.faq-answer p {
-  font-size: 0.95rem;
-  color: var(--gray-600);
-  line-height: 1.6;
-}
-
-.faq-cta {
-  text-align: center;
-  margin-top: 48px;
-}
-
-.faq-cta h3 {
-  font-size: 1.25rem;
-  font-weight: 800;
-  color: var(--gray-900);
-  margin-bottom: 8px;
-}
-
-.faq-cta p {
-  font-size: 0.95rem;
-  color: var(--gray-600);
-  margin-bottom: 20px;
-}
-
-.faq-cta-btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid rgba(8, 87, 195, 0.2);
-  color: var(--blue-800);
-  border-radius: 12px;
-  padding: 10px 24px;
-  font-size: 0.95rem;
-  font-weight: 600;
-  transition: all 0.3s ease;
-  background: rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-}
-
-.faq-cta-btn:hover {
-  background: rgba(255, 255, 255, 0.8);
-  border-color: var(--blue-800);
-  color: var(--blue-800);
-  transform: translateY(-2px);
-  box-shadow: 0 6px 15px rgba(8, 87, 195, 0.15);
-}
+/* FAQ Styles Consolidated below (Lines 2900+) */
 
 /* ══════════════════════════════════════════
    TIMELINE ACTIVITIES SECTION (NEW)
@@ -1860,7 +1712,7 @@ body {
 .ta-card__time {
   font-size: 1.5rem;
   font-weight: 800;
-  color: #0857C3; /* Official Dark Blue */
+  color: var(--blue-800); /* Official Dark Blue */
   margin-bottom: 20px;
   line-height: 1.2;
   position: relative;
@@ -1870,7 +1722,7 @@ body {
 .ta-card__title {
   font-size: 1.4rem;
   font-weight: 700;
-  color: #307FE2; /* Official Medium Blue */
+  color: var(--blue-700); /* Official Medium Blue */
   margin-bottom: 16px;
   line-height: 1.35;
   position: relative;
@@ -2228,7 +2080,7 @@ body {
 ══════════════════════════════════════════ */
 .cta {
   padding: clamp(48px, 7vw, 100px) 0;
-  background: linear-gradient(135deg, #0857C3 0%, #307FE2 100%);
+  background: linear-gradient(135deg, var(--blue-800) 0%, var(--blue-700) 100%);
   position: relative;
   overflow: hidden;
   text-align: center;
@@ -2900,7 +2752,7 @@ body {
    FAQ SECTION
 ══════════════════════════════════════════ */
 .faq {
-  background: #0857C3;
+  background: var(--blue-800);
   padding: clamp(48px, 7vw, 80px) 0;
 }
 
@@ -3709,7 +3561,7 @@ body {
   .about-img-card { max-height: 280px; aspect-ratio: 16/9; }
   .categories { padding: 48px 0; }
   .categories-grid { grid-template-columns: 1fr; gap: 24px; }
-  .cat-card { min-height: auto; box-shadow: -2px 2px 0 #0857C3; }
+  .cat-card { min-height: auto; box-shadow: -2px 2px 0 var(--blue-800); }
   .cat-card__content { padding: 20px; }
   .cat-card__illustration { display: none; }
   .timeline-activities { padding: 48px 0; }
