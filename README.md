@@ -1,52 +1,65 @@
-# Business Case Competition Website
+# BRIGAMA International Business Case Competition 2026
 
-Website ini merupakan halaman *landing page* (statis) untuk sebuah event kompetisi kasus bisnis mahasiswa.
+Website ini merupakan platform *landing page* interaktif untuk event **BRIGAMA 2026**, sebuah kompetisi kasus bisnis internasional. Project ini dibangun menggunakan PHP untuk modularitas komponen (header/footer) dan Vanilla CSS serta JavaScript untuk performa maksimal dan desain yang premium.
 
-## 📁 Struktur Direktori
-
-Project ini dibangun dengan menggunakan HTML, CSS murni (Vanilla CSS), dan sedikit JavaScript.
+## 📁 Struktur Project
 
 ```text
-project-folder/
-├── index.html                  # File utama HTML (Landing Page / Home)
+websitetandingbiru/
+├── index.php                   # Halaman utama (Landing Page)
+├── header.php                  # Komponen navigasi atas
+├── footer.php                  # Komponen footer dan pemuatan script
+├── login.php                   # Halaman masuk peserta
+├── register.php                # Halaman pendaftaran tim
+├── forgot-password.php         # Halaman pemulihan kata sandi
+├── README.md                   # Dokumentasi project
 └── assets/
     ├── css/
-    │   └── style.css           # Semua gaya CSS / styling website
-    ├── images/
-    │   └── hero-banner.png     # Gambar banner dan aset lainnya
-    └── js/
-        └── app.js              # Interaktivitas JS (seperti navbar & animasi scroll)
+    │   └── style.css           # Desain sistem dan semua styling (Glassmorphism, Grid)
+    ├── js/
+    │   └── app.js              # Logika interaktivitas (Accordion FAQ, Slider, Animations)
+    └── images/
+        ├── WallofChampion/     # Foto-foto pemenang tahun sebelumnya
+        ├── ig/                 # Aset untuk section Agenda (Instagram Feed)
+        ├── logo.png            # Logo utama event
+        └── hero-banner.png     # Asset visual utama
 ```
 
 ## 🚀 Cara Menjalankan Project
 
-Karena project ini adalah *website statis* tanpa setup *framework* tambahan, website ini sangat mudah untuk dijalankan dan dimodifikasi secara lokal.
+Project ini sekarang menggunakan file `.php`, sehingga memerlukan server lokal dengan dukungan PHP (seperti Laragon, XAMPP, atau MAMP).
 
-1. **Clone Repository (Jika belum)**
+1. **Clone Repository**
    ```bash
    git clone https://github.com/mmdkcxx/websitetandingbiru.git
    cd websitetandingbiru
    ```
-2. **Jalankan secara lokal:**
-   - Anda cukup membuka file `index.html` menggunakan browser apa saja (Chrome, Firefox, Edge, Safari, dll).
-   - **(Rekomendasi)**: Jika Anda menggunakan kode editor seperti **Visual Studio Code**, Anda disarankan untuk menginstal ekstensi **Live Server**. 
-     Klik kanan pada file `index.html` dan pilih *Open with Live Server* agar perubahan kode dapat langsung terlihat tanpa perlu me-refresh halaman berulang kali.
+2. **Setup Server:**
+   - Pindahkan folder project ke direktori `www` (Laragon) atau `htdocs` (XAMPP).
+   - Jalankan server Apache/NGINX.
+   - Akses melalui browser di `http://localhost/websitetandingbiru` atau virtual host yang sesuai.
 
-## ✨ Fitur Utama (UI)
+## ✨ Fitur Utama
 
-- **Desain Modern & Responsif**: Website dapat diakses dengan baik di layar Desktop dan Mobile (Smartphone).
-- **Animasi Smooth (Scroll Reveal)**: Komponen website akan muncul secara perlahan saal di-scroll (menggunakan observer API di `app.js`).
-- **Pendaftaran**: Bagian Timeline, Galeri (Tahun lalu), Peraturan, dan Dropdown Navigasi lengkap.
+- **Premium Design**: Menggunakan teknik *Glassmorphism*, gradien modern, dan tipografi elegan.
+- **Interactive FAQ**: Sistem akordion yang responsif untuk membantu calon peserta.
+- **Wall of Fame**: Galeri juara interaktif yang difilter berdasarkan tahun dan kategori.
+- **Responsive Layout**: Optimal untuk berbagai ukuran layar (mobile, tablet, desktop).
+- **Scroll Reveal**: Animasi masuk yang halus saat pengguna melakukan scrolling.
 
-## 🛠️ Kontribusi / Mengedit
+## 🛠️ Pengembangan
 
-- Jika ingin mengubah teks, gambar, atau link-link pendaftaran, silakan buka dan edit di `index.html`.
-- Jika ingin mengubah warna (theme), padding, atau struktur grid responsif, silakan modifikasi lewat `assets/css/style.css`.
-- Jika ingin mematikan animasi saat scroll atau mengubah menu mobile *hamburger*, silakan cek di `assets/js/app.js`.
+- **Ubah Teks/Konten**: Sebagian besar konten berada di `index.php`.
+- **Modifikasi Tampilan**: Gunakan `assets/css/style.css`.
+- **Interaktivitas JS**: Tambahkan logika baru di `assets/js/app.js`.
 
-## 📝 Changelog
+## 📝 Changelog Terbaru
+
+### 13 Maret 2026
+- **FAQ Section**: Menyeimbangkan layout dengan meratakan tengah list FAQ dan section "Still Have Questions".
+- **Bug Fix**: Memperbaiki logika klik (accordion) di FAQ yang sebelumnya tidak berfungsi di file `app.js`.
+- **Documentation**: Memperbarui `README.md` dengan struktur project PHP terbaru.
 
 ### 28 Februari 2026
-- **Hero Section**: Mengubah struktur Hero menjadi *slideshow carousel* dengan 3 slide, animasi *crossfade*, navigasi tombol panah (arrow), dan navigasi titik (dots) dengan fungsi *auto-play* dan *pause-on-hover*.
-- **Gallery Section**: Merombak tampilan galeri menjadi tata letak *mosaic/collage* modern yang terdiri dari 6 komponen, serta memperbarui judul menjadi "Galeri Kompetisi Tahun Lalu".
-- **Cleanup**: Membersihkan sisa *margin* dan *HTML elements* yang sudah tidak terpakai pada file `index.html`.
+- **Hero Section**: Implementasi *slideshow carousel* dengan navigasi arrow dan dots.
+- **Gallery Section**: Implementasi tata letak *mosaic* untuk memamerkan dokumentasi event.
