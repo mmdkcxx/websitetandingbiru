@@ -1,6 +1,6 @@
-# BRIGAMA International Business Case Competition 2026
 
-Website ini merupakan platform *landing page* interaktif untuk event **BRIGAMA 2026**, sebuah kompetisi kasus bisnis internasional. Project ini dibangun menggunakan PHP untuk modularitas komponen (header/footer) dan Vanilla CSS serta JavaScript untuk performa maksimal dan desain yang premium.
+
+
 
 ## 📁 Struktur Project
 
