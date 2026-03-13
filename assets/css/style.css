@@ -2780,6 +2780,7 @@ body {
   flex-direction: column;
   gap: 12px;
   max-width: 720px;
+  margin: 0 auto;
 }
 
 .faq-item {
@@ -2880,6 +2881,7 @@ body {
   margin-top: 48px;
   padding-top: 40px;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
 }
 
 .faq-cta h3 {

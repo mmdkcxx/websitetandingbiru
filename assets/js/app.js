@@ -319,4 +319,20 @@ document.addEventListener('DOMContentLoaded', function () {
   // Initial load
   filterWoF();
 
+  /* ── FAQ Accordion Handler ── */
+  const faqItems = document.querySelectorAll('.faq-item');
+  faqItems.forEach(item => {
+    const question = item.querySelector('.faq-question');
+    question.addEventListener('click', () => {
+      const isOpen = item.classList.contains('open');
+      
+      // Close all other items
+      faqItems.forEach(otherItem => {
+        if (otherItem !== item) otherItem.classList.remove('open');
+      });
+      
+      item.classList.toggle('open', !isOpen);
+    });
+  });
+
 });
