@@ -1,3 +1,12 @@
+<?php
+// Security Headers
+header("X-Frame-Options: SAMEORIGIN");
+header("X-XSS-Protection: 1; mode=block");
+header("X-Content-Type-Options: nosniff");
+header("Referrer-Policy: strict-origin-when-cross-origin");
+header("Content-Security-Policy: default-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com https://www.instagram.com; img-src 'self' data: https://www.instagram.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; script-src 'self' 'unsafe-inline';");
+header("Permissions-Policy: geolocation=(), camera=(), microphone=()");
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -31,9 +40,10 @@
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="assets/images/logocut.png" />
-  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
     rel="stylesheet" />
   <!-- Preload Assets for Performance -->
@@ -52,16 +62,16 @@
     <div class="container">
       <div class="navbar-inner">
         <!-- Logo -->
-        <a href="#" class="navbar-logo">
+        <a href="index.php" class="navbar-logo">
           <img src="assets/images/logo.png" alt="BRIGAMA International Business Case Competition 2026 Logo"
             class="logo-image">
         </a>
 
         <!-- Desktop Navigation -->
         <ul class="navbar-nav">
-          <li><a href="#about" class="nav-link">About</a></li>
-          <li><a href="#timeline-activities" class="nav-link">Timeline</a></li>
-          <li><a href="#categories" class="nav-link">Categories</a></li>
+          <li><a href="index.php#about" class="nav-link">About</a></li>
+          <li><a href="index.php#timeline-activities" class="nav-link">Timeline</a></li>
+          <li><a href="index.php#categories" class="nav-link">Categories</a></li>
           <!-- Resources Dropdown -->
           <li class="nav-dropdown">
             <span class="nav-link dropdown-trigger" role="button" tabindex="0">
@@ -72,7 +82,7 @@
               </svg>
             </span>
             <div class="dropdown-menu" role="menu">
-              <a href="#rules" class="dropdown-item" role="menuitem">
+              <a href="index.php#rules" class="dropdown-item" role="menuitem">
                 <div class="dropdown-item-icon">
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                     stroke-linecap="round" stroke-linejoin="round">
@@ -82,7 +92,7 @@
                 </div>
                 Handbook
               </a>
-              <a href="#rules-cards" class="dropdown-item" role="menuitem">
+              <a href="index.php#rules-cards" class="dropdown-item" role="menuitem">
                 <div class="dropdown-item-icon">
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                     stroke-linecap="round" stroke-linejoin="round">
@@ -92,7 +102,7 @@
                 </div>
                 Rules
               </a>
-              <a href="#faq" class="dropdown-item" role="menuitem">
+              <a href="index.php#faq" class="dropdown-item" role="menuitem">
                 <div class="dropdown-item-icon">
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                     stroke-linecap="round" stroke-linejoin="round">
@@ -103,7 +113,7 @@
                 </div>
                 FAQ
               </a>
-              <a href="#wall-of-fame" class="dropdown-item" role="menuitem">
+              <a href="index.php#wall-of-fame" class="dropdown-item" role="menuitem">
                 <div class="dropdown-item-icon">
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                     stroke-linecap="round" stroke-linejoin="round">
@@ -113,7 +123,7 @@
                 </div>
                 Winners
               </a>
-              <a href="#contact" class="dropdown-item" role="menuitem">
+              <a href="index.php#contact" class="dropdown-item" role="menuitem">
                 <div class="dropdown-item-icon">
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                     stroke-linecap="round" stroke-linejoin="round">
@@ -129,8 +139,8 @@
 
         <!-- Desktop Actions -->
         <div class="navbar-actions">
-          <a href="#" class="btn btn-nav-outline">Sign In</a>
-          <a href="#cta" class="btn btn-nav-primary">Register</a>
+          <a href="login.php" class="btn btn-nav-outline">Sign In</a>
+          <a href="register.php" class="btn btn-nav-primary">Register</a>
         </div>
 
         <!-- Hamburger -->
@@ -141,19 +151,19 @@
 
       <!-- Mobile Nav -->
       <div class="mobile-nav" id="mobile-nav">
-        <a href="#about" class="mobile-nav-link">About</a>
-        <a href="#timeline-activities" class="mobile-nav-link">Timeline</a>
-        <a href="#categories" class="mobile-nav-link">Categories</a>
+        <a href="index.php#about" class="mobile-nav-link">About</a>
+        <a href="index.php#timeline-activities" class="mobile-nav-link">Timeline</a>
+        <a href="index.php#categories" class="mobile-nav-link">Categories</a>
         <div class="mobile-nav-divider"></div>
-        <a href="#rules" class="mobile-nav-link">Handbook</a>
-        <a href="#rules-cards" class="mobile-nav-link">Rules</a>
-        <a href="#faq" class="mobile-nav-link">FAQ</a>
-        <a href="#wall-of-fame" class="mobile-nav-link">Winners</a>
-        <a href="#contact" class="mobile-nav-link">Contact</a>
+        <a href="index.php#rules" class="mobile-nav-link">Handbook</a>
+        <a href="index.php#rules-cards" class="mobile-nav-link">Rules</a>
+        <a href="index.php#faq" class="mobile-nav-link">FAQ</a>
+        <a href="index.php#wall-of-fame" class="mobile-nav-link">Winners</a>
+        <a href="index.php#contact" class="mobile-nav-link">Contact</a>
         <div class="mobile-nav-divider"></div>
         <div class="mobile-actions">
-          <a href="#" class="btn btn-nav-outline" style="flex:1;justify-content:center">Sign In</a>
-          <a href="#cta" class="btn btn-nav-primary" style="flex:1;justify-content:center">Register</a>
+          <a href="login.php" class="btn btn-nav-outline" style="flex:1;justify-content:center">Sign In</a>
+          <a href="register.php" class="btn btn-nav-primary" style="flex:1;justify-content:center">Register</a>
         </div>
       </div>
     </div>

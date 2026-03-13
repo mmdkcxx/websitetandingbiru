@@ -24,7 +24,7 @@
           stage is set for the brightest minds in business.
         </p>
         <div class="hero-actions">
-          <a href="#cta" class="btn btn-primary btn-lg">Register Now</a>
+          <a href="register.php" class="btn btn-primary btn-lg">Register Now</a>
           <a href="#" class="btn btn-outline-white btn-lg">View Handbook</a>
         </div>
       </div>
@@ -147,7 +147,7 @@
           <h3 class="cat-card__title">Undergraduate Student (S1)</h3>
           <p class="cat-card__desc">Showcase your best analytical skills through a prestigious business case competition
             designed for undergraduate students globally.</p>
-          <a href="#cta" class="cat-card__btn">
+          <a href="register.php" class="cat-card__btn">
             Learn More
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
               stroke-linecap="round" stroke-linejoin="round">
@@ -168,7 +168,7 @@
           <h3 class="cat-card__title">Graduate Student (S2)</h3>
           <p class="cat-card__desc">Prove your business strategy expertise at the postgraduate level and compete to win
             prestigious awards with Bank Rakyat Indonesia.</p>
-          <a href="#cta" class="cat-card__btn">
+          <a href="register.php" class="cat-card__btn">
             Learn More
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
               stroke-linecap="round" stroke-linejoin="round">
@@ -316,7 +316,7 @@
         <p class="rules-banner__sub">Complete rules, judging criteria, and submission guidelines in one document.</p>
         <div class="rules-banner__actions">
           <a href="#" class="rules-banner__btn rules-banner__btn--outline">Download</a>
-          <a href="#cta" class="rules-banner__btn rules-banner__btn--outline">Register Now</a>
+          <a href="register.php" class="rules-banner__btn rules-banner__btn--outline">Register Now</a>
         </div>
       </div>
     </div>
@@ -989,7 +989,8 @@
         <div class="wof-card wof-card--speaker">
           <div class="wof-speaker-inner">
             <div class="wof-card__photo wof-card__photo--speaker">
-              <img src="assets/images/WallofChampion/2024/S2/2024-S2-BS.jpg" alt="Best Speaker 2024 S2" style="width: 100%; height: 100%; object-fit: cover; border-radius: 0;">
+              <img src="assets/images/WallofChampion/2024/S2/2024-S2-BS.jpg" alt="Best Speaker 2024 S2" 
+                style="width: 100%; height: 100%; object-fit: cover; border-radius: 0;" loading="lazy">
             </div>
             <div class="wof-speaker-info">
               <div class="wof-card__rank wof-rank--speaker">
@@ -1209,6 +1210,10 @@
           <textarea id="contactMessage" name="message" rows="5" placeholder="Write your message here..."
             required></textarea>
         </div>
+        <div class="contact-form__group" style="display:none;">
+          <label for="contactHoneypot">Leave this field empty</label>
+          <input type="text" id="contactHoneypot" name="honeypot" />
+        </div>
         <button type="submit" class="contact-form__submit">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
             stroke-linecap="round" stroke-linejoin="round">
@@ -1245,7 +1250,7 @@
           </svg>
           Download Handbook
         </a>
-        <a href="#" class="btn btn-ghost-white btn-lg">
+        <a href="register.php" class="btn btn-ghost-white btn-lg">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
             stroke-linecap="round" stroke-linejoin="round">
             <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
@@ -1260,39 +1265,5 @@
   </div>
 </section>
 
-<script>
-  /* FAQ Accordion */
-  document.querySelectorAll('.faq-question').forEach(function (btn) {
-    btn.addEventListener('click', function () {
-      var item = this.closest('.faq-item');
-      var isOpen = item.classList.contains('open');
-      // close all
-      document.querySelectorAll('.faq-item').forEach(function (el) {
-        el.classList.remove('open');
-      });
-      // toggle current
-      if (!isOpen) item.classList.add('open');
-    });
-  });
-
-  /* Wall of Fame — Year Tabs */
-  document.querySelectorAll('.wof-year-tab').forEach(function (tab) {
-    tab.addEventListener('click', function () {
-      document.querySelectorAll('.wof-year-tab').forEach(function (t) {
-        t.classList.remove('active');
-      });
-      this.classList.add('active');
-    });
-  });
-
-  /* Wall of Fame — Category Tabs */
-  document.querySelectorAll('.wof-cat-tab').forEach(function (tab) {
-    tab.addEventListener('click', function () {
-      document.querySelectorAll('.wof-cat-tab').forEach(function (t) {
-        t.classList.remove('active');
-      });
-      this.classList.add('active');
-    });
-  });
-</script>
+<?php include 'footer.php'; ?>
 <?php include 'footer.php'; ?>

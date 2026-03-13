@@ -290,6 +290,12 @@ document.addEventListener('DOMContentLoaded', function () {
       const email = document.getElementById('contactEmail').value.trim();
       const subject = document.getElementById('contactSubject').value.trim();
       const message = document.getElementById('contactMessage').value.trim();
+      const honeypot = document.getElementById('contactHoneypot').value;
+
+      if (honeypot) {
+        console.warn('Bot detected via honeypot.');
+        return;
+      }
 
       // Compose the body with sender info
       const body = `Hi BRI GAMA BCC Team,\n\n${message}\n\n---\nFrom: ${name}\nEmail: ${email}`;
@@ -345,6 +351,41 @@ document.addEventListener('DOMContentLoaded', function () {
       catTabs.forEach(t => t.classList.remove('active'));
       tab.classList.add('active');
       filterWoF();
+    });
+  });
+
+  /* ── FAQ Accordion (Improved) ── */
+  document.querySelectorAll('.faq-question').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      const item = this.closest('.faq-item');
+      if (!item) return;
+      const isOpen = item.classList.contains('open');
+      // close all
+      document.querySelectorAll('.faq-item').forEach(function (el) {
+        el.classList.remove('open');
+      });
+      // toggle current
+      if (!isOpen) item.classList.add('open');
+    });
+  });
+
+  /* ── Wall of Fame — Year & Category Tabs ── */
+  const wofYearTabs = document.querySelectorAll('.wof-year-tab');
+  const wofCatTabs = document.querySelectorAll('.wof-cat-tab');
+
+  wofYearTabs.forEach(function (tab) {
+    tab.addEventListener('click', function () {
+      wofYearTabs.forEach(function (t) { t.classList.remove('active'); });
+      this.classList.add('active');
+      if (typeof filterWoF === 'function') filterWoF();
+    });
+  });
+
+  wofCatTabs.forEach(function (tab) {
+    tab.addEventListener('click', function () {
+      wofCatTabs.forEach(function (t) { t.classList.remove('active'); });
+      this.classList.add('active');
+      if (typeof filterWoF === 'function') filterWoF();
     });
   });
 
