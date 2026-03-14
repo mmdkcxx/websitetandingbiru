@@ -1036,9 +1036,9 @@
     <div class="ig-grid" data-animate data-delay="100">
 
       <!-- Post 1 -->
-      <a href="https://www.instagram.com/p/DC01cFdPFKv/?utm_source=ig_web_button_share_sheet&amp;igsh=MzRlODBiNWFlZA=="
+      <a href="https://www.instagram.com/p/DV0YtLqktfm/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
         class="ig-post" target="_blank" rel="noopener">
-        <div class="ig-post__img" style="background: url('assets/images/ig/1stchampion.webp') center/cover;">
+        <div class="ig-post__img" style="background: url('assets/images/ig/1.webp') center/cover;">
         </div>
         <div class="ig-post__overlay">
           <span class="ig-stat"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
@@ -1052,9 +1052,9 @@
       </a>
 
       <!-- Post 2 -->
-      <a href="https://www.instagram.com/p/DC01sfNPT6Q/?utm_source=ig_web_button_share_sheet&amp;igsh=MzRlODBiNWFlZA=="
+      <a href="https://www.instagram.com/p/DV0YrwJkpVo/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
         class="ig-post" target="_blank" rel="noopener">
-        <div class="ig-post__img" style="background: url('assets/images/ig/2ndchampion.webp') center/cover;">
+        <div class="ig-post__img" style="background: url('assets/images/ig/2.webp') center/cover;">
         </div>
         <div class="ig-post__overlay">
           <span class="ig-stat"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
@@ -1068,9 +1068,9 @@
       </a>
 
       <!-- Post 3 -->
-      <a href="https://www.instagram.com/p/DC01Y5_vEmh/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+      <a href="https://www.instagram.com/p/DV0YqENkq_t/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
         class="ig-post" target="_blank" rel="noopener">
-        <div class="ig-post__img" style="background: url('assets/images/ig/3rdchampion.webp') center/cover;">
+        <div class="ig-post__img" style="background: url('assets/images/ig/3.webp') center/cover;">
         </div>
         <div class="ig-post__overlay">
           <span class="ig-stat"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
